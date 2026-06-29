@@ -1,0 +1,13 @@
+site_name: DTX - Digital Technology Interactive Textbook
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Grade 9:
+      - Overview: grade9/index.md
+      - Unit 1:
+          - Overview: grade9/unit1/index.md
+          - Lesson 1: grade9/unit1/lesson1.md
+markdown_extensions:
+  - admonition
+  - tables
