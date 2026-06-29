@@ -1,5 +1,3 @@
-# Unit 2
+# Unit 2: Computer Systems
 
-## Hardware & Storage
-
-*Content coming soon.*
+Welcome to Unit 2.

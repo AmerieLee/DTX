@@ -1,0 +1,4 @@
+device,cpu,ram_gb,storage_gb
+Laptop,i5,8,256
+Phone,A16,8,256
+Tablet,Snapdragon,6,128
