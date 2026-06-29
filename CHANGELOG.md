@@ -1,2 +1,3 @@
-# Sprint2.6
-Added Lesson5 package, rubric, slides
+# Sprint 3.0 Starter
+
+Added Unit 1 project, assessment, answer key, vocabulary.
