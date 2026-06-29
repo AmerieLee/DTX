@@ -3,14 +3,26 @@ site_description: Digital Technology Interactive Textbook
 theme:
   name: material
   language: en
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.highlight
     - content.code.copy
+    - content.tabs.link
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
 nav:
   - Home: index.md
   - Grade 9:
@@ -18,14 +30,3 @@ nav:
       - Unit 1:
           - Overview: grade9/unit1/index.md
           - Lesson 1: grade9/unit1/lesson1.md
-      - Unit 2: grade9/unit2/index.md
-      - Unit 3: grade9/unit3/index.md
-      - Unit 4: grade9/unit4/index.md
-      - Unit 5: grade9/unit5/index.md
-      - Unit 6: grade9/unit6/index.md
-      - Unit 7: grade9/unit7/index.md
-      - Unit 8: grade9/unit8/index.md
-markdown_extensions:
-  - admonition
-  - attr_list
-  - tables
