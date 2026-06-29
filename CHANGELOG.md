@@ -1,7 +1,9 @@
-# Sprint 2 - Patch 2.1
+# Sprint 2.2
 
 Added:
-- Student Lesson 1
-- Teacher Guide
-- Workbook
-- Quiz
+- Lesson 2 (Student)
+- Lesson 2 Teacher Guide
+- Lesson 2 Workbook
+- Lesson 2 Quiz
+- Glossary
+- SVG placeholders
