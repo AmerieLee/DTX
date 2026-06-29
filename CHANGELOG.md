@@ -1,7 +1,9 @@
-# Sprint 2.4
+# Sprint 2.5
 
-Added
-- Homepage refresh
-- Navigation buttons
-- DTX logo
-- Common stylesheet
+Added:
+- Lesson 4: Hardware and Software (Full Package)
+- Teacher Guide
+- Workbook
+- Quiz
+- SVG diagram
+- Python Lab
