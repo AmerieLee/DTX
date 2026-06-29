@@ -1,0 +1,14 @@
+
+.hero{
+  padding:2rem;
+  border-radius:12px;
+  background:#e3f2fd;
+}
+.learning-goal{
+  border-left:6px solid #1976d2;
+  padding:1rem;
+}
+.ai-box{
+  border-left:6px solid #7b1fa2;
+  padding:1rem;
+}
