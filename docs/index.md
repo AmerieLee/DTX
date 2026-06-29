@@ -1,16 +1,11 @@
-# Digital Technology Interactive Textbook
+# DTX
 
-<div class="hero">
+## Digital Technology Interactive Textbook
 
-# Welcome to DTX
+Welcome to the DTX platform.
 
-**Explore · Create · Code · Think**
+### Grade 9
+- Unit 1: Living in a Digital World
 
-A modern curriculum for Grade 9–10.
-
-</div>
-
-## Start Learning
-
-- Grade 9
-- Grade 10 (Coming Soon)
+### Grade 10
+Coming soon.
