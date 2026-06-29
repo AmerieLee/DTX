@@ -1,3 +1,2 @@
-# Sprint 3.1
-
-- Grade9 Unit2 Lessons 1-2 starter
+# Sprint3.2
+Added lessons3-5 and resources

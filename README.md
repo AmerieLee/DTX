@@ -3,4 +3,6 @@
 Digital Technology Interactive Textbook
 
 ## Current Release
-v. Sprint 2.6
+
+v. Sprint 3.2
+
