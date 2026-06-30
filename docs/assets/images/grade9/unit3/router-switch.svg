@@ -1,0 +1,211 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+
+<style>
+.title{
+    font:bold 30px Arial,Helvetica,sans-serif;
+    fill:#1f2937;
+}
+
+.subtitle{
+    font:16px Arial,Helvetica,sans-serif;
+    fill:#4b5563;
+}
+
+.heading{
+    font:bold 22px Arial,Helvetica,sans-serif;
+    fill:#111827;
+    text-anchor:middle;
+}
+
+.label{
+    font:bold 16px Arial,Helvetica,sans-serif;
+    fill:#111827;
+    text-anchor:middle;
+}
+
+.note{
+    font:15px Arial,Helvetica,sans-serif;
+    fill:#374151;
+}
+
+.small{
+    font:13px Arial,Helvetica,sans-serif;
+    fill:#6b7280;
+}
+
+.panel{
+    fill:#fafafa;
+    stroke:#d1d5db;
+    stroke-width:2;
+    rx:18;
+}
+
+.router{
+    fill:#fff7ed;
+    stroke:#ea580c;
+    stroke-width:2.5;
+    rx:12;
+}
+
+.switch{
+    fill:#eef6ff;
+    stroke:#2563eb;
+    stroke-width:2.5;
+    rx:12;
+}
+
+.device{
+    fill:#ffffff;
+    stroke:#6b7280;
+    stroke-width:2;
+    rx:10;
+}
+
+.internet{
+    fill:#ecfeff;
+    stroke:#0891b2;
+    stroke-width:2.5;
+}
+
+.line{
+    stroke:#4b5563;
+    stroke-width:3;
+}
+
+.arrow{
+    stroke:#2563eb;
+    stroke-width:2.5;
+    fill:none;
+    marker-end:url(#arrow);
+}
+</style>
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+<polygon points="0 0,8 3,0 6" fill="#2563eb"></polygon>
+</marker>
+</defs>
+
+<!-- Title -->
+
+<text x="550" y="40" class="title" text-anchor="middle">
+Router vs Switch
+</text>
+
+<text x="550" y="68" class="subtitle" text-anchor="middle">
+Understanding the different roles of networking devices
+</text>
+
+<!-- LEFT PANEL -->
+
+<rect x="40" y="100" width="470" height="470" class="panel"></rect>
+
+<text x="275" y="135" class="heading">
+Router
+</text>
+
+<ellipse cx="275" cy="200" rx="80" ry="35" class="internet"></ellipse>
+
+<text x="275" y="206" class="label">
+Internet
+</text>
+
+<rect x="215" y="280" width="120" height="55" class="router"></rect>
+
+<text x="275" y="313" class="label">
+Router
+</text>
+
+<rect x="215" y="390" width="120" height="55" class="device"></rect>
+
+<text x="275" y="423" class="label">
+School LAN
+</text>
+
+<line x1="275" y1="235" x2="275" y2="280" class="line"></line>
+<line x1="275" y1="335" x2="275" y2="390" class="line"></line>
+
+<text x="75" y="495" class="note">
+• Connects different networks
+</text>
+
+<text x="75" y="520" class="note">
+• Connects a LAN to the Internet
+</text>
+
+<text x="75" y="545" class="note">
+• Directs packets to other networks
+</text>
+
+<!-- RIGHT PANEL -->
+
+<rect x="590" y="100" width="470" height="470" class="panel"></rect>
+
+<text x="825" y="135" class="heading">
+Switch
+</text>
+
+<rect x="765" y="220" width="120" height="55" class="switch"></rect>
+
+<text x="825" y="253" class="label">
+Switch
+</text>
+
+<!-- Devices -->
+
+<rect x="620" y="380" width="90" height="50" class="device"></rect>
+
+<text x="665" y="410" class="label">
+Laptop
+</text>
+
+<rect x="780" y="380" width="90" height="50" class="device"></rect>
+
+<text x="825" y="410" class="label">
+Printer
+</text>
+
+<rect x="940" y="380" width="90" height="50" class="device"></rect>
+
+<text x="985" y="410" class="label">
+Server
+</text>
+
+<line x1="825" y1="275" x2="665" y2="380" class="line"></line>
+<line x1="825" y1="275" x2="825" y2="380" class="line"></line>
+<line x1="825" y1="275" x2="985" y2="380" class="line"></line>
+
+<text x="625" y="495" class="note">
+• Connects devices inside one LAN
+</text>
+
+<text x="625" y="520" class="note">
+• Sends data to the correct device
+</text>
+
+<text x="625" y="545" class="note">
+• Does not connect directly to the Internet
+</text>
+
+<!-- Comparison -->
+
+<line x1="60" y1="600" x2="1040" y2="600" stroke="#d1d5db" stroke-width="2"></line>
+
+<text x="120" y="630" class="small">
+Router → Connects Networks
+</text>
+
+<text x="470" y="630" class="small">
+Internet Access
+</text>
+
+<text x="700" y="630" class="small">
+Switch → Connects Devices
+</text>
+
+<text x="980" y="630" class="small" text-anchor="end">
+Inside One LAN
+</text>
+
+</svg>

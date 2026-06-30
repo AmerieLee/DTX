@@ -1,0 +1,213 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+
+<style>
+.title{
+    font: bold 28px Arial, Helvetica, sans-serif;
+    fill:#1f2937;
+}
+
+.subtitle{
+    font:16px Arial, Helvetica, sans-serif;
+    fill:#4b5563;
+}
+
+.heading{
+    font:bold 22px Arial, Helvetica, sans-serif;
+    text-anchor:middle;
+    fill:#111827;
+}
+
+.label{
+    font:bold 15px Arial, Helvetica, sans-serif;
+    text-anchor:middle;
+    fill:#111827;
+}
+
+.note{
+    font:14px Arial, Helvetica, sans-serif;
+    fill:#374151;
+}
+
+.small{
+    font:13px Arial, Helvetica, sans-serif;
+    fill:#6b7280;
+}
+
+.box{
+    fill:#eef6ff;
+    stroke:#2563eb;
+    stroke-width:2;
+    rx:12;
+}
+
+.router{
+    fill:#fff7ed;
+    stroke:#ea580c;
+    stroke-width:2;
+    rx:12;
+}
+
+.internet{
+    fill:#ecfeff;
+    stroke:#0891b2;
+    stroke-width:3;
+}
+
+.line{
+    stroke:#4b5563;
+    stroke-width:3;
+}
+
+.dashed{
+    stroke:#6b7280;
+    stroke-width:3;
+    stroke-dasharray:8 6;
+}
+
+.school{
+    fill:#f9fafb;
+    stroke:#9ca3af;
+    stroke-width:2;
+    rx:16;
+}
+
+.city{
+    fill:#f3f4f6;
+    stroke:#9ca3af;
+    stroke-width:2;
+    rx:16;
+}
+</style>
+
+<!-- TITLE -->
+
+<text x="500" y="40" class="title" text-anchor="middle">
+LAN vs WAN
+</text>
+
+<text x="500" y="68" class="subtitle" text-anchor="middle">
+Comparing Local Area Networks and Wide Area Networks
+</text>
+
+<!-- LEFT PANEL -->
+
+<rect x="40" y="100" width="400" height="450" class="school"></rect>
+
+<text x="240" y="135" class="heading">
+Local Area Network (LAN)
+</text>
+
+<text x="70" y="170" class="note">
+• Covers a small area
+</text>
+
+<text x="70" y="195" class="note">
+• High speed
+</text>
+
+<text x="70" y="220" class="note">
+• One organisation manages it
+</text>
+
+<!-- Router -->
+
+<rect x="180" y="255" width="120" height="50" class="router"></rect>
+<text x="240" y="286" class="label">
+Switch
+</text>
+
+<!-- Devices -->
+
+<rect x="70" y="360" width="90" height="50" class="box"></rect>
+<text x="115" y="390" class="label">
+Laptop
+</text>
+
+<rect x="195" y="360" width="90" height="50" class="box"></rect>
+<text x="240" y="390" class="label">
+Printer
+</text>
+
+<rect x="320" y="360" width="90" height="50" class="box"></rect>
+<text x="365" y="390" class="label">
+Teacher PC
+</text>
+
+<!-- Lines -->
+
+<line x1="240" y1="305" x2="115" y2="360" class="line"></line>
+
+<line x1="240" y1="305" x2="240" y2="360" class="line"></line>
+
+<line x1="240" y1="305" x2="365" y2="360" class="line"></line>
+
+<text x="240" y="455" class="small" text-anchor="middle">
+Example: School Network
+</text>
+
+<!-- RIGHT PANEL -->
+
+<rect x="560" y="100" width="400" height="450" class="city"></rect>
+
+<text x="760" y="135" class="heading">
+Wide Area Network (WAN)
+</text>
+
+<text x="590" y="170" class="note">
+• Covers large geographical areas
+</text>
+
+<text x="590" y="195" class="note">
+• Connects many LANs
+</text>
+
+<text x="590" y="220" class="note">
+• Example: Internet
+</text>
+
+<!-- Internet -->
+
+<ellipse cx="760" cy="300" rx="90" ry="40" class="internet"></ellipse>
+
+<text x="760" y="306" class="label">
+Internet
+</text>
+
+<!-- Schools -->
+
+<rect x="610" y="430" width="90" height="45" class="box"></rect>
+<text x="655" y="458" class="label">
+School A
+</text>
+
+<rect x="715" y="430" width="90" height="45" class="box"></rect>
+<text x="760" y="458" class="label">
+School B
+</text>
+
+<rect x="820" y="430" width="90" height="45" class="box"></rect>
+<text x="865" y="458" class="label">
+School C
+</text>
+
+<!-- Connections -->
+
+<line x1="760" y1="340" x2="655" y2="430" class="dashed"></line>
+<line x1="760" y1="340" x2="760" y2="430" class="dashed"></line>
+<line x1="760" y1="340" x2="865" y2="430" class="dashed"></line>
+
+<text x="760" y="510" class="small" text-anchor="middle">
+Example: Internet Connecting Multiple LANs
+</text>
+
+<!-- Bottom Comparison Table -->
+
+<line x1="40" y1="570" x2="960" y2="570" stroke="#d1d5db"></line>
+
+<text x="120" y="595" class="small">Coverage: Small Area</text>
+<text x="360" y="595" class="small">Speed: Fast</text>
+<text x="620" y="595" class="small">Coverage: Large Area</text>
+<text x="850" y="595" class="small">Connects Multiple LANs</text>
+
+</svg>
