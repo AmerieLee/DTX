@@ -1,0 +1,5 @@
+component,speed,volatile
+CPU Cache,Very High,Yes
+RAM,High,Yes
+SSD,Medium,No
+HDD,Low,No

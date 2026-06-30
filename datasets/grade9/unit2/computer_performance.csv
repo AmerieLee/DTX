@@ -1,0 +1,4 @@
+device,ram_gb,storage_gb,boot_seconds
+Laptop A,8,256,22
+Laptop B,16,512,11
+Desktop,32,1000,8
