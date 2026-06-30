@@ -1,5 +1,1 @@
-# Unit 3
-
-## Networks & Internet
-
-*Content coming soon.*
+# Unit 3 Networks and the Internet
