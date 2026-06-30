@@ -1,724 +1,425 @@
 # Grade 9 Digital Technology
+
 # Workbook
+
 # Unit 3 – Networks and the Internet
-## Lesson 2 – How Does the Internet Work?
 
----
+# Lesson 3 – Network Protocols
 
-# Student Information
+**Name:** ___________________________
 
-**Name:** ______________________________
+**Class:** ___________________________
 
-**Class:** ______________________________
-
-**Date:** ______________________________
+**Date:** ___________________________
 
 ---
 
 # Learning Goals
 
-By the end of this lesson, I can:
+By the end of this workbook, I can:
 
-☐ explain the client–server model.
+☐ explain what a network protocol is.
 
-☐ describe the purpose of an IP address.
+☐ describe why computers need communication rules.
 
-☐ explain why domain names are used.
+☐ explain the difference between TCP and IP.
 
-☐ describe the role of DNS.
+☐ compare HTTP and HTTPS.
 
-☐ explain how a webpage loads.
-
----
-
-# Part A – Warm-up
-
-## 1. Think About It
-
-Imagine you type this address into your browser.
-
-```
-www.wikipedia.org
-```
-
-What do you think happens before the webpage appears?
-
-Write your ideas.
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+☐ explain how protocols work together when loading a webpage.
 
 ---
 
-## 2. What Do You Already Know?
+# Part A – Key Vocabulary
 
-Circle **Yes** or **No**.
+Write the correct definition for each word.
 
-| Question | Yes | No |
-|-----------|:---:|:--:|
-| I know what a computer network is. | ○ | ○ |
-| I know what a router does. | ○ | ○ |
-| I know what the Internet is. | ○ | ○ |
-| I have heard of an IP address. | ○ | ○ |
-
----
-
-# Part B – Key Vocabulary
-
-Match each word with its meaning.
-
-| Word | Letter |
-|------|:------:|
-| Client | _____ |
-| Server | _____ |
-| IP Address | _____ |
-| Domain Name | _____ |
-| DNS | _____ |
-| Request | _____ |
-| Response | _____ |
-
-Definitions
-
-A. A human-readable website name
-
-B. A message asking for information
-
-C. A unique numerical address
-
-D. Returns information to a client
-
-E. A computer providing information
-
-F. A computer requesting information
-
-G. Converts domain names into IP addresses
+| Vocabulary | Definition |
+|------------|------------|
+| Protocol | ______________________________________________ |
+| TCP | ______________________________________________ |
+| IP | ______________________________________________ |
+| HTTP | ______________________________________________ |
+| HTTPS | ______________________________________________ |
+| Packet | ______________________________________________ |
+| ACK | ______________________________________________ |
+| Encryption | ______________________________________________ |
 
 ---
 
-# Part C – Client or Server?
+# Part B – Match the Terms
 
-Read each situation.
+Draw a line to match each protocol with its main job.
 
-Write **Client** or **Server**.
-
-| Situation | Answer |
-|-----------|--------|
-| Your phone opens YouTube. | __________ |
-| Netflix sends a movie. | __________ |
-| Google Classroom sends homework. | __________ |
-| Your laptop downloads a file. | __________ |
-| A school web server stores webpages. | __________ |
+| Protocol | Purpose |
+|----------|----------|
+| TCP | Secure web communication |
+| IP | Reliable delivery |
+| HTTP | Finds the destination |
+| HTTPS | Transfers webpages |
 
 ---
 
-# Part D – Draw the Communication
-
-Complete the diagram.
-
-```
-_____________
-
-      Request
-
-_____________________
-
-      Response
-
-_____________
-```
-
-Label each box correctly.
-
----
-
-# Part E – Understanding IP Addresses
-
-## 1.
-
-Complete the sentence.
-
-Every device connected to a network needs
-
-_________________________________________
-
-because
-
-_________________________________________
-
-_________________________________________.
-
----
-
-## 2.
-
-Look at the following examples.
-
-Circle the IP addresses.
-
-```
-192.168.1.5
-
-www.google.com
-
-172.16.0.8
-
-school.edu
-
-10.0.0.15
-
-www.wikipedia.org
-```
-
----
-
-## 3.
-
-Why are IP addresses important?
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-# Part F – Public or Private?
-
-Tick the correct answer.
-
-| Device | Public | Private |
-|---------|:------:|:-------:|
-| School laptop | □ | □ |
-| Classroom printer | □ | □ |
-| Home computer | □ | □ |
-| School server | □ | □ |
-
----
-
-# Part G – Domain Names
-
-Read the examples.
-
-```
-www.google.com
-
-www.wikipedia.org
-
-www.bbc.com
-```
-
-Answer the questions.
+# Part C – Multiple Choice
 
 ### 1.
 
-Why are these easier to remember than IP addresses?
+A protocol is:
 
-____________________________________________________
+☐ A computer program
 
-____________________________________________________
+☐ A communication rule
+
+☐ A network cable
+
+☐ A router
+
+---
 
 ### 2.
 
-What do computers still need before communication begins?
+Which protocol is responsible for finding the destination?
 
-____________________________________________________
+☐ HTTP
 
----
+☐ IP
 
-# Quick Check
+☐ TCP
 
-Complete the table.
-
-| Humans Prefer | Computers Prefer |
-|---------------|------------------|
-|               |                  |
+☐ HTTPS
 
 ---
 
-# Reflection
+### 3.
 
-How confident do you feel so far?
+Which protocol checks that packets arrive correctly?
 
-☐ I understand everything.
+☐ DNS
 
-☐ I understand most ideas.
+☐ TCP
 
-☐ I still need some help.
+☐ HTTP
 
-Write one question you would like to ask your teacher.
-
-____________________________________________________
-
-____________________________________________________
----
-
-# Part H – The Domain Name System (DNS)
-
-## 1. What Does DNS Do?
-
-Complete the sentence.
-
-DNS stands for
-
-____________________________________________.
-
-Its main job is to
-
-____________________________________________
-
-____________________________________________.
+☐ IP
 
 ---
 
-## 2. Complete the Diagram
+### 4.
 
-Fill in the missing labels.
+HTTPS is mainly used to:
+
+☐ increase Internet speed
+
+☐ encrypt communication
+
+☐ store webpages
+
+☐ assign IP addresses
+
+---
+
+### 5.
+
+True or False
+
+Computers can communicate successfully without agreed rules.
+
+__________
+
+---
+
+# Part D – TCP or IP?
+
+Write **TCP** or **IP** beside each statement.
+
+| Responsibility | Answer |
+|---------------|--------|
+| Chooses the destination | ______ |
+| Checks missing packets | ______ |
+| Reassembles packets | ______ |
+| Uses IP addresses | ______ |
+| Requests lost packets again | ______ |
+| Helps reliable communication | ______ |
+
+---
+
+# Part E – Fill in the Blanks
+
+Use the words below.
+
+**Word Bank**
 
 ```
-You Type
-
-www.example.com
-
-        │
-
-        ▼
-
-____________________
-
-        │
-
-        ▼
-
-____________________
-
-        │
-
-        ▼
-
-Web Server
+TCP
+IP
+Protocol
+HTTPS
+Packets
+Encryption
 ```
 
----
+1.
 
-## 3. True or False
-
-Write **T** for True or **F** for False.
-
-| Statement | Answer |
-|-----------|:------:|
-| DNS stores every website on the Internet. | ____ |
-| DNS helps computers find IP addresses. | ____ |
-| People usually remember domain names more easily than IP addresses. | ____ |
-| Every website has a domain name. | ____ |
-| DNS works every time you visit a website. | ____ |
+A ____________________ is a set of communication rules.
 
 ---
 
-## 4. Short Answer
+2.
 
-Why is DNS sometimes called the "phone book of the Internet"?
+Data travelling across a network is divided into
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+____________________.
 
 ---
 
-# Part I – Following the Journey of a Web Page
+3.
 
-Number the steps from **1** to **6**.
-
-| Step | Order |
-|------|:----:|
-| Browser displays the webpage. | □ |
-| User types a URL. | □ |
-| DNS finds the IP address. | □ |
-| Browser sends a request. | □ |
-| Server sends webpage files. | □ |
-| Browser receives the response. | □ |
+____________________ identifies where data should go.
 
 ---
 
-## Complete the Flowchart
+4.
 
-Fill in the missing boxes.
+____________________ ensures reliable delivery.
+
+---
+
+5.
+
+____________________ protects information while it travels across the Internet.
+
+---
+
+6.
+
+____________________ keeps information private by converting it into a secure form.
+
+---
+
+# Part F – Complete the Diagram
+
+Fill in the missing steps.
 
 ```
 Type URL
 
-     ↓
+↓
 
-______________
+____________________
 
-     ↓
+↓
 
-Browser Sends Request
+IP Address
 
-     ↓
+↓
 
-______________
+____________________
 
-     ↓
+↓
+
+HTTP / HTTPS
+
+↓
 
 Browser Displays Webpage
 ```
 
 ---
 
-# Part J – Requests and Responses
+# Part G – Think Like a Computer
 
-Read each situation.
+Imagine you are downloading a file.
 
-Decide whether it describes a **Request** or a **Response**.
-
-| Situation | Answer |
-|-----------|--------|
-| Your browser asks for a webpage. | __________ |
-| The server sends HTML files. | __________ |
-| Your laptop asks for an image. | __________ |
-| The server sends a video. | __________ |
-| A browser downloads a stylesheet. | __________ |
-
----
-
-# Part K – Data Packets
-
-Read the paragraph.
-
-When information travels across a network, it is divided into small pieces called **packets**.
+One packet never arrives.
 
 Answer the questions.
 
 ### 1.
 
-Why is information divided into packets?
+Which protocol notices that something is missing?
 
-____________________________________________________
-
-____________________________________________________
-
-### 2.
-
-Can different packets travel along different routes?
-
-☐ Yes
-
-☐ No
-
-### 3.
-
-What happens if one packet is lost?
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-# Part L – Case Study
-
-## Emma Opens Her School LMS
-
-Emma enters:
-
-```
-https://school.edu
-```
-
-Answer the following questions.
-
-### 1.
-
-What is the first thing Emma types?
-
-____________________________________________________
-
-### 2.
-
-What system finds the IP address?
-
-____________________________________________________
-
-### 3.
-
-Which computer sends the webpage?
-
-____________________________________________________
-
-### 4.
-
-Which device displays the webpage?
-
-____________________________________________________
-
-### 5.
-
-Who is the client?
-
-____________________________________________________
-
-### 6.
-
-Who is the server?
-
-____________________________________________________
-
----
-
-# Part M – Complete the Table
-
-| Item | Purpose |
-|------|---------|
-| Client | __________________________ |
-| Server | __________________________ |
-| IP Address | __________________________ |
-| Domain Name | __________________________ |
-| DNS | __________________________ |
-| URL | __________________________ |
-| Packet | __________________________ |
-
----
-
-# Part N – Spot the Mistake
-
-Read each statement.
-
-Rewrite it correctly.
-
-### 1.
-
-"The Internet is one giant computer."
-
-Correct version:
-
-____________________________________________________
-
-____________________________________________________
+_____________________________________
 
 ---
 
 ### 2.
 
-"Google is the Internet."
+What happens next?
 
-Correct version:
+_____________________________________
 
-____________________________________________________
-
-____________________________________________________
+_____________________________________
 
 ---
 
 ### 3.
 
-"DNS stores websites."
+Why is this important?
 
-Correct version:
+_____________________________________
 
-____________________________________________________
-
-____________________________________________________
+_____________________________________
 
 ---
 
-### 4.
+# Checkpoint
 
-"Every webpage comes directly from Wi-Fi."
+Before moving on, make sure you can answer:
 
-Correct version:
+✅ What is a protocol?
 
-____________________________________________________
+✅ What is the difference between TCP and IP?
 
-____________________________________________________
-
----
-
-# Think Like a Computer Scientist
-
-Imagine DNS stopped working for one day.
-
-Write three things that might happen.
-
-1.
-
-____________________________________________________
-
-2.
-
-____________________________________________________
-
-3.
-
-____________________________________________________
+✅ Why is HTTPS safer than HTTP?
 
 ---
 
-# Self Check
+# Part H – HTTP or HTTPS?
 
-Rate your understanding.
+Read each situation.
 
-| Statement | 😊 | 😐 | 😟 |
-|-----------|:--:|:--:|:--:|
-| I can explain what a client is. | □ | □ | □ |
-| I can explain what a server is. | □ | □ | □ |
-| I understand IP addresses. | □ | □ | □ |
-| I understand DNS. | □ | □ | □ |
-| I can explain how a webpage loads. | □ | □ | □ |
----
+Write **HTTP** or **HTTPS**.
 
-# Part O – Vocabulary Review
-
-Complete each sentence using the words in the box.
-
-**Word Bank**
-
-```
-Client
-Server
-DNS
-IP Address
-Packet
-Request
-Response
-Domain Name
-URL
-```
-
-### 1.
-
-A __________________________ is a computer that provides information to other computers.
+| Situation | Answer |
+|-----------|--------|
+| Logging into your school account | __________ |
+| Reading a public news article | __________ |
+| Online banking | __________ |
+| Shopping online | __________ |
+| Reading today's weather forecast | __________ |
+| Entering your email password | __________ |
 
 ---
 
-### 2.
-
-A __________________________ requests information from another computer.
-
----
-
-### 3.
-
-A __________________________ is a human-readable website name.
-
----
-
-### 4.
-
-A __________________________ identifies a device on a network.
-
----
-
-### 5.
-
-A __________________________ translates website names into IP addresses.
-
----
-
-### 6.
-
-Small pieces of transmitted data are called __________________________.
-
----
-
-### 7.
-
-A browser sends a __________________________ to a web server.
-
----
-
-### 8.
-
-The server sends a __________________________ back to the browser.
-
----
-
-### 9.
-
-A __________________________ is the complete address used to locate an online resource.
-
----
-
-# Part P – Compare and Contrast
+# Part I – Compare HTTP and HTTPS
 
 Complete the table.
 
-| Compare | Client | Server |
-|----------|--------|--------|
-| Main job | | |
-| Example | | |
-| Sends or receives requests? | | |
-| Used by students? | | |
+| Feature | HTTP | HTTPS |
+|---------|------|--------|
+| Secure? | | |
+| Uses encryption? | | |
+| Used for online banking? | | |
+| Transfers webpages? | | |
 
 ---
 
-| Compare | Domain Name | IP Address |
-|----------|-------------|------------|
-| Easier for humans? | | |
-| Easier for computers? | | |
-| Example | | |
-| Purpose | | |
+# Part J – Packet Journey
+
+Imagine a file is divided into five packets.
+
+```
+Packet 1 ✓
+
+Packet 2 ✓
+
+Packet 3 ✗
+
+Packet 4 ✓
+
+Packet 5 ✓
+```
+
+Answer the questions.
+
+### 1.
+
+Which packet is missing?
+
+_________________________
 
 ---
 
-# Part Q – Scenario Challenge
+### 2.
 
-Read each situation carefully.
+Which protocol notices the missing packet?
+
+_________________________
 
 ---
+
+### 3.
+
+What should happen next?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 4.
+
+Why is this process important?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part K – Put the Steps in Order
+
+Number the steps from **1–6**.
+
+| Step | Order |
+|------|:----:|
+| Browser displays the webpage. | ☐ |
+| DNS finds the IP address. | ☐ |
+| User types a URL. | ☐ |
+| HTTP or HTTPS transfers the webpage. | ☐ |
+| TCP manages reliable communication. | ☐ |
+| IP identifies the destination. | ☐ |
+
+---
+
+# Part L – Scenario Questions
 
 ## Scenario 1
 
-You type:
+Alex types **www.wikipedia.org** into a web browser.
 
-```
-www.bbc.com
-```
+Answer the questions.
 
-List the first four events that happen.
+### a.
 
-1.
+Which protocol helps find the website's IP address?
 
-____________________________________________________
+_____________________________________
 
-2.
+---
 
-____________________________________________________
+### b.
 
-3.
+Which protocol identifies where the data should go?
 
-____________________________________________________
+_____________________________________
 
-4.
+---
 
-____________________________________________________
+### c.
+
+Which protocol makes sure the data arrives correctly?
+
+_____________________________________
+
+---
+
+### d.
+
+Which protocol is most likely used to transfer the webpage securely?
+
+_____________________________________
 
 ---
 
 ## Scenario 2
 
-Your friend says:
+Emma is shopping online.
 
-> "Wi-Fi and the Internet are exactly the same thing."
+She enters her credit card details.
 
-Write a short explanation.
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-## Scenario 3
-
-A web server suddenly stops working.
-
-Predict what users will experience.
+### Why is HTTPS important?
 
 ____________________________________________________
 
@@ -728,43 +429,258 @@ ____________________________________________________
 
 ---
 
-# Part R – Draw Your Own Diagram
+# Part M – Complete the Flowchart
 
-Create a diagram showing how a webpage reaches your computer.
+Fill in the missing protocol names.
 
-Include these labels.
+```
+URL
 
-- Browser
+↓
+
+______________
+
+↓
+
+IP Address
+
+↓
+
+______________
+
+↓
+
+Reliable Delivery
+
+↓
+
+______________
+
+↓
+
+Webpage Appears
+```
+
+---
+
+# Part N – Error Detective
+
+A student wrote the following explanation.
+
+Read it carefully.
+
+> "HTTP finds the IP address. TCP creates websites. HTTPS makes computers faster. IP checks missing packets."
+
+Circle each incorrect statement.
+
+Then rewrite the paragraph correctly.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part O – Explain in Your Own Words
+
+Answer each question using complete sentences.
+
+### 1.
+
+What is a network protocol?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 2.
+
+Why do computers divide information into packets?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 3.
+
+How does TCP improve reliability?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 4.
+
+Why is HTTPS recommended for online shopping?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Self-Assessment
+
+How confident do you feel?
+
+| Statement | 😊 | 😐 | ☹ |
+|-----------|:--:|:--:|:--:|
+| I understand what a protocol is. | ☐ | ☐ | ☐ |
+| I can explain TCP. | ☐ | ☐ | ☐ |
+| I can explain IP. | ☐ | ☐ | ☐ |
+| I know the difference between HTTP and HTTPS. | ☐ | ☐ | ☐ |
+| I understand how protocols work together. | ☐ | ☐ | ☐ |
+---
+
+# Part P – Protocol Challenge
+
+Complete the table.
+
+| Protocol | What does it do? | Example of Use |
+|----------|------------------|----------------|
+| DNS | | |
+| IP | | |
+| TCP | | |
+| HTTP | | |
+| HTTPS | | |
+
+---
+
+# Part Q – Choose the Best Protocol
+
+Write the most appropriate protocol.
+
+## Situation 1
+
+A browser needs to find the IP address of a website.
+
+Answer:
+
+____________________
+
+---
+
+## Situation 2
+
+A file arrives with one missing packet.
+
+Answer:
+
+____________________
+
+---
+
+## Situation 3
+
+A student logs into an online banking website.
+
+Answer:
+
+____________________
+
+---
+
+## Situation 4
+
+A browser requests the homepage of a website.
+
+Answer:
+
+____________________
+
+---
+
+# Part R – Explain the Process
+
+Describe what happens when you visit a website.
+
+Use the following words in your explanation.
+
+- URL
 - DNS
-- Internet
-- Web Server
-- Request
-- Response
+- IP
+- TCP
+- HTTPS
+- Browser
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part S – Draw the Communication Flow
+
+Draw arrows to show the journey of information.
 
 ```
-+------------------------------------------------------+
+User
 
-                Draw your diagram here
+↓
 
+____________________
 
-+------------------------------------------------------+
+↓
+
+____________________
+
+↓
+
+____________________
+
+↓
+
+Web Server
+
+↓
+
+____________________
+
+↓
+
+Browser
 ```
 
----
-
-# Part S – Reflection
-
-Think about today's lesson.
-
-### Something new I learned
-
-____________________________________________________
-
-____________________________________________________
+Label each blank with the correct protocol or process.
 
 ---
 
-### Something I found difficult
+# Part T – Real-Life Connections
+
+Write one example of each.
+
+| Situation | Example |
+|-----------|---------|
+| A website that should use HTTPS | |
+| A website where security is less important | |
+| A situation where reliable delivery is essential | |
+| A situation where packets are transferred | |
+
+---
+
+# Part U – Reflection
+
+Answer honestly.
+
+### Something new I learned today
 
 ____________________________________________________
 
@@ -772,9 +688,11 @@ ____________________________________________________
 
 ---
 
-### One strategy that helped me learn
+### The most interesting protocol
 
 ____________________________________________________
+
+Why?
 
 ____________________________________________________
 
@@ -788,39 +706,99 @@ ____________________________________________________
 
 ---
 
-# Part T – Exit Ticket
+# Part V – Mini Review Quiz
 
-Answer these questions without looking at your notes.
+Choose the correct answer.
 
-## 1.
+### 1.
 
-What is the job of a client?
+What is the main purpose of IP?
+
+☐ Encrypt data
+
+☐ Find the destination
+
+☐ Display webpages
+
+☐ Store websites
+
+---
+
+### 2.
+
+Which protocol ensures reliable communication?
+
+☐ DNS
+
+☐ HTTP
+
+☐ TCP
+
+☐ FTP
+
+---
+
+### 3.
+
+HTTPS is different because it:
+
+☐ changes IP addresses
+
+☐ encrypts communication
+
+☐ speeds up downloads
+
+☐ stores webpages
+
+---
+
+### 4.
+
+Which protocol translates a domain name into an IP address?
+
+☐ TCP
+
+☐ DNS
+
+☐ HTTP
+
+☐ HTTPS
+
+---
+
+### 5.
+
+True or False
+
+Several protocols work together when you visit a website.
+
+__________
+
+---
+
+# Part W – Exit Ticket
+
+Before leaving class, answer these questions.
+
+### 1.
+
+One thing I understand well:
 
 ____________________________________________________
 
 ---
 
-## 2.
+### 2.
 
-What is the job of a server?
-
-____________________________________________________
-
----
-
-## 3.
-
-Why does every device need an IP address?
-
-____________________________________________________
+One thing I need more practice with:
 
 ____________________________________________________
 
 ---
 
-## 4.
+### 3.
 
-Why are domain names important?
+Today I learned that...
 
 ____________________________________________________
 
@@ -828,116 +806,60 @@ ____________________________________________________
 
 ---
 
-## 5.
+# Extension Activity
 
-Explain the role of DNS in one sentence.
+Research one Internet protocol that was **not** covered in today's lesson.
 
-____________________________________________________
+Examples:
 
-____________________________________________________
-
----
-
-## 6.
-
-Place these steps in the correct order.
-
-| Step | Order |
-|------|:----:|
-| Browser displays webpage | □ |
-| DNS finds the IP address | □ |
-| User enters a URL | □ |
-| Server sends webpage | □ |
-| Browser sends request | □ |
-
----
-
-## 7.
-
-What are packets?
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-# Part U – Extension Activity
-
-Choose **ONE** challenge.
-
-### Challenge A – Research
-
-Research one of the following topics.
-
-- Data Centres
-- Cloud Computing
-- Content Delivery Networks (CDNs)
-- Fibre-optic Internet
-- 5G Networks
+- FTP
+- SMTP
+- SSH
+- IMAP
+- POP3
 
 Complete the table.
 
-| Question | Answer |
-|----------|--------|
-| What is it? | |
-| Why is it important? | |
-| One interesting fact | |
+| Protocol | Purpose | Interesting Fact |
+|----------|----------|------------------|
+| | | |
 
 ---
 
-### Challenge B – Explain to a Younger Student
+# Vocabulary Review
 
-Imagine you are teaching a Grade 6 student.
+Match each word with its meaning.
 
-Write a short explanation (100–150 words) answering:
-
-> "How does the Internet find a website?"
-
-Use simple language and at least **five** vocabulary words from this lesson.
-
-```
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-```
+| Word | Meaning |
+|------|---------|
+| ACK | A. Secure communication |
+| Encryption | B. Confirmation that data arrived |
+| Packet | C. Small piece of data |
+| Protocol | D. Communication rules |
 
 ---
 
-# Self-Assessment
+# Learning Checklist
 
-Colour or tick the box that best describes your understanding.
+Tick each statement that is true for you.
 
-| I can... | Not Yet | Almost | Yes |
-|-----------|:-------:|:------:|:---:|
-| Explain the client–server model. | □ | □ | □ |
-| Describe an IP address. | □ | □ | □ |
-| Explain why domain names exist. | □ | □ | □ |
-| Describe how DNS works. | □ | □ | □ |
-| Explain how a webpage loads. | □ | □ | □ |
-| Use networking vocabulary correctly. | □ | □ | □ |
+☐ I can explain what a protocol is.
+
+☐ I can describe the difference between TCP and IP.
+
+☐ I know why HTTPS is important.
+
+☐ I understand how DNS helps browsers find websites.
+
+☐ I can explain what happens when a packet is lost.
+
+☐ I can describe how several protocols work together.
 
 ---
 
-# Learning Journal
+# My Goal Before the Quiz
 
-Today I am most proud of...
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
-
-My goal before the next lesson is...
+Write one goal for yourself.
 
 ____________________________________________________
 
@@ -947,29 +869,23 @@ ____________________________________________________
 
 ---
 
-# Teacher Check
+# Teacher Feedback
 
-| Item | ✓ |
-|------|:-:|
-| Workbook completed | |
-| Class discussion participated | |
-| Activities completed | |
-| Exit Ticket submitted | |
-
-Teacher comments:
+Strengths
 
 ____________________________________________________
 
 ____________________________________________________
 
+Areas for Improvement
+
 ____________________________________________________
 
----
+____________________________________________________
 
-# Workbook Complete
+Teacher Signature
 
-Congratulations!
+_____________________________
 
-You have completed **Unit 3 – Lesson 2: How Does the Internet Work?**
+If you are unsure, review Lesson 3 before continuing.
 
-You are now ready to learn about **network protocols** in the next lesson, where you will discover how computers follow common rules to exchange information accurately and efficiently.
