@@ -1,15 +1,17 @@
+
 # Grade 9 Digital Technology
 # Unit 3 – Networks and the Internet
-## Lesson 1 Slides
-### Why Do We Need Computer Networks?
+## Lesson 2 – How Does the Internet Work?
 
 ---
 
-# Slide 1 — Title
+# Slide 1 – Title
 
-## Why Do We Need Computer Networks?
+## How Does the Internet Work?
 
-**Grade 9 Digital Technology**
+**Unit 3 – Networks and the Internet**
+
+Grade 9 Digital Technology
 
 ---
 
@@ -17,491 +19,927 @@
 
 Welcome students.
 
-Today we begin Unit 3.
+Today we will answer a question that most people never think about:
 
-Ask students not to open their laptops yet.
+> "What actually happens after you press Enter in your web browser?"
 
-Instead,
-
-look around the classroom.
-
-Ask:
-
-> "How many digital devices can you see?"
-
-Do not answer yet.
+By the end of today's lesson, you'll understand the journey from typing a website address to seeing the webpage appear.
 
 ---
 
-# Slide 2 — Learning Objectives
+# Slide 2 – Learning Intentions
 
-## Today You Will Learn
+## Today We Will Learn
 
-- What a computer network is
-- Why networks are important
-- LAN vs WAN
-- Routers and switches
-- How schools use networks
+✔ The client–server model
+
+✔ What an IP address is
+
+✔ Why domain names exist
+
+✔ The purpose of DNS
+
+✔ How a webpage loads
 
 ---
 
 ### Speaker Notes
 
-Explain that today's lesson is mostly conceptual.
+Explain that these ideas are connected.
 
-The following lessons will build on today's ideas.
+Each concept helps solve one problem in Internet communication.
 
----
-
-# Slide 3 — Big Question
-
-## Big Question
-
-> How do billions of digital devices communicate every second?
+Encourage students to think about how these pieces fit together.
 
 ---
 
-### Think–Pair–Share
+# Slide 3 – Starter Question
 
-Think individually.
+## Think!
 
-Discuss with your partner.
+When you type:
 
-Share one idea with the class.
+```
+www.wikipedia.org
+```
+
+What happens before the webpage appears?
+
+Take one minute to think.
+
+Then discuss with a partner.
 
 ---
 
 ### Speaker Notes
 
-Accept all reasonable answers.
+Do not confirm answers immediately.
 
-Do not introduce the definition yet.
+Accept all reasonable ideas.
 
----
-
-# Slide 4 — Classroom Observation
-
-## Find Every Networked Device
-
-Look around the room.
-
-List every device connected to the school network.
+Record student responses on the board.
 
 Examples:
 
-- Laptop
-- Printer
-- Projector
-- Teacher Computer
-- Wi-Fi Access Point
+- Wi-Fi downloads it.
+- Google finds it.
+- The browser searches.
+- Another computer sends it.
+
+Tell students they will discover which ideas are correct.
 
 ---
 
-### Speaker Notes
+# Slide 4 – Lesson Roadmap
 
-Walk around the room.
+## Today's Journey
 
-Students should realise that networking is everywhere.
-
----
-
-# Slide 5 — Definition
-
-## What Is a Computer Network?
-
-A computer network is
-
-> a group of connected devices that communicate and share resources.
-
----
-
-### Build Animation
-
-Click 1
-
-Communication
-
-Click 2
-
-Resource Sharing
-
-Click 3
-
-Internet Access
-
-Click 4
-
-Printing
-
----
-
-### Speaker Notes
-
-Stress that sharing is the main purpose.
-
----
-
-# Slide 6 — Why Networks?
-
-## Without Networks...
-
-❌ No shared printers
-
-❌ No Google Classroom
-
-❌ No email
-
-❌ No cloud storage
-
-❌ No online learning
-
----
-
-### Discussion
-
-Which problem would affect you the most?
-
-Why?
-
----
-
-# Slide 7 — LAN
-
-## Local Area Network (LAN)
-
-Examples
-
-🏠 Home
-
-🏫 School
-
-🏢 Office
-
-Characteristics
-
-- Small area
-- Fast
-- One organisation
-
----
-
-### Speaker Notes
-
-Use your own school as the example.
-
----
-
-# Slide 8 — WAN
-
-## Wide Area Network (WAN)
-
-Examples
-
-🌎 Internet
-
-🏦 Bank
-
-✈ International company
-
-Characteristics
-
-- Large area
-
-- Connects many LANs
-
----
-
-### Speaker Notes
-
-Explain that the Internet is simply a very large WAN.
-
----
-
-# Slide 9 — Compare
-
-## LAN vs WAN
-
-| LAN | WAN |
-|------|------|
-| Small | Large |
-| Faster | Usually slower |
-| School | Internet |
-
----
-
-### Class Question
-
-Why is a WAN usually slower?
-
----
-
-# Slide 10 — Network Devices
-
-Today's Devices
-
-- Router
-- Switch
-- Server
-- Client
-
----
-
-### Speaker Notes
-
-Tell students
-
-Do not memorise.
-
-Understand the purpose.
-
----
-
-# Slide 11 — Router
-
-## Router
-
-Connects
-
-Network
+```
+Client
 
 ↓
 
-Another Network
-
----
-
-### Real Example
-
-School
+Server
 
 ↓
 
-Internet
+IP Address
+
+↓
+
+Domain Name
+
+↓
+
+DNS
+
+↓
+
+Webpage Loading
+```
 
 ---
 
-### Ask
+### Speaker Notes
 
-Can you use Google Classroom without a router?
+Show students that today's lesson is a journey.
 
----
+Each concept builds on the previous one.
 
-# Slide 12 — Switch
+Avoid explaining everything now.
 
-## Switch
-
-Connects devices
-
-inside
-
-ONE network.
+Simply introduce the roadmap.
 
 ---
 
-### Real Example
+# Slide 5 – Client and Server
 
-Printer
+## Two Different Roles
 
-Teacher PC
+### Client
 
-Student Laptops
+Requests information
 
----
-
-### Question
-
-Does a switch replace a router?
-
----
-
-# Slide 13 — Server
-
-## Server
-
-Provides
-
-- Files
-- Printing
-- Websites
-- Login
-
----
-
-### Clients
+Examples
 
 - Laptop
-
-- Tablet
-
 - Phone
+- Tablet
+- Chromebook
 
 ---
 
-# Slide 14 — Network Diagram
+### Server
 
-```
-Internet
-    │
- Router
-    │
- Switch
- ┌──┼──┐
-PC Laptop Printer
-```
+Provides information
 
----
+Examples
 
-### Activity
-
-Students redraw this diagram.
-
-Then improve it.
+- Google
+- YouTube
+- Netflix
+- School LMS
 
 ---
 
-# Slide 15 — Packets
+### Speaker Notes
 
-## Data Travels as Packets
+Emphasise:
 
-Large file
+A client and server describe **roles**, not special types of computers.
+
+The same computer can perform different roles in different situations.
+
+---
+
+# Slide 6 – Real-Life Analogy
+
+## Restaurant Analogy
+
+Customer
 
 ↓
 
-Many small packets
+Places an order
 
 ↓
 
-Travel separately
+Kitchen
 
 ↓
 
-Reassembled
+Prepares food
+
+↓
+
+Customer receives food
 
 ---
 
-### Ask
+### Internet Version
 
-Why might this be better than sending one huge file?
+Client
 
----
+↓
 
-# Slide 16 — Group Activity
+Request
 
-Design a classroom network.
+↓
 
-Requirements
+Server
 
-- Teacher PC
+↓
 
-- 30 Laptops
+Response
 
-- Printer
+↓
 
-- Router
-
-- Switch
-
-- Wi-Fi
+Client
 
 ---
 
-### Time
+### Speaker Notes
 
-10 minutes
+Walk through the analogy slowly.
 
----
+Ask:
 
-# Slide 17 — AI Lab
+"Who asks for food?"
 
-Prompt
+(Customer)
 
-> Explain the difference between a LAN and a WAN for a Grade 9 student.
+"Who prepares the food?"
 
----
+(Kitchen)
 
-### Students evaluate
+Relate this to:
 
-✔ Accuracy
+Client → Request
 
-✔ Examples
-
-✔ Missing information
+Server → Response
 
 ---
 
-# Slide 18 — Python Lab
+# Slide 7 – Quick Discussion
 
-Today's Code
+## Which Is the Client?
 
-```python
-network = [
-    "Laptop",
-    "Printer",
-    "Router",
-    "Switch"
-]
+Scenario 1
 
-for device in network:
-    print(device)
+You watch a YouTube video.
+
+Client?
+
+Server?
+
+---
+
+Scenario 2
+
+You open Google Classroom.
+
+Client?
+
+Server?
+
+---
+
+Scenario 3
+
+You search on Google.
+
+Client?
+
+Server?
+
+---
+
+### Speaker Notes
+
+Invite students to answer verbally.
+
+Expected responses:
+
+Client → Student device
+
+Server → Online service
+
+Reinforce the idea that servers provide resources.
+
+---
+
+# Slide 8 – Common Misconceptions
+
+## Myth or Fact?
+
+❓ "Google is the Internet."
+
+❓ "The Internet is one giant computer."
+
+❓ "My laptop stores every website."
+
+Think...
+
+Which statements are incorrect?
+
+---
+
+### Speaker Notes
+
+Reveal the answers one at a time.
+
+Explain:
+
+- Google is a service on the Internet.
+- The Internet is a network of millions of computers.
+- Websites are stored on web servers.
+
+Encourage students to explain *why* each statement is incorrect.
+
+---
+
+# Slide 9 – Transition
+
+## New Question
+
+If every website is stored on another computer...
+
+How does your computer know **which computer** to contact?
+
+🤔
+
+---
+
+### Speaker Notes
+
+Pause for student ideas.
+
+Do not answer immediately.
+
+Tell students:
+
+"To solve this problem, computers use something called an **IP address**."
+
+---
+
+# Slide 10 – What Is an IP Address?
+
+## Every Device Needs an Address
+
+Just as every house has an address...
+
+🏠 **House Address** → Mail Delivery
+
+💻 **IP Address** → Data Delivery
+
+### Example
+
+```
+192.168.1.15
 ```
 
 ---
 
-### Challenge
+### Speaker Notes
 
-Add three devices.
+Begin with the house-address analogy.
 
-Count them.
+Ask:
 
----
+> "Could a letter reach your house without an address?"
 
-# Slide 19 — Summary
+Guide students to see that computers also need unique addresses so data can be delivered to the correct destination.
 
-Today we learned
-
-✅ Network
-
-✅ LAN
-
-✅ WAN
-
-✅ Router
-
-✅ Switch
-
-✅ Packets
+Avoid discussing binary numbers or networking standards.
 
 ---
 
-### Exit Question
+# Slide 11 – IPv4 and IPv6
 
-What is one new thing you learned today?
+## Why Are There Two Versions?
 
----
+### IPv4
 
-# Slide 20 — Homework
+```
+192.168.1.15
+```
 
-Draw the network in your home.
-
-Include
-
-- Router
-
-- Wi-Fi
-
-- Devices
-
-Label every device.
+- Older system
+- Four groups of numbers
+- Limited number of addresses
 
 ---
 
-# End of Lesson
+### IPv6
 
-Next Lesson
+```
+2001:0db8:85a3::8a2e:0370:7334
+```
 
-## How Does the Internet Actually Work?
+- Newer system
+- Much larger address space
+- Supports billions of additional devices
 
-- IP Address
+---
+
+### Speaker Notes
+
+Students do **not** need to memorise IPv6.
+
+Emphasise **why** IPv6 exists:
+
+- more phones
+- more tablets
+- smart TVs
+- watches
+- cars
+- IoT devices
+
+---
+
+# Slide 12 – Why Do We Use Domain Names?
+
+## Which Is Easier to Remember?
+
+### Option A
+
+```
+142.250.190.78
+```
+
+### Option B
+
+```
+www.google.com
+```
+
+**Which would you rather remember?**
+
+---
+
+### Speaker Notes
+
+Give students 10 seconds to memorise the IP address.
+
+Hide it.
+
+Repeat with the domain name.
+
+Most students will remember the domain name more easily.
+
+Conclude:
+
+> Humans prefer names.
+>
+> Computers use numbers.
+
+---
+
+# Slide 13 – What Is DNS?
+
+## DNS = Domain Name System
+
+DNS translates
+
+```
+www.google.com
+```
+
+⬇
+
+```
+142.250.190.78
+```
+
+Think of DNS as:
+
+📖 **The Internet's Address Book**
+
+---
+
+### Speaker Notes
+
+Avoid saying only "phone book."
+
+Explain that an address book or contacts list is a more familiar example for many students.
+
+Reinforce:
+
+- Humans remember names.
+- Computers communicate using IP addresses.
+- DNS connects the two.
+
+---
+
+# Slide 14 – How DNS Works
+
+*(Display: `dns-process.svg`)*
+
+## DNS Process
+
+1. User enters a website name.
+2. Browser asks DNS.
+3. DNS returns the IP address.
+4. Browser contacts the web server.
+
+---
+
+### Speaker Notes
+
+Walk through each step slowly.
+
+Point to the diagram as you explain.
+
+Ask after each step:
+
+> "What happens next?"
+
+Encourage students to narrate the process rather than simply read it.
+
+---
+
+# Slide 15 – Mini Activity
+
+## Match the Pairs
+
+| Item | Match |
+|------|-------|
+| Domain Name | ? |
+| IP Address | ? |
+| DNS | ? |
+
+Choose from:
+
+- Human-readable name
+- Numerical address
+- Translation service
+
+---
+
+### Speaker Notes
+
+Allow students to answer individually for one minute.
+
+Then compare answers with a partner before discussing as a class.
+
+Expected matches:
+
+- Domain Name → Human-readable name
+- IP Address → Numerical address
+- DNS → Translation service
+
+---
+
+# Slide 16 – Check Your Understanding
+
+### True or False?
+
+1. DNS stores every website.
+
+2. Computers communicate using IP addresses.
+
+3. Domain names are easier for people to remember.
+
+4. A client provides information to a server.
+
+---
+
+### Speaker Notes
+
+Review answers together.
+
+Correct responses:
+
+1. False
+2. True
+3. True
+4. False
+
+Use incorrect answers as opportunities to revisit misconceptions.
+
+---
+
+# Slide 17 – Think, Pair, Share
+
+## Discuss
+
+Imagine DNS stopped working for one day.
+
+What problems would people experience?
+
+Talk with your partner for two minutes.
+
+---
+
+### Speaker Notes
+
+Possible student responses:
+
+- Websites would not load using names.
+- People would need to know IP addresses.
+- Online services would become difficult to access.
+
+Accept creative answers if students justify their reasoning.
+
+Highlight that DNS is a critical part of the Internet but is usually invisible to users.
+
+---
+
+# Slide 18 – Transition
+
+## One Final Question
+
+Now we know **how the browser finds the correct server**...
+
+But what happens **after** the server is found?
+
+➡️ How does the webpage travel back to your computer?
+
+---
+
+### Speaker Notes
+
+Do not answer yet.
+
+Tell students that the final section follows the complete journey of a webpage—from entering a URL to seeing the page on the screen.
+
+Transition to the webpage loading sequence.
+
+
+This creates a natural transition into the next section of the lesson.
+
+---
+
+# Slide 19 – How Does a Webpage Load?
+
+*(Display: `how-web-page-loads.svg`)*
+
+## From URL to Webpage
+
+```
+Type URL
+
+↓
+
+DNS finds IP Address
+
+↓
+
+Browser sends Request
+
+↓
+
+Web Server responds
+
+↓
+
+Browser displays Webpage
+```
+
+---
+
+### Speaker Notes
+
+This is the most important diagram of today's lesson.
+
+Walk through each step slowly.
+
+Ask students to explain each stage in their own words.
+
+Reinforce that the entire process usually takes less than a second.
+
+---
+
+# Slide 20 – Following the Journey
+
+## Can You Explain the Process?
+
+Imagine opening:
+
+```
+www.wikipedia.org
+```
+
+Work with a partner.
+
+Can you describe every step?
+
+Use these words:
+
+- Browser
 - DNS
-- Websites
-- Data Packets
+- IP Address
+- Server
+- Request
+- Response
+
+---
+
+### Speaker Notes
+
+Give students two minutes.
+
+Walk around the classroom and listen to explanations.
+
+Encourage students to use complete sentences rather than isolated vocabulary.
+
+Invite one or two pairs to explain the process to the class.
+
+---
+
+# Slide 21 – Packets in Action
+
+*(Display: `packet-transmission.svg`)*
+
+## How Does Large Information Travel?
+
+Large files are divided into:
+
+📦 **Packets**
+
+Packets may:
+
+- travel different routes
+- arrive at different times
+- be reassembled correctly
+
+---
+
+### Speaker Notes
+
+Remind students of Lesson 1.
+
+Explain that sending one huge file would be inefficient.
+
+Using packets makes communication faster, more reliable and easier to manage.
+
+You do not need to introduce TCP/IP in detail yet—that will come in the next lesson.
+
+---
+
+# Slide 22 – Everyday Examples
+
+## Where Have You Used This Today?
+
+Think about the websites or apps you used before school.
+
+Examples:
+
+- YouTube
+- Google Classroom
+- Netflix
+- Spotify
+- Instagram
+- BBC News
+
+Question:
+
+**Did they all use the same basic process?**
+
+✅ Yes!
+
+---
+
+### Speaker Notes
+
+Help students connect today's concepts to their daily lives.
+
+Regardless of the website or app, the fundamental process remains the same:
+
+- Client
+- DNS
+- IP Address
+- Server
+- Response
+
+---
+
+# Slide 23 – Review
+
+## Complete the Sentences
+
+1.
+
+A **client** ___________________________
+
+---
+
+2.
+
+A **server** ___________________________
+
+---
+
+3.
+
+DNS translates
+
+____________________
+
+into
+
+____________________
+
+---
+
+4.
+
+An IP address is
+
+____________________________
+
+---
+
+### Speaker Notes
+
+Ask students to answer verbally or write responses in their notebooks.
+
+Suggested answers:
+
+- requests information
+- provides information
+- domain names → IP addresses
+- a unique address used to identify a device on a network
+
+---
+
+# Slide 24 – Exit Ticket
+
+Before you leave, answer these questions.
+
+1. What is one new thing you learned today?
+
+2. Why is DNS important?
+
+3. What question do you still have?
+
+---
+
+### Speaker Notes
+
+Collect responses as students leave or use an online form.
+
+These answers provide valuable formative assessment and identify misconceptions to revisit.
+
+---
+
+# Slide 25 – Homework
+
+Choose ONE activity.
+
+### Option A
+
+Draw a flowchart showing how a webpage loads.
+
+---
+
+### Option B
+
+Explain the Internet process to a family member using your own words.
+
+---
+
+### Option C
+
+Research one topic:
+
+- Cloud Computing
+- Data Centres
+- Content Delivery Networks (CDNs)
+
+Prepare a short summary for the next lesson.
+
+---
+
+### Speaker Notes
+
+Encourage students to use diagrams rather than copying definitions.
+
+For extension students, Option C provides a useful bridge to future networking topics.
+
+---
+
+# Slide 26 – Looking Ahead
+
+## Next Lesson
+
+### Network Protocols
+
+How do billions of computers communicate using the same rules?
+
+Topics include:
+
+- Communication protocols
+- TCP/IP (Introduction)
+- Reliable data transmission
+- Why standards matter
+
+---
+
+### Speaker Notes
+
+Conclude by explaining that today students learned **where** information goes.
+
+Next lesson, they will learn **how** computers agree on the rules for sending and receiving information.
+
+This creates a natural progression into Lesson 3.
+
+---
+
+# Final Slide – Key Takeaways
+
+## Today You Learned...
+
+✅ The difference between a client and a server
+
+✅ Why every device needs an IP address
+
+✅ Why humans use domain names
+
+✅ How DNS translates names into addresses
+
+✅ The complete journey of a webpage
+
+---
+
+### Remember
+
+> **People use names.**
+
+> **Computers use numbers.**
+
+> **DNS connects the two.**
+
+> **The Internet works because millions of devices follow the same process.**
+
+---
+
+### Speaker Notes
+
+Finish with a brief recap.
+
+Ask students to rate their confidence (1–5 fingers or thumbs up/down).
+
+Invite one volunteer to explain the entire webpage loading process without looking at their notes.
+
+Congratulate the class on completing Lesson 2 and preview the exciting concepts in Lesson 3.
