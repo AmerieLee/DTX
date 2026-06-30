@@ -1,173 +1,499 @@
 # Grade 9 Digital Technology
 # Workbook
-## Unit 3 – Networks and the Internet
-### Lesson 1 – Why Do We Need Computer Networks?
+# Unit 3 – Networks and the Internet
+## Lesson 2 – How Does the Internet Work?
 
 ---
 
 # Student Information
 
-**Name:** ________________________
+**Name:** ______________________________
 
-**Class:** ________________________
+**Class:** ______________________________
 
-**Date:** ________________________
+**Date:** ______________________________
 
 ---
 
 # Learning Goals
 
-By completing this workbook, you should be able to:
+By the end of this lesson, I can:
 
-- Explain the purpose of a computer network.
-- Compare LANs and WANs.
-- Identify common networking devices.
-- Draw a simple network diagram.
-- Apply networking concepts to real-life situations.
+☐ explain the client–server model.
+
+☐ describe the purpose of an IP address.
+
+☐ explain why domain names are used.
+
+☐ describe the role of DNS.
+
+☐ explain how a webpage loads.
 
 ---
 
-# Part A – Key Vocabulary
+# Part A – Warm-up
 
-Match each word with its correct definition.
+## 1. Think About It
 
-| Term | Letter |
-|------|--------|
-| Network | ____ |
-| Router | ____ |
-| Switch | ____ |
-| LAN | ____ |
-| WAN | ____ |
-| Server | ____ |
-| Client | ____ |
+Imagine you type this address into your browser.
+
+```
+www.wikipedia.org
+```
+
+What do you think happens before the webpage appears?
+
+Write your ideas.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## 2. What Do You Already Know?
+
+Circle **Yes** or **No**.
+
+| Question | Yes | No |
+|-----------|:---:|:--:|
+| I know what a computer network is. | ○ | ○ |
+| I know what a router does. | ○ | ○ |
+| I know what the Internet is. | ○ | ○ |
+| I have heard of an IP address. | ○ | ○ |
+
+---
+
+# Part B – Key Vocabulary
+
+Match each word with its meaning.
+
+| Word | Letter |
+|------|:------:|
+| Client | _____ |
+| Server | _____ |
+| IP Address | _____ |
+| Domain Name | _____ |
+| DNS | _____ |
+| Request | _____ |
+| Response | _____ |
 
 Definitions
 
-A. Connects devices inside one network.
+A. A human-readable website name
 
-B. Connects different networks.
+B. A message asking for information
 
-C. Provides services to other computers.
+C. A unique numerical address
 
-D. A small local network.
+D. Returns information to a client
 
-E. A worldwide or large-scale network.
+E. A computer providing information
 
-F. A device requesting services.
+F. A computer requesting information
 
-G. Connected devices that communicate.
-
----
-
-# Part B – Fill in the Blanks
-
-Use the words below.
-
-```
-LAN
-WAN
-Router
-Switch
-Server
-Client
-Network
-```
-
-1. A __________ connects different networks.
-
-2. The Internet is the world's largest __________.
-
-3. A __________ provides services to other computers.
-
-4. A school usually has a __________.
-
-5. A __________ connects devices inside a LAN.
-
-6. Your laptop is normally a __________.
-
-7. Computers communicate through a __________.
+G. Converts domain names into IP addresses
 
 ---
 
-# Part C – LAN or WAN?
+# Part C – Client or Server?
 
-Write **LAN** or **WAN**.
+Read each situation.
 
-| Example | Answer |
-|----------|--------|
-| Home Wi-Fi | ______ |
-| School Network | ______ |
-| Internet | ______ |
-| International Bank Network | ______ |
-| Office Network | ______ |
+Write **Client** or **Server**.
 
----
-
-# Part D – Identify the Device
-
-Write the correct answer.
-
-1.
-
-```
-Internet
-    │
-   ?
-    │
-School Network
-```
-
-Answer
-
-____________________
+| Situation | Answer |
+|-----------|--------|
+| Your phone opens YouTube. | __________ |
+| Netflix sends a movie. | __________ |
+| Google Classroom sends homework. | __________ |
+| Your laptop downloads a file. | __________ |
+| A school web server stores webpages. | __________ |
 
 ---
 
-2.
+# Part D – Draw the Communication
+
+Complete the diagram.
 
 ```
-Laptop
-   │
-Laptop
-   │
-Printer
-   │
- ?
+_____________
+
+      Request
+
+_____________________
+
+      Response
+
+_____________
 ```
 
-Answer
-
-____________________
+Label each box correctly.
 
 ---
 
-# Part E – True or False
+# Part E – Understanding IP Addresses
 
-Write **True** or **False**.
+## 1.
 
-____ A router connects different networks.
+Complete the sentence.
 
-____ A switch connects devices inside a LAN.
+Every device connected to a network needs
 
-____ Every LAN is larger than a WAN.
+_________________________________________
 
-____ The Internet is an example of a WAN.
+because
 
-____ A server provides services to clients.
+_________________________________________
 
-____ Wi-Fi and the Internet are exactly the same thing.
+_________________________________________.
 
 ---
 
-# Part F – Short Answer
+## 2.
 
-Answer in complete sentences.
+Look at the following examples.
+
+Circle the IP addresses.
+
+```
+192.168.1.5
+
+www.google.com
+
+172.16.0.8
+
+school.edu
+
+10.0.0.15
+
+www.wikipedia.org
+```
+
+---
+
+## 3.
+
+Why are IP addresses important?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part F – Public or Private?
+
+Tick the correct answer.
+
+| Device | Public | Private |
+|---------|:------:|:-------:|
+| School laptop | □ | □ |
+| Classroom printer | □ | □ |
+| Home computer | □ | □ |
+| School server | □ | □ |
+
+---
+
+# Part G – Domain Names
+
+Read the examples.
+
+```
+www.google.com
+
+www.wikipedia.org
+
+www.bbc.com
+```
+
+Answer the questions.
 
 ### 1.
 
-Why do schools use computer networks?
+Why are these easier to remember than IP addresses?
 
 ____________________________________________________
+
+____________________________________________________
+
+### 2.
+
+What do computers still need before communication begins?
+
+____________________________________________________
+
+---
+
+# Quick Check
+
+Complete the table.
+
+| Humans Prefer | Computers Prefer |
+|---------------|------------------|
+|               |                  |
+
+---
+
+# Reflection
+
+How confident do you feel so far?
+
+☐ I understand everything.
+
+☐ I understand most ideas.
+
+☐ I still need some help.
+
+Write one question you would like to ask your teacher.
+
+____________________________________________________
+
+____________________________________________________
+---
+
+# Part H – The Domain Name System (DNS)
+
+## 1. What Does DNS Do?
+
+Complete the sentence.
+
+DNS stands for
+
+____________________________________________.
+
+Its main job is to
+
+____________________________________________
+
+____________________________________________.
+
+---
+
+## 2. Complete the Diagram
+
+Fill in the missing labels.
+
+```
+You Type
+
+www.example.com
+
+        │
+
+        ▼
+
+____________________
+
+        │
+
+        ▼
+
+____________________
+
+        │
+
+        ▼
+
+Web Server
+```
+
+---
+
+## 3. True or False
+
+Write **T** for True or **F** for False.
+
+| Statement | Answer |
+|-----------|:------:|
+| DNS stores every website on the Internet. | ____ |
+| DNS helps computers find IP addresses. | ____ |
+| People usually remember domain names more easily than IP addresses. | ____ |
+| Every website has a domain name. | ____ |
+| DNS works every time you visit a website. | ____ |
+
+---
+
+## 4. Short Answer
+
+Why is DNS sometimes called the "phone book of the Internet"?
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part I – Following the Journey of a Web Page
+
+Number the steps from **1** to **6**.
+
+| Step | Order |
+|------|:----:|
+| Browser displays the webpage. | □ |
+| User types a URL. | □ |
+| DNS finds the IP address. | □ |
+| Browser sends a request. | □ |
+| Server sends webpage files. | □ |
+| Browser receives the response. | □ |
+
+---
+
+## Complete the Flowchart
+
+Fill in the missing boxes.
+
+```
+Type URL
+
+     ↓
+
+______________
+
+     ↓
+
+Browser Sends Request
+
+     ↓
+
+______________
+
+     ↓
+
+Browser Displays Webpage
+```
+
+---
+
+# Part J – Requests and Responses
+
+Read each situation.
+
+Decide whether it describes a **Request** or a **Response**.
+
+| Situation | Answer |
+|-----------|--------|
+| Your browser asks for a webpage. | __________ |
+| The server sends HTML files. | __________ |
+| Your laptop asks for an image. | __________ |
+| The server sends a video. | __________ |
+| A browser downloads a stylesheet. | __________ |
+
+---
+
+# Part K – Data Packets
+
+Read the paragraph.
+
+When information travels across a network, it is divided into small pieces called **packets**.
+
+Answer the questions.
+
+### 1.
+
+Why is information divided into packets?
+
+____________________________________________________
+
+____________________________________________________
+
+### 2.
+
+Can different packets travel along different routes?
+
+☐ Yes
+
+☐ No
+
+### 3.
+
+What happens if one packet is lost?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part L – Case Study
+
+## Emma Opens Her School LMS
+
+Emma enters:
+
+```
+https://school.edu
+```
+
+Answer the following questions.
+
+### 1.
+
+What is the first thing Emma types?
+
+____________________________________________________
+
+### 2.
+
+What system finds the IP address?
+
+____________________________________________________
+
+### 3.
+
+Which computer sends the webpage?
+
+____________________________________________________
+
+### 4.
+
+Which device displays the webpage?
+
+____________________________________________________
+
+### 5.
+
+Who is the client?
+
+____________________________________________________
+
+### 6.
+
+Who is the server?
+
+____________________________________________________
+
+---
+
+# Part M – Complete the Table
+
+| Item | Purpose |
+|------|---------|
+| Client | __________________________ |
+| Server | __________________________ |
+| IP Address | __________________________ |
+| Domain Name | __________________________ |
+| DNS | __________________________ |
+| URL | __________________________ |
+| Packet | __________________________ |
+
+---
+
+# Part N – Spot the Mistake
+
+Read each statement.
+
+Rewrite it correctly.
+
+### 1.
+
+"The Internet is one giant computer."
+
+Correct version:
 
 ____________________________________________________
 
@@ -177,9 +503,9 @@ ____________________________________________________
 
 ### 2.
 
-Explain the difference between a LAN and a WAN.
+"Google is the Internet."
 
-____________________________________________________
+Correct version:
 
 ____________________________________________________
 
@@ -189,7 +515,9 @@ ____________________________________________________
 
 ### 3.
 
-Describe one example of resource sharing.
+"DNS stores websites."
+
+Correct version:
 
 ____________________________________________________
 
@@ -197,121 +525,11 @@ ____________________________________________________
 
 ---
 
-# Part G – Classroom Network
+### 4.
 
-Draw your classroom network.
+"Every webpage comes directly from Wi-Fi."
 
-Include
-
-- Teacher computer
-- Student laptops
-- Switch
-- Router
-- Printer
-- Internet
-
-```
-+------------------------------------------------+
-
-
-
-
-+------------------------------------------------+
-```
-
-Label every device.
-
----
-
-# Part H – Think Like a Network Engineer
-
-Your school has opened a new computer lab.
-
-The room contains:
-
-- 30 student laptops
-- 1 teacher computer
-- 1 printer
-- Internet
-- Wi-Fi
-
-### Task
-
-List the networking devices needed.
-
-_________________________________________
-
-_________________________________________
-
-_________________________________________
-
-Why are they needed?
-
-_________________________________________
-
-_________________________________________
-
-_________________________________________
-
----
-
-# Part I – AI Reflection
-
-Ask an AI assistant:
-
-> Explain the difference between a router and a switch.
-
-After reading the answer,
-
-complete the table.
-
-| Question | Response |
-|-----------|----------|
-| One thing the AI explained well | |
-| One thing that could be improved | |
-| My improved explanation | |
-
----
-
-# Part J – Python Reflection
-
-After running today's Python program,
-
-answer the following.
-
-1. How many devices were listed?
-
-_____________
-
-2. Add three more devices.
-
-- __________________
-
-- __________________
-
-- __________________
-
-3. How many devices are there now?
-
-_____________
-
----
-
-# Challenge Activity
-
-A school has:
-
-- 500 students
-- 60 teachers
-- 120 desktop computers
-- 450 laptops
-- 35 printers
-
-### Question 1
-
-Would one router be enough?
-
-Explain.
+Correct version:
 
 ____________________________________________________
 
@@ -319,21 +537,11 @@ ____________________________________________________
 
 ---
 
-### Question 2
+# Think Like a Computer Scientist
 
-Would one switch be enough?
+Imagine DNS stopped working for one day.
 
-Explain.
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-### Question 3
-
-Suggest two improvements for this network.
+Write three things that might happen.
 
 1.
 
@@ -343,39 +551,425 @@ ____________________________________________________
 
 ____________________________________________________
 
+3.
+
+____________________________________________________
+
+---
+
+# Self Check
+
+Rate your understanding.
+
+| Statement | 😊 | 😐 | 😟 |
+|-----------|:--:|:--:|:--:|
+| I can explain what a client is. | □ | □ | □ |
+| I can explain what a server is. | □ | □ | □ |
+| I understand IP addresses. | □ | □ | □ |
+| I understand DNS. | □ | □ | □ |
+| I can explain how a webpage loads. | □ | □ | □ |
+---
+
+# Part O – Vocabulary Review
+
+Complete each sentence using the words in the box.
+
+**Word Bank**
+
+```
+Client
+Server
+DNS
+IP Address
+Packet
+Request
+Response
+Domain Name
+URL
+```
+
+### 1.
+
+A __________________________ is a computer that provides information to other computers.
+
+---
+
+### 2.
+
+A __________________________ requests information from another computer.
+
+---
+
+### 3.
+
+A __________________________ is a human-readable website name.
+
+---
+
+### 4.
+
+A __________________________ identifies a device on a network.
+
+---
+
+### 5.
+
+A __________________________ translates website names into IP addresses.
+
+---
+
+### 6.
+
+Small pieces of transmitted data are called __________________________.
+
+---
+
+### 7.
+
+A browser sends a __________________________ to a web server.
+
+---
+
+### 8.
+
+The server sends a __________________________ back to the browser.
+
+---
+
+### 9.
+
+A __________________________ is the complete address used to locate an online resource.
+
+---
+
+# Part P – Compare and Contrast
+
+Complete the table.
+
+| Compare | Client | Server |
+|----------|--------|--------|
+| Main job | | |
+| Example | | |
+| Sends or receives requests? | | |
+| Used by students? | | |
+
+---
+
+| Compare | Domain Name | IP Address |
+|----------|-------------|------------|
+| Easier for humans? | | |
+| Easier for computers? | | |
+| Example | | |
+| Purpose | | |
+
+---
+
+# Part Q – Scenario Challenge
+
+Read each situation carefully.
+
+---
+
+## Scenario 1
+
+You type:
+
+```
+www.bbc.com
+```
+
+List the first four events that happen.
+
+1.
+
+____________________________________________________
+
+2.
+
+____________________________________________________
+
+3.
+
+____________________________________________________
+
+4.
+
+____________________________________________________
+
+---
+
+## Scenario 2
+
+Your friend says:
+
+> "Wi-Fi and the Internet are exactly the same thing."
+
+Write a short explanation.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## Scenario 3
+
+A web server suddenly stops working.
+
+Predict what users will experience.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part R – Draw Your Own Diagram
+
+Create a diagram showing how a webpage reaches your computer.
+
+Include these labels.
+
+- Browser
+- DNS
+- Internet
+- Web Server
+- Request
+- Response
+
+```
++------------------------------------------------------+
+
+                Draw your diagram here
+
+
++------------------------------------------------------+
+```
+
+---
+
+# Part S – Reflection
+
+Think about today's lesson.
+
+### Something new I learned
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### Something I found difficult
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### One strategy that helped me learn
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### One question I still have
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part T – Exit Ticket
+
+Answer these questions without looking at your notes.
+
+## 1.
+
+What is the job of a client?
+
+____________________________________________________
+
+---
+
+## 2.
+
+What is the job of a server?
+
+____________________________________________________
+
+---
+
+## 3.
+
+Why does every device need an IP address?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## 4.
+
+Why are domain names important?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## 5.
+
+Explain the role of DNS in one sentence.
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## 6.
+
+Place these steps in the correct order.
+
+| Step | Order |
+|------|:----:|
+| Browser displays webpage | □ |
+| DNS finds the IP address | □ |
+| User enters a URL | □ |
+| Server sends webpage | □ |
+| Browser sends request | □ |
+
+---
+
+## 7.
+
+What are packets?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part U – Extension Activity
+
+Choose **ONE** challenge.
+
+### Challenge A – Research
+
+Research one of the following topics.
+
+- Data Centres
+- Cloud Computing
+- Content Delivery Networks (CDNs)
+- Fibre-optic Internet
+- 5G Networks
+
+Complete the table.
+
+| Question | Answer |
+|----------|--------|
+| What is it? | |
+| Why is it important? | |
+| One interesting fact | |
+
+---
+
+### Challenge B – Explain to a Younger Student
+
+Imagine you are teaching a Grade 6 student.
+
+Write a short explanation (100–150 words) answering:
+
+> "How does the Internet find a website?"
+
+Use simple language and at least **five** vocabulary words from this lesson.
+
+```
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+```
+
 ---
 
 # Self-Assessment
 
-Tick the boxes that describe your learning today.
+Colour or tick the box that best describes your understanding.
 
-| I can... | ✓ |
-|-----------|---|
-| Explain what a network is. | □ |
-| Explain LAN and WAN. | □ |
-| Identify a router. | □ |
-| Identify a switch. | □ |
-| Draw a network diagram. | □ |
-| Explain why schools use networks. | □ |
+| I can... | Not Yet | Almost | Yes |
+|-----------|:-------:|:------:|:---:|
+| Explain the client–server model. | □ | □ | □ |
+| Describe an IP address. | □ | □ | □ |
+| Explain why domain names exist. | □ | □ | □ |
+| Describe how DNS works. | □ | □ | □ |
+| Explain how a webpage loads. | □ | □ | □ |
+| Use networking vocabulary correctly. | □ | □ | □ |
 
 ---
 
-# Reflection
+# Learning Journal
 
-Today I learned...
-
-____________________________________________________
-
-____________________________________________________
-
-I still want to know...
+Today I am most proud of...
 
 ____________________________________________________
 
 ____________________________________________________
 
-The most interesting idea today was...
+____________________________________________________
+
+My goal before the next lesson is...
 
 ____________________________________________________
 
 ____________________________________________________
+
+____________________________________________________
+
+---
+
+# Teacher Check
+
+| Item | ✓ |
+|------|:-:|
+| Workbook completed | |
+| Class discussion participated | |
+| Activities completed | |
+| Exit Ticket submitted | |
+
+Teacher comments:
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Workbook Complete
+
+Congratulations!
+
+You have completed **Unit 3 – Lesson 2: How Does the Internet Work?**
+
+You are now ready to learn about **network protocols** in the next lesson, where you will discover how computers follow common rules to exchange information accurately and efficiently.
