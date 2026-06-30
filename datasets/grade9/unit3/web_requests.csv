@@ -1,0 +1,31 @@
+device_id,device_name,device_type,location,connection_type,status
+1,Teacher-PC-01,Desktop,Classroom A,Wired,Online
+2,Student-Laptop-01,Laptop,Classroom A,WiFi,Online
+3,Student-Laptop-02,Laptop,Classroom A,WiFi,Online
+4,Student-Laptop-03,Laptop,Classroom A,WiFi,Offline
+5,Printer-01,Printer,Classroom A,Wired,Online
+6,Router-01,Router,Server Room,Wired,Online
+7,Switch-01,Switch,Server Room,Wired,Online
+8,Server-01,Server,Server Room,Wired,Online
+9,AccessPoint-01,WiFi Access Point,Classroom A,Wired,Online
+10,Tablet-01,Tablet,Library,WiFi,Online
+11,Tablet-02,Tablet,Library,WiFi,Online
+12,Laptop-04,Laptop,Library,WiFi,Online
+13,Laptop-05,Laptop,Library,WiFi,Offline
+14,Desktop-02,Desktop,Computer Lab,Wired,Online
+15,Desktop-03,Desktop,Computer Lab,Wired,Online
+16,Desktop-04,Desktop,Computer Lab,Wired,Online
+17,Desktop-05,Desktop,Computer Lab,Wired,Online
+18,Desktop-06,Desktop,Computer Lab,Wired,Offline
+19,Desktop-07,Desktop,Computer Lab,Wired,Online
+20,Desktop-08,Desktop,Computer Lab,Wired,Online
+21,Desktop-09,Desktop,Computer Lab,Wired,Online
+22,Desktop-10,Desktop,Computer Lab,Wired,Online
+23,Printer-02,Printer,Library,Wired,Online
+24,AccessPoint-02,WiFi Access Point,Library,Wired,Online
+25,AccessPoint-03,WiFi Access Point,Computer Lab,Wired,Online
+26,Student-Phone-01,Smartphone,Classroom A,WiFi,Online
+27,Student-Phone-02,Smartphone,Classroom A,WiFi,Online
+28,Student-Phone-03,Smartphone,Library,WiFi,Online
+29,NAS-01,NAS,Server Room,Wired,Online
+30,Backup-Server-01,Server,Server Room,Wired,Online
