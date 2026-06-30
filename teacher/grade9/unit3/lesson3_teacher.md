@@ -1,593 +1,523 @@
 # Grade 9 Digital Technology
+
 # Teacher Guide
+
 # Unit 3 – Networks and the Internet
-## Lesson 2 – How Does the Internet Work?
 
----
-
-# Lesson Information
-
-**Year Level:** Grade 9
-
-**Recommended Duration:** 70–80 minutes
-
-**Curriculum Strand:** Networks and Internet Technologies
-
-**Prerequisite Knowledge**
-
-Students should already understand:
-
-- what a computer network is
-- the difference between LAN and WAN
-- the purpose of routers and switches
-- that information travels in packets
-
-(Refer to Unit 3 Lesson 1 if necessary.)
+# Lesson 3 – Network Protocols
 
 ---
 
 # Lesson Overview
 
-This lesson introduces students to one of the most important ideas in networking:
+**Lesson Length**
 
-**How information travels across the Internet.**
+70–80 minutes
 
-Students learn that communication on the Internet follows a client–server model.
+**Focus**
 
-They investigate:
+Students learn that computers communicate by following agreed rules called **network protocols**. They explore the roles of TCP, IP, HTTP, HTTPS, and DNS, and understand how these protocols work together to enable reliable and secure Internet communication.
 
-- clients
-- servers
-- IP addresses
-- domain names
-- DNS
-- webpage loading
-
-Rather than memorising technical definitions, students are encouraged to understand the sequence of events that occurs whenever they open a webpage.
-
-This lesson provides the conceptual foundation for later lessons on protocols, cybersecurity and cloud computing.
+Rather than memorising technical definitions, students develop a conceptual understanding of why communication rules are necessary and how different protocols perform specialised tasks.
 
 ---
 
-# Learning Intentions
+# Curriculum Connections
 
-Students will:
+This lesson develops students' understanding of:
 
-- explain how clients and servers communicate
-- describe the purpose of IP addresses
-- explain why domain names are used
-- describe the role of DNS
-- explain the process of loading a webpage
+- digital communication
+- computer networks
+- Internet technologies
+- cybersecurity foundations
+- problem solving
+- computational thinking
+- digital literacy
+
+Students also strengthen analytical thinking through comparisons, discussions, and real-world case studies.
+
+---
+
+# Learning Objectives
+
+By the end of the lesson, students should be able to:
+
+- define a network protocol
+- explain why communication rules are necessary
+- identify the roles of TCP and IP
+- distinguish between HTTP and HTTPS
+- explain the purpose of acknowledgements (ACKs)
+- describe how several protocols work together when loading a webpage
 
 ---
 
 # Success Criteria
 
-Students can:
+Students can successfully:
 
-☐ explain the client–server model
+✓ explain a protocol using their own words
 
-☐ identify examples of clients and servers
+✓ identify the purpose of TCP
 
-☐ explain why every device requires an IP address
+✓ identify the purpose of IP
 
-☐ describe the purpose of DNS
+✓ explain why HTTPS is more secure than HTTP
 
-☐ sequence the steps involved in loading a webpage
-
----
-
-# Resources
-
-Required
-
-- Student Book (Lesson 2)
-- Projector or interactive display
-- Internet connection
-- Whiteboard
-- Student notebooks
-
-Recommended
-
-- `client-server.svg`
-- `dns-process.svg`
-- `how-web-page-loads.svg`
-- `url-breakdown.svg`
-- `ip-address.svg`
-
-Optional
-
-- Teacher laptop
-- School website
-- Google Classroom
-- Live demonstration of a webpage loading
+✓ describe the sequence of events when visiting a website
 
 ---
 
-# Lesson Sequence
+# Prior Knowledge
 
-| Stage | Time |
-|---------|------|
-| Starter | 10 min |
-| Direct Instruction | 20 min |
-| Guided Practice | 20 min |
-| Independent Activity | 20 min |
-| Reflection | 10 min |
+Students should already understand:
 
----
+- LAN and WAN
+- routers and switches
+- client and server
+- packets
+- IP addresses
+- DNS
+- webpage loading process
 
-# Starter (10 minutes)
-
-Display the following question.
-
-> "What happens after you press Enter when visiting a website?"
-
-Allow students one minute to think individually.
-
-Students then discuss with a partner.
-
-Finally, invite several students to share their ideas.
+If students struggle with these concepts, briefly review Lesson 1 and Lesson 2 before introducing TCP/IP.
 
 ---
 
-## Expected Responses
+# Resources Required
 
-Students may say:
+Presentation
 
-- The Internet finds the website.
-- Google opens the webpage.
-- Wi-Fi downloads it.
-- The browser searches online.
-- The computer contacts another computer.
+- lesson3_slides.md
 
-Do not immediately correct incorrect answers.
+Student Book
 
-Record ideas on the board.
+- lesson3/index.md
 
-Explain that today's lesson will investigate which ideas are correct.
+Workbook
 
----
+- lesson3_workbook.md
 
-# Activating Prior Knowledge
+Assessment
 
-Ask the class:
+- lesson3_quiz.md
 
-1. What is a network?
+Visual Resources
 
-2. What is a router?
+- protocol-stack.svg
+- tcp-vs-udp.svg
+- http-request.svg
+- packet-acknowledgement.svg
+- protocol-comparison.svg
 
-3. What is the Internet?
+Datasets
 
-4. What does a website need before it can appear on your screen?
-
-Students should connect today's lesson with concepts learned in Lesson 1.
-
-If necessary, briefly review:
-
-- LAN
-- WAN
-- Routers
-- Data packets
-
-Limit this review to five minutes.
+- protocol_messages.csv
+- network_packets.csv
 
 ---
 
-# Direct Instruction
+# Key Vocabulary
 
-## Introducing Clients and Servers
+| Word | Teacher Explanation |
+|------|----------------------|
+| Protocol | Agreed communication rules |
+| TCP | Makes communication reliable |
+| IP | Finds the correct destination |
+| HTTP | Transfers webpages |
+| HTTPS | Secure version of HTTP |
+| Encryption | Protects information from being read by others |
+| ACK | Confirmation that a packet arrived safely |
 
-Display:
+Encourage students to explain these terms using everyday language before introducing more formal definitions.
 
-`client-server.svg`
+---
 
-Begin with a familiar example.
+# Common Student Misconceptions
 
-Teacher:
+## Misconception 1
 
-> "When you order food at a restaurant, who asks for the food?"
+"TCP and IP are the same thing."
 
-Students:
+Clarify that:
 
-"The customer."
+IP decides **where** information travels.
 
-Teacher:
+TCP checks **whether** information arrives correctly.
 
-> "Who prepares the food?"
+---
 
-Students:
+## Misconception 2
 
-"The kitchen."
+"HTTPS makes websites faster."
 
-Explain:
+Explain that HTTPS primarily improves **security**, not speed.
 
-The customer behaves like a client.
+---
 
-The kitchen behaves like a server.
+## Misconception 3
 
-The waiter is similar to the network carrying information between them.
+"Only one protocol is used when visiting a website."
 
-This analogy helps students understand the client–server model before introducing technical terminology.
+Students should understand that many protocols work together simultaneously.
+
+---
+
+## Misconception 4
+
+"Encryption hides websites from the Internet."
+
+Clarify that encryption protects the contents of communication rather than making the website invisible.
+
+---
+
+# Suggested Lesson Timeline
+
+| Time | Activity |
+|------|----------|
+| 10 min | Starter discussion |
+| 15 min | Introduction to protocols |
+| 15 min | TCP and IP |
+| 15 min | HTTP vs HTTPS |
+| 15 min | Activities and formative assessment |
+| 10 min | Review and reflection |
+
+Adjust timings according to student confidence and class discussion.
 
 ---
 
 # Teaching Notes
 
-Emphasise:
+## Slides 1–2
 
-A server is **not** simply a powerful computer.
+### Lesson Introduction
 
-A server is defined by the service it provides.
+Begin by asking:
 
-Any computer can become a server if it provides resources to other devices.
+> "What would happen if everyone invented their own traffic rules?"
 
-Avoid statements such as:
+Allow students to suggest possible problems.
 
-> "Servers are always very large."
+Examples:
 
-Instead say:
+- accidents
+- confusion
+- traffic jams
+- unsafe roads
 
-> "Many servers are powerful because they serve many users, but their role is more important than their size."
+Explain that computers face a similar challenge.
+
+Without shared communication rules, devices would not understand one another.
+
+Introduce the term **protocol**.
 
 ---
 
-# Guided Discussion
+## Slide 3
+
+### Think About This
+
+Students compare classroom rules, sports rules, and communication rules.
+
+Encourage multiple examples.
+
+Possible prompts:
+
+- Why do games have rules?
+- Why do schools have rules?
+- Why does language have grammar?
+
+Guide students toward the idea that rules make communication predictable and reliable.
+
+---
+
+## Slides 4–5
+
+### Introducing Protocols
+
+Key message:
+
+A protocol is **not software**.
+
+A protocol is **a set of agreed rules**.
+
+Use familiar examples.
+
+Possible analogy:
+
+Different countries may drive on different sides of the road, but everyone within that country follows the same rules.
+
+Similarly, every Internet-connected device follows common networking rules.
+
+---
+
+## Slides 6–7
+
+### Everyday Examples
 
 Ask students:
 
-"What devices have you used today?"
+"What protocols do people use every day?"
 
-List responses.
+Possible answers include:
 
-Possible answers:
+- saying "hello"
+- taking turns speaking
+- classroom routines
+- sports rules
+- queueing politely
 
-- phone
-- laptop
-- tablet
-- Chromebook
+Explain that computers also need communication routines.
 
-Then ask:
-
-"When you watched YouTube this morning, was your phone acting as a client or a server?"
-
-Expected answer:
-
-Client.
-
-Next ask:
-
-"What computer provided the video?"
-
-Expected answer:
-
-YouTube server.
+Transition naturally into networking protocols.
 
 ---
 
-# Common Misconceptions
+## Slides 8–9
 
-### Misconception
+### Transition to TCP/IP
 
-"The Internet is one giant computer."
+Remind students:
 
-Correction
+Lesson 2 explained:
 
-Explain that the Internet is a network connecting millions of computers.
+- DNS
+- IP addresses
+- webpage loading
 
----
+Today's lesson answers a different question:
 
-### Misconception
+> "How do computers know exactly how to communicate?"
 
-"Google is the Internet."
+Introduce TCP/IP as the most important collection of Internet communication protocols.
 
-Correction
+Do not explain every detail yet.
 
-Explain that Google provides services on the Internet.
-
-Students often confuse companies with the infrastructure itself.
-
----
-
-### Misconception
-
-"My laptop stores every website."
-
-Correction
-
-Websites remain on servers.
-
-The browser only downloads the information needed to display the page.
+Simply provide the overall idea before exploring each protocol individually in the next section.
 
 ---
 
-# Transition
+# Teacher Tips
 
-Conclude this section by asking:
+Keep technical language simple.
 
-"If computers can communicate with one another, how do they know exactly which computer to contact?"
+Instead of saying:
 
-Allow students to suggest ideas.
+> "Transmission Control Protocol establishes reliable end-to-end communication."
 
-Do not introduce the answer yet.
+Say:
 
-Explain that the next section introduces **IP addresses**, which solve this problem.
----
+> "TCP checks that every piece of information arrives safely."
 
-# Teaching IP Addresses
-
-## Learning Goal
-
-Students understand that every device connected to a network requires a unique address.
-
-Avoid beginning with technical definitions.
-
-Instead, begin with a familiar situation.
-
----
-
-## Teacher Demonstration
-
-Hold up an envelope (or display an image of one).
-
-Ask:
-
-> "Could the post office deliver this letter if it had no address?"
-
-Students should answer:
-
-> "No."
-
-Ask:
-
-> "Why not?"
-
-Guide students toward the idea that an address tells the delivery system where the letter should go.
-
-Explain that the Internet has the same problem.
-
-Data cannot be delivered unless every device has an address.
-
-Introduce the term:
-
-**IP Address**
-
-Write on the board:
-
-```
-House Address
-        ↓
-Delivery
-
-IP Address
-        ↓
-Data Delivery
-```
-
-Emphasise that an IP address is simply the network's way of identifying a device.
-
-Avoid overwhelming students with binary numbers or networking standards.
-
-The goal is conceptual understanding.
-
----
-
-# Introducing IPv4
-
-Display the example:
-
-```
-192.168.1.15
-```
-
-Ask students:
-
-> "How many groups of numbers can you see?"
-
-Expected answer:
-
-Four.
-
-Then ask:
-
-> "Do you think people enjoy memorising numbers like this?"
-
-Students usually answer:
-
-"No."
-
-Use this discussion to transition naturally to domain names.
-
----
-
-# Teaching IPv6
-
-Students do **not** need to memorise IPv6 addresses.
-
-Instead, explain the reason IPv6 exists.
-
-Suggested explanation:
-
-> "When the Internet was first created, engineers believed there would be enough addresses for everyone. Today we have billions of devices including phones, tablets, watches, televisions and even refrigerators. IPv6 provides many more addresses for the future."
-
-Avoid discussing hexadecimal notation unless students ask.
-
-If students are curious, simply explain that IPv6 uses a different numbering system to create many more unique addresses.
-
----
-
-# Teaching Domain Names
-
-Display:
-
-```
-142.250.190.78
-```
-
-Ask students to look at the number for five seconds.
-
-Hide the number.
-
-Ask:
-
-> "Who can remember it?"
-
-Very few students will succeed.
-
-Now display:
-
-```
-www.google.com
-```
-
-Hide it after five seconds.
-
-Almost every student will remember it.
-
-Use this simple activity to demonstrate why domain names exist.
-
-Students quickly understand that names are easier for humans while numbers are easier for computers.
-
----
-
-# Introducing DNS
-
-Display:
-
-`dns-process.svg`
-
-Explain that DNS stands for **Domain Name System**.
-
-Avoid giving only the acronym.
-
-Students remember concepts more effectively when they understand the purpose.
-
-Use the analogy below.
-
----
-
-## Teacher Analogy
-
-Ask:
-
-> "Do you remember your best friend's phone number?"
-
-Many students will answer "No."
-
-Then ask:
-
-> "How do you call them?"
-
-Expected responses:
-
-- Contacts
-- Phone book
-- Search
-
-Explain:
-
-DNS works in exactly the same way.
-
-People remember names.
-
-Computers use numbers.
-
-DNS connects the two.
-
----
-
-# Suggested Teacher Questions
-
-Use open-ended questions whenever possible.
-
-Instead of asking:
-
-> "Is DNS important?"
-
-Ask:
-
-> "What problems would people face if DNS disappeared tomorrow?"
-
-Possible student responses:
-
-- We would have to remember numbers.
-- Websites would be difficult to find.
-- Browsing would become slower and more confusing.
-
-These responses demonstrate conceptual understanding rather than memorisation.
-
----
-
-# Mini Demonstration
-
-Open a web browser.
-
-Type:
-
-```
-www.wikipedia.org
-```
-
-Ask students:
-
-"What happened before the page appeared?"
-
-Guide discussion toward the hidden steps.
-
-Students often assume the browser goes directly to the webpage.
-
-Explain that several systems work together:
-
-1. Browser
-2. DNS
-3. Web server
-4. Response
-5. Browser display
-
-Point out that these steps happen automatically within fractions of a second.
+Students remember ideas much more effectively than complex terminology.
 
 ---
 
 # Formative Assessment Checkpoint
 
-Before moving on, ask students to complete the following statements.
+Before moving to TCP/IP, ask students to answer these questions orally:
 
-1.
+1. What is a protocol?
 
-A client is a computer that ___________________________
+2. Why do computers need protocols?
 
-Expected response:
+3. Can you think of an example of rules outside computing?
 
-requests information.
+Listen for conceptual understanding rather than memorised definitions.
+---
+
+# Teaching Notes
+
+## Slides 10–11
+
+### Understanding IP
+
+Begin by reviewing IP addresses from Lesson 2.
+
+Ask students:
+
+> "How does your computer know where to send information?"
+
+Expected responses:
+
+- It uses an IP address.
+- DNS finds the IP address.
+- Routers help send data.
+
+Explain that **IP (Internet Protocol)** is responsible for finding the destination.
+
+Emphasise that IP focuses on **where** data should travel, not whether every packet arrives successfully.
+
+Avoid introducing IPv4 and IPv6 technical details at this stage.
+
+The goal is conceptual understanding.
 
 ---
 
-2.
+## Slides 12–13
 
-A server is a computer that ___________________________
+### Understanding TCP
 
-Expected response:
+Introduce TCP by asking students:
 
-provides information or services.
+> "What happens if one packet disappears while downloading a file?"
+
+Allow students to predict possible problems.
+
+Guide them toward these ideas:
+
+- incomplete files
+- broken images
+- corrupted videos
+- missing information
+
+Explain that TCP prevents these problems by:
+
+- numbering packets
+- checking delivery
+- requesting missing packets again
+- rebuilding information in the correct order
+
+Students should understand that TCP improves **reliability**, not speed.
 
 ---
 
-3.
+## Demonstration
 
-An IP address is ___________________________
+Prepare ten numbered cards.
 
-Expected response:
+Ask ten volunteers to stand in order.
 
-a unique address used to identify a device on a network.
+Next:
+
+- swap two students
+- remove one student
+- ask the class whether the "message" is complete
+
+Explain that TCP identifies missing information and restores the correct order.
+
+This simple activity usually creates a lasting understanding.
 
 ---
 
-4.
+## Slides 14–15
 
-DNS is responsible for ___________________________
+### HTTP
 
-Expected response:
+Ask students:
 
-translating domain names into IP addresses.
+> "When you type a website address, how does your browser ask for the webpage?"
+
+Introduce HTTP.
+
+Explain that HTTP defines:
+
+- how requests are written
+- how servers respond
+- how webpages are transferred
+
+Students do not need to memorise message formats.
+
+Instead, focus on the idea that both the browser and the server follow agreed communication rules.
+
+---
+
+## HTTPS
+
+Display two examples:
+
+```
+http://example.com
+```
+
+and
+
+```
+https://example.com
+```
+
+Ask:
+
+> "What difference do you notice?"
+
+Most students recognise the extra **S**.
+
+Explain that:
+
+**S = Secure**
+
+Discuss why security matters.
+
+Examples:
+
+- online banking
+- shopping
+- school accounts
+- email
+- passwords
+
+Students should understand that HTTPS protects information while it travels across the Internet.
+
+---
+
+## Demonstration
+
+Show two envelopes.
+
+One is open.
+
+One is sealed.
+
+Ask:
+
+> "Which one would you use to send your password?"
+
+Students immediately understand the purpose of encryption.
+
+Connect the analogy directly to HTTPS.
+
+---
+
+## Slides 16–18
+
+### Comparing Protocols
+
+Present the following simplified table.
+
+| Protocol | Main Job |
+|-----------|----------|
+| DNS | Finds IP addresses |
+| IP | Finds the destination |
+| TCP | Reliable delivery |
+| HTTP | Transfers webpages |
+| HTTPS | Transfers webpages securely |
+
+Encourage students to compare similarities and differences.
+
+Avoid asking students to memorise every definition.
+
+Instead, ask:
+
+> "What unique job does each protocol perform?"
+
+---
+
+# Higher-Order Questions
+
+Use questions that require explanation rather than recall.
+
+Examples:
+
+- Why can't every company invent its own Internet rules?
+
+- Why do you think TCP and IP are separate protocols?
+
+- Would HTTPS still work without TCP?
+
+- Why is reliable communication important?
+
+- Which protocol do you think users notice the least?
+
+Encourage students to justify their reasoning.
 
 ---
 
@@ -595,420 +525,428 @@ translating domain names into IP addresses.
 
 ## Support
 
-Provide students with a vocabulary card containing:
+Provide partially completed diagrams.
 
-- Client
-- Server
-- IP Address
-- Domain Name
-- DNS
+Highlight key vocabulary before reading.
 
-Include both definitions and simple diagrams.
+Allow students to work in pairs.
 
-Allow students to work with a partner during sequencing activities.
+Use visual aids frequently.
+
+Provide sentence starters.
+
+Examples:
+
+- "TCP is responsible for..."
+
+- "HTTPS is safer because..."
 
 ---
 
 ## Extension
 
-Ask higher-achieving students:
+Challenge students to investigate:
 
-> "Could two devices on the same network use exactly the same IP address?"
-
-Encourage discussion.
-
-Guide students toward the idea that duplicate addresses would cause communication problems because the network would not know which device should receive the data.
-
-No detailed discussion of IP conflicts is required at this stage.
-
----
-
-# Teacher Tips
-
-Students often confuse these pairs of terms.
-
-| Students Confuse | Clarification |
-|------------------|---------------|
-| Internet and Google | Google is a service on the Internet. |
-| Website and Server | A server stores and delivers websites. |
-| Domain Name and URL | A domain name is one part of a URL. |
-| Wi-Fi and Internet | Wi-Fi connects a device to a local network; Internet access depends on additional network infrastructure. |
-
-Return to these distinctions whenever they arise during discussion.
-
----
-
-# Transition to the Final Section
-
-Ask the class:
-
-> "Now we know how a browser finds a server. What happens after the browser has found the correct server?"
-
-Invite a few predictions.
-
-Explain that the next section follows the complete journey of a webpage—from the moment a URL is entered until the webpage appears on the screen.
----
-
-# Teaching "How a Web Page Loads"
-
-## Learning Goal
-
-Students understand that loading a webpage is a sequence of coordinated actions rather than a single event.
-
-Students should recognise that several systems cooperate:
-
-- Browser
-- DNS
-- Internet
-- Web Server
-- Data Packets
-
-The emphasis is on the overall process, not memorising technical terminology.
-
----
-
-## Teaching Sequence
-
-Display:
-
-`how-web-page-loads.svg`
-
-Guide students through the process one step at a time.
-
-### Step 1
-
-The user types a URL.
+- FTP
+- SMTP
+- POP3
+- IMAP
 
 Ask:
 
-> "What is the first thing your browser knows?"
+"What job does each protocol perform?"
 
-Expected response:
-
-The website name.
+Students may create a comparison table or short presentation.
 
 ---
 
-### Step 2
+# Classroom Discussion
 
-DNS finds the IP address.
+Possible discussion prompt:
 
-Ask:
+> "Which protocol would cause the biggest problems if it disappeared tomorrow?"
 
-> "Why can't the browser use only the website name?"
-
-Expected response:
-
-Computers communicate using IP addresses.
-
----
-
-### Step 3
-
-The browser sends a request.
-
-Explain that requests are simply messages asking for information.
-
-Avoid introducing HTTP methods such as GET and POST at this stage.
-
----
-
-### Step 4
-
-The server prepares the webpage.
-
-Explain that the server collects the required files before sending them back.
-
----
-
-### Step 5
-
-The browser receives the files and builds the webpage.
-
-Emphasise that the browser is responsible for displaying the page—not the server.
-
----
-
-# Revisiting Packets
-
-Display:
-
-`packet-transmission.svg`
-
-Remind students that this concept was introduced in Lesson 1.
-
-Review the following points.
-
-- Large files are divided into packets.
-- Packets may travel along different routes.
-- Missing packets can be resent.
-- The receiving computer rebuilds the original file.
-
-Do not spend more than five minutes reviewing this concept.
-
-The goal is reinforcement rather than reteaching.
-
----
-
-# Facilitating Activity 3
-
-Students arrange the webpage loading process into the correct order.
-
-## Correct Order
-
-1. User enters a URL.
-2. Browser asks DNS for the IP address.
-3. DNS returns the IP address.
-4. Browser contacts the web server.
-5. Server sends webpage files.
-6. Browser displays the webpage.
-
----
-
-## Discussion Questions
-
-Ask:
-
-> "Which step would fail if DNS stopped working?"
-
-Expected response:
-
-The browser would not know the server's IP address.
-
----
-
-Ask:
-
-> "Would the server still exist?"
-
-Expected response:
-
-Yes.
-
-Explain that DNS helps computers locate servers. It does not create or store them.
-
----
-
-# Facilitating Activity 4
-
-Students identify the client, server and whether DNS is involved.
-
-## Suggested Answers
-
-| Situation | Client | Server | DNS Needed? |
-|-----------|--------|--------|:-----------:|
-| Watching an online video | Student device | Video server | Yes |
-| Reading a news website | Student device | News server | Yes |
-| School LMS | Student device | LMS server | Yes |
-| Cloud storage | Student device | Cloud server | Yes |
-
-If students suggest that DNS is not always required because an IP address could be entered directly, acknowledge this as an excellent extension idea while explaining that, in normal everyday use, DNS is involved.
-
----
-
-# Extension Discussion
-
-Ask students:
-
-> "Why do you think websites use names instead of long numbers?"
-
-Encourage answers related to usability and human memory.
-
-Then ask:
-
-> "Why do computers still need numbers?"
-
-Guide students toward the idea that numerical addressing allows accurate communication between devices.
-
----
-
-# Exit Ticket Answer Guide
-
-### Question 1
-
-What is an IP address?
-
-Expected answer:
-
-A unique numerical address that identifies a device on a network.
-
----
-
-### Question 2
-
-Why do we use domain names?
-
-Expected answer:
-
-They are easier for people to remember than numerical IP addresses.
-
----
-
-### Question 3
-
-What is the role of DNS?
-
-Expected answer:
-
-DNS translates domain names into IP addresses.
-
----
-
-### Question 4
-
-Explain the difference between a client and a server.
-
-Expected answer:
-
-A client requests information, while a server provides information or services.
-
----
-
-### Question 5
-
-Describe how a webpage loads.
-
-Students should include most of these steps:
-
-- Enter URL
-- DNS lookup
-- Browser contacts server
-- Server sends files
-- Browser displays webpage
-
-Minor wording differences are acceptable if the sequence is correct.
-
----
-
-# Assessment Rubric
-
-| Criteria | Beginning | Developing | Proficient | Advanced |
-|----------|-----------|------------|------------|----------|
-| Client–Server Model | Identifies few roles | Explains basic roles | Correctly explains communication | Applies concept to unfamiliar situations |
-| IP Address | Limited understanding | Knows basic purpose | Explains why devices need addresses | Connects addressing to networking concepts |
-| DNS | Limited understanding | Recognises its purpose | Correctly explains name-to-IP translation | Explains the complete lookup process |
-| Webpage Loading | Lists isolated ideas | Describes some steps | Explains the correct sequence | Explains the process confidently using correct terminology |
-
----
-
-# Homework
-
-Students complete one of the following tasks.
-
-### Option A
-
-Create a flowchart showing how a webpage loads.
-
-Include:
-
-- URL
-- DNS
-- Browser
-- Server
-- Webpage
-
----
-
-### Option B
-
-Interview a family member.
-
-Ask:
-
-> "What do you think happens when you open a website?"
-
-Compare their explanation with what you learned in class.
-
----
-
-### Option C (Extension)
-
-Research one of the following:
+Students may argue for:
 
 - DNS
-- Cloud Computing
-- Data Centres
-- Content Delivery Networks (CDNs)
+- TCP
+- HTTPS
+- IP
 
-Prepare a short one-page summary including:
+There is no single correct answer.
 
-- Definition
-- Purpose
-- One real-world example
+Focus on evidence-based reasoning.
+
+---
+
+# Formative Assessment
+
+Check understanding after introducing TCP and HTTP.
+
+Students complete the following statements.
+
+- IP is responsible for ______________________.
+
+- TCP ensures ______________________________.
+
+- HTTPS is different because ________________.
+
+Walk around the classroom.
+
+Address misconceptions immediately.
+
+---
+
+# Common Misconceptions During Activities
+
+If students say:
+
+> "TCP sends data."
+
+Clarify:
+
+TCP manages reliable delivery.
+
+IP actually delivers packets across networks.
+
+---
+
+If students say:
+
+> "HTTPS protects my computer."
+
+Clarify:
+
+HTTPS protects data while it is travelling.
+
+It does not replace antivirus software or strong passwords.
+
+---
+
+If students confuse DNS and HTTP:
+
+Review the sequence.
+
+```
+URL
+
+↓
+
+DNS
+
+↓
+
+IP Address
+
+↓
+
+TCP/IP
+
+↓
+
+HTTP or HTTPS
+
+↓
+
+Browser
+```
+
+Repeat this sequence several times throughout the lesson.
+
+---
+
+# Teacher Tip
+
+Students often try to memorise protocol names.
+
+Instead, encourage them to remember each protocol's **main responsibility**.
+
+If students understand the overall communication process, they can usually recall the protocol names naturally.
+
+---
+
+# Transition
+
+Before moving to the final section, ask:
+
+> "Imagine one packet disappears while watching YouTube."
+
+"What should happen next?"
+
+Use this discussion to introduce acknowledgements (ACKs) and packet retransmission in the final part of the lesson.
+---
+
+# Teaching Notes
+
+## Slides 19–21
+
+### Packets and Acknowledgements (ACK)
+
+Remind students that a large file is not normally sent as one continuous block.
+
+Instead, it is divided into many small packets.
+
+Ask:
+
+> "How does the sender know whether a packet arrived?"
+
+Introduce the idea of an **Acknowledgement (ACK)**.
+
+An ACK is a short confirmation message that tells the sender:
+
+> "I received this packet."
+
+If no ACK is received, TCP assumes the packet was lost and sends it again.
+
+Students do not need to learn timing mechanisms or retransmission algorithms. Focus on the concept of reliable communication.
+
+---
+
+## Classroom Demonstration
+
+Materials:
+
+- 10 numbered cards
+- One envelope or folder
+
+Procedure:
+
+1. Give each card to a different student.
+2. Ask students to stand in numerical order.
+3. Secretly remove one card.
+4. Ask the class:
+   - "What is missing?"
+   - "Can we rebuild the message?"
+5. Replace the missing card.
+
+Explain that TCP behaves similarly by requesting missing packets before rebuilding the complete message.
+
+---
+
+## Slides 22–23
+
+### Protocols Working Together
+
+Display the complete communication sequence.
+
+```
+User enters URL
+        ↓
+DNS finds IP address
+        ↓
+IP identifies destination
+        ↓
+TCP manages reliable delivery
+        ↓
+HTTP/HTTPS transfers data
+        ↓
+Browser displays webpage
+```
+
+Emphasise that no single protocol performs every task.
+
+Instead, Internet communication depends on multiple specialised protocols working together.
+
+---
+
+## Slide 24
+
+### Real-World Examples
+
+Ask students to identify which protocols are involved in each activity.
+
+| Activity | Likely Protocols |
+|----------|------------------|
+| Visiting a website | DNS, IP, TCP, HTTPS |
+| Watching a video | DNS, IP, TCP, HTTPS |
+| Reading email | DNS, TCP, SMTP, IMAP/POP3 |
+| Online shopping | DNS, TCP, HTTPS |
+| Cloud storage | DNS, TCP, HTTPS |
+
+Students are **not** expected to memorise every protocol beyond those introduced in this lesson.
+
+The objective is to recognise that multiple protocols cooperate.
+
+---
+
+## Slides 25–27
+
+### Lesson Review
+
+Invite students to summarise the lesson without reading their notes.
+
+Suggested prompts:
+
+- What is a protocol?
+- Why is TCP important?
+- What does IP do?
+- Why is HTTPS safer than HTTP?
+- Why do computers divide data into packets?
+
+Encourage complete sentences rather than one-word answers.
+
+---
+
+# Assessment Guidance
+
+## Workbook
+
+Look for conceptual understanding rather than memorised wording.
+
+Students should correctly explain:
+
+- the purpose of protocols
+- TCP vs IP
+- HTTP vs HTTPS
+- acknowledgements
+- the overall communication process
+
+---
+
+## Quiz Expectations
+
+Students should be able to:
+
+✓ define a protocol
+
+✓ explain TCP
+
+✓ explain IP
+
+✓ identify HTTPS
+
+✓ describe packet acknowledgements
+
+✓ explain why several protocols work together
+
+---
+
+# Suggested Marking Rubric
+
+| Level | Description |
+|------|-------------|
+| Excellent | Explains concepts accurately using appropriate vocabulary and examples. |
+| Proficient | Demonstrates clear understanding with only minor errors. |
+| Developing | Understands some ideas but confuses several protocol roles. |
+| Beginning | Requires additional support to explain basic concepts. |
+
+---
+
+# Differentiation
+
+## Students Needing Support
+
+- Use simplified protocol diagrams.
+- Review Lesson 2 before introducing TCP/IP.
+- Pair students strategically.
+- Allow additional discussion time before independent tasks.
+- Encourage students to explain ideas verbally before writing.
+
+---
+
+## Extension Opportunities
+
+Students who finish early may investigate additional Internet protocols such as:
+
+- FTP
+- SSH
+- SMTP
+- IMAP
+- POP3
+
+Possible task:
+
+Create a table describing the purpose of each protocol and identify a real-world situation where it is used.
 
 ---
 
 # Cross-Curricular Connections
 
-### English
+## Mathematics
 
-Students explain technical concepts using clear written language.
+- sequencing
+- logical reasoning
+- pattern recognition
 
----
+## English
 
-### Mathematics
+- technical vocabulary
+- reading informational texts
+- explaining processes clearly
 
-Students recognise that computers use numerical addressing systems.
+## Science
 
----
+- systems
+- communication
+- reliability
 
-### Media Studies
+## Digital Citizenship
 
-Students investigate how online media is delivered through networks.
+Discuss why secure communication is important when:
 
----
-
-### Digital Citizenship
-
-Students begin understanding the infrastructure that supports everyday online activities.
-
----
-
-# Preparing Students for Lesson 3
-
-Conclude the lesson by asking:
-
-> "Finding the correct computer is only part of the problem."
-
-Then ask:
-
-> "How can billions of computers communicate in exactly the same way?"
-
-Allow students to speculate.
-
-Explain that the next lesson introduces **network protocols**, the shared rules that allow devices to communicate reliably.
+- shopping online
+- logging into school systems
+- sharing personal information
+- using public Wi-Fi
 
 ---
 
-# Teacher Reflection
+# Homework Suggestions
 
-After teaching, reflect on the following questions.
+Choose one of the following.
 
-### Student Understanding
+### Option A
 
-- Could students distinguish between clients and servers?
-- Did students understand why DNS is necessary?
-- Could students explain the webpage loading process in the correct order?
+Draw a flowchart showing what happens when you visit a website.
+
+Include:
+
+- URL
+- DNS
+- IP
+- TCP
+- HTTP/HTTPS
+- Browser
 
 ---
 
-### Student Engagement
+### Option B
 
-- Which activity generated the most discussion?
-- Which examples were easiest for students to understand?
-- Which misconceptions appeared most frequently?
+Write a short explanation (150–200 words):
+
+**Why are network protocols important?**
+
+Students should include at least three protocols discussed in class.
 
 ---
 
-### Future Improvements
+### Option C
 
-Consider:
+Research one additional Internet protocol and prepare a one-minute presentation explaining:
 
-- spending more time on DNS if students found it difficult.
-- using additional real-world demonstrations.
-- revisiting packet transmission before Lesson 3 if required.
+- what it does
+- where it is used
+- why it is useful
 
-Record notes below.
+---
+
+# Reflection Questions
+
+After the lesson, consider:
+
+- Which concepts did students understand quickly?
+- Which protocol caused the most confusion?
+- Did students distinguish clearly between TCP and IP?
+- Were students able to explain HTTPS without simply saying "it is safer"?
+- Which activities generated the most discussion?
+
+Use these reflections to adjust pacing for future classes.
+
+---
+
+# Teacher Reflection Log
+
+## What Worked Well
 
 ____________________________________________________
 
@@ -1016,22 +954,51 @@ ____________________________________________________
 
 ____________________________________________________
 
+---
+
+## Challenges
+
+____________________________________________________
+
+____________________________________________________
+
 ____________________________________________________
 
 ---
 
-# End of Lesson
+## Students Requiring Follow-up
 
-Students should now understand:
+____________________________________________________
 
-✓ Client–Server Communication
+____________________________________________________
 
-✓ IP Addresses
+____________________________________________________
 
-✓ Domain Names
+---
 
-✓ DNS
+## Notes for Next Year
 
-✓ Webpage Loading
+____________________________________________________
 
-These concepts provide the foundation for **Lesson 3 – Network Protocols**, where students will explore how computers follow shared rules to exchange information accurately and efficiently.
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Lesson Summary
+
+By the end of Lesson 3, students should understand that:
+
+- A protocol is a shared set of communication rules.
+- Different protocols have different responsibilities.
+- IP identifies destinations.
+- TCP ensures reliable communication.
+- HTTP transfers webpages.
+- HTTPS encrypts web communication.
+- ACKs confirm successful packet delivery.
+- Modern Internet communication depends on many protocols working together.
+
+This lesson provides the conceptual foundation for **Lesson 4 – Cybersecurity Fundamentals**, where students will apply their understanding of protocols to topics such as encryption, authentication, phishing, malware, and safe online behaviour.
+Address misconceptions before continuing to the next section.
+
