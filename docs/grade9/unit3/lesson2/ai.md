@@ -1,201 +1,166 @@
+# Grade 9 Digital Technology
 # AI Lab
 # Unit 3 – Networks and the Internet
-## Lesson 1 – Learning with Artificial Intelligence
-
----
-
-# Introduction
-
-Artificial Intelligence (AI) can explain difficult concepts, answer questions, generate examples, and support learning.
-
-However, AI is **not always correct**.
-
-A good digital citizen knows how to:
-
-- Ask clear questions.
-- Check the accuracy of AI responses.
-- Improve AI-generated answers.
-- Use AI responsibly.
-
-In this lesson, you will practise these important skills.
+## Lesson 2 – Exploring the Internet with AI
 
 ---
 
 # Learning Objectives
 
-By the end of this lab, you will be able to:
+By the end of this activity, you will be able to:
 
-- Write effective prompts.
-- Evaluate AI-generated responses.
-- Identify incorrect or incomplete information.
-- Improve AI answers using your own knowledge.
-- Reflect on the strengths and limitations of AI.
+- use AI to explain networking concepts
+- evaluate AI-generated responses for accuracy
+- improve prompts to obtain better answers
+- compare AI explanations with your textbook
+- reflect on the strengths and limitations of AI
 
 ---
 
 # Before You Begin
 
-Use one of the following AI assistants:
+Artificial Intelligence (AI) can explain ideas, answer questions and generate examples.
 
-- ChatGPT
-- Microsoft Copilot
-- Google Gemini
-- Claude
+However, AI can sometimes make mistakes or provide incomplete information.
 
-Remember:
-
-> AI is a learning assistant, not a replacement for your own thinking.
+Your task is not only to ask questions but also to evaluate the quality of the answers.
 
 ---
 
-# Activity 1 – Ask a Clear Question
+# Activity 1 – Explaining a Concept
 
-Type the following prompt into your AI assistant.
+Ask an AI assistant:
 
-> Explain what a computer network is for a Grade 9 student.
+> Explain the difference between a client and a server for a Grade 9 student.
 
-Read the answer carefully.
-
-Then answer the questions below.
+Read the response.
 
 ### Reflection
 
-Was the explanation easy to understand?
+1. Was the explanation easy to understand?
 
 ____________________________________________________
 
-Did the AI include a real-world example?
+2. Did the AI use an example?
 
 ____________________________________________________
 
-Would a younger student understand the explanation?
+3. Would you change anything?
 
 ____________________________________________________
 
 ---
 
-# Activity 2 – Improve the Prompt
-
-The quality of the answer often depends on the quality of the prompt.
+# Activity 2 – Improving a Prompt
 
 Compare these prompts.
 
 ### Prompt A
 
-> Explain LAN.
+> Explain DNS.
 
 ### Prompt B
 
-> Explain the difference between a LAN and a WAN for a Grade 9 student using examples from a school.
+> Explain DNS to a Grade 9 student using a school library analogy and include one real-world example.
 
-Which prompt produced the better answer?
+Which prompt is more likely to produce a useful answer?
+
+____________________________________________________
 
 Why?
 
 ____________________________________________________
 
-____________________________________________________
-
 ---
 
-# Prompt Improvement Challenge
-
-Rewrite Prompt A to make it more specific.
-
-My improved prompt
-
-____________________________________________________
-
-____________________________________________________
-
----
-
-# Activity 3 – Check the Facts
+# Activity 3 – Fact Check
 
 Ask the AI:
 
-> What is the difference between a router and a switch?
+> Why do websites use domain names instead of IP addresses?
+
+Compare the answer with your textbook.
 
 Complete the table.
 
-| Question | Answer |
-|----------|--------|
-| Was the explanation correct? | |
-| Was anything missing? | |
-| Did you find any mistakes? | |
-
-If necessary, use your textbook or teacher's explanation to correct the AI.
-
----
-
-# Activity 4 – Spot AI Hallucinations
-
-Sometimes AI gives information that sounds correct but is actually incorrect.
-
-Read each statement.
-
-Decide whether it is correct.
-
-### Statement 1
-
-Every LAN is connected to the Internet.
-
-□ True
-
-□ False
+| Question | Yes | No |
+|-----------|:---:|:--:|
+| Was the explanation accurate? | □ | □ |
+| Did it mention IP addresses? | □ | □ |
+| Did it explain why humans use names? | □ | □ |
+| Did it include unnecessary information? | □ | □ |
 
 ---
 
-### Statement 2
+# Activity 4 – Spot the Error
 
-A router connects different networks.
+Ask the AI:
 
-□ True
+> Explain how a webpage loads in exactly five steps.
 
-□ False
+Read the response carefully.
 
----
+Did the AI:
 
-### Statement 3
+- mention DNS?
+- mention the browser?
+- mention the web server?
+- explain the response?
 
-A switch connects devices inside a LAN.
+Write one thing the AI explained well.
 
-□ True
+____________________________________________________
 
-□ False
+Write one thing that could be improved.
 
----
-
-### Statement 4
-
-Wi-Fi and the Internet mean exactly the same thing.
-
-□ True
-
-□ False
-
-Discuss your answers with your partner.
+____________________________________________________
 
 ---
 
-# Activity 5 – Compare AI Responses
+# Activity 5 – Rewrite for a Younger Student
 
-Ask **two different AI assistants** the same question.
+Ask the AI:
 
-> Why do schools use computer networks?
+> Rewrite the explanation for a Grade 6 student using simple language.
 
-Complete the comparison table.
+Read the response.
 
-| Feature | AI 1 | AI 2 |
-|----------|------|------|
-| Easy to understand | | |
-| Accurate | | |
-| Good examples | | |
-| Better explanation | | |
+Highlight:
 
-Which AI would you recommend?
+- words that became simpler
+- examples that were added
+- sentences that became shorter
 
-Explain your answer.
+Which version do you prefer?
+
+____________________________________________________
+
+Why?
+
+____________________________________________________
+
+---
+
+# Activity 6 – Create Your Own Analogy
+
+Ask the AI:
+
+> Create an analogy that explains DNS without using the phone book example.
+
+Examples might include:
+
+- a school office
+- a restaurant
+- a shopping centre
+- a delivery company
+
+Write the analogy below.
+
+____________________________________________________
+
+____________________________________________________
+
+Do you think the analogy is effective? Explain why.
 
 ____________________________________________________
 
@@ -203,89 +168,138 @@ ____________________________________________________
 
 ---
 
-# Activity 6 – Become the Teacher
+# Activity 7 – Evaluate an AI Answer
 
-Read the AI's explanation.
+Ask:
 
-Rewrite it in your own words.
+> Is Wi-Fi the same as the Internet?
 
-Imagine you are teaching a Grade 7 student.
+Use the checklist below.
 
-Your explanation
+| Criteria | Yes | No |
+|----------|:---:|:--:|
+| Clearly distinguishes Wi-Fi from the Internet | □ | □ |
+| Gives a correct example | □ | □ |
+| Uses appropriate language | □ | □ |
+| Avoids incorrect claims | □ | □ |
+
+Write one sentence summarising the difference.
 
 ____________________________________________________
 
-____________________________________________________
+---
 
-____________________________________________________
+# Activity 8 – Become the Teacher
+
+Ask the AI to generate **three quiz questions** about today's lesson.
+
+Review the questions.
+
+For each question, decide whether it is:
+
+- Easy
+- Medium
+- Challenging
+
+Then answer the questions yourself.
+
+| Question | Difficulty | Your Score |
+|----------|------------|------------|
+| 1 | | |
+| 2 | | |
+| 3 | | |
 
 ---
 
 # Challenge Activity
 
-Ask the AI:
+Use AI to compare the following.
 
-> Design the computer network for a school with 500 students.
+- IP Address
+- Domain Name
+- URL
 
-Read the answer carefully.
+Ask the AI to create a comparison table.
 
-Identify:
+Review the table.
 
-- One good idea.
-- One unrealistic idea.
-- One idea you would improve.
+Did the AI correctly explain the differences?
 
-| Question | Response |
-|----------|----------|
-| Good idea | |
-| Unrealistic idea | |
-| My improvement | |
+Write one correction or improvement if needed.
+
+____________________________________________________
+
+____________________________________________________
 
 ---
 
 # Responsible Use of AI
 
-Remember these important rules.
+AI is a learning tool, not a replacement for your own thinking.
 
-✅ Use AI to learn.
+When using AI:
 
-✅ Ask follow-up questions.
-
-✅ Verify important information.
-
-✅ Think critically.
-
-❌ Do not copy answers without understanding them.
-
-❌ Do not assume AI is always correct.
-
-❌ Do not submit AI-generated work as your own.
+- Ask clear questions.
+- Check important facts.
+- Compare answers with reliable sources.
+- Use your own judgement.
+- Never copy responses without understanding them.
 
 ---
 
 # Reflection
 
+### 1.
+
+What was the best prompt you wrote today?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 2.
+
+What made it effective?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 3.
+
+Did the AI make any mistakes?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 4.
+
+How did you identify those mistakes?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Exit Reflection
+
 Complete the sentences.
 
-Today I learned...
+Today I learned that AI can...
 
 ____________________________________________________
 
 ____________________________________________________
 
-One thing AI did well was...
-
-____________________________________________________
-
-____________________________________________________
-
-One mistake AI made was...
-
-____________________________________________________
-
-____________________________________________________
-
-Next time I use AI, I will...
+One thing I should always do before trusting an AI answer is...
 
 ____________________________________________________
 
@@ -293,40 +307,24 @@ ____________________________________________________
 
 ---
 
-# Exit Ticket
+# Success Criteria
 
-Answer before leaving.
+I can...
 
-1. What makes a good AI prompt?
+☐ write clear prompts.
 
-____________________________________________________
+☐ improve a prompt to get a better response.
 
-2. Why should we verify AI responses?
+☐ check AI-generated information for accuracy.
 
-____________________________________________________
+☐ compare AI explanations with other sources.
 
-3. How can AI help you learn Digital Technology?
-
-____________________________________________________
+☐ use AI responsibly to support my learning.
 
 ---
 
-# Extension Challenge
+# Looking Ahead
 
-Create **three excellent prompts** that could help another Grade 9 student understand computer networks.
+In Lesson 3, you will explore **network protocols** and use AI to explain how computers follow common communication rules.
 
-### Prompt 1
-
-____________________________________________________
-
-### Prompt 2
-
-____________________________________________________
-
-### Prompt 3
-
-____________________________________________________
-
-Swap prompts with another student.
-
-Test each other's prompts and discuss which one produced the best response.
+You will also practise identifying when AI explanations are accurate, incomplete or misleading.
