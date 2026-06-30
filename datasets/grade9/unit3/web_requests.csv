@@ -1,31 +1,21 @@
-device_id,device_name,device_type,location,connection_type,status
-1,Teacher-PC-01,Desktop,Classroom A,Wired,Online
-2,Student-Laptop-01,Laptop,Classroom A,WiFi,Online
-3,Student-Laptop-02,Laptop,Classroom A,WiFi,Online
-4,Student-Laptop-03,Laptop,Classroom A,WiFi,Offline
-5,Printer-01,Printer,Classroom A,Wired,Online
-6,Router-01,Router,Server Room,Wired,Online
-7,Switch-01,Switch,Server Room,Wired,Online
-8,Server-01,Server,Server Room,Wired,Online
-9,AccessPoint-01,WiFi Access Point,Classroom A,Wired,Online
-10,Tablet-01,Tablet,Library,WiFi,Online
-11,Tablet-02,Tablet,Library,WiFi,Online
-12,Laptop-04,Laptop,Library,WiFi,Online
-13,Laptop-05,Laptop,Library,WiFi,Offline
-14,Desktop-02,Desktop,Computer Lab,Wired,Online
-15,Desktop-03,Desktop,Computer Lab,Wired,Online
-16,Desktop-04,Desktop,Computer Lab,Wired,Online
-17,Desktop-05,Desktop,Computer Lab,Wired,Online
-18,Desktop-06,Desktop,Computer Lab,Wired,Offline
-19,Desktop-07,Desktop,Computer Lab,Wired,Online
-20,Desktop-08,Desktop,Computer Lab,Wired,Online
-21,Desktop-09,Desktop,Computer Lab,Wired,Online
-22,Desktop-10,Desktop,Computer Lab,Wired,Online
-23,Printer-02,Printer,Library,Wired,Online
-24,AccessPoint-02,WiFi Access Point,Library,Wired,Online
-25,AccessPoint-03,WiFi Access Point,Computer Lab,Wired,Online
-26,Student-Phone-01,Smartphone,Classroom A,WiFi,Online
-27,Student-Phone-02,Smartphone,Classroom A,WiFi,Online
-28,Student-Phone-03,Smartphone,Library,WiFi,Online
-29,NAS-01,NAS,Server Room,Wired,Online
-30,Backup-Server-01,Server,Server Room,Wired,Online
+Request ID,Time,Student Device,Domain Name,IP Address,HTTP Method,Requested Resource,Status Code,Response Time (ms),Packets Sent,Packets Received
+REQ001,08:30:12,Laptop-01,www.google.com,142.250.190.78,GET,/,200,42,3,5
+REQ002,08:31:05,Laptop-02,www.wikipedia.org,208.80.154.224,GET,/wiki/Internet,200,68,5,9
+REQ003,08:31:48,Tablet-01,www.youtube.com,142.250.191.78,GET,/watch,200,95,8,26
+REQ004,08:32:14,Laptop-03,www.school.edu,192.168.1.10,GET,/home,200,18,2,4
+REQ005,08:33:07,Phone-01,www.netflix.com,52.89.124.203,GET,/browse,200,81,6,18
+REQ006,08:34:21,Laptop-01,www.github.com,140.82.121.3,GET,/,200,57,4,7
+REQ007,08:35:12,Tablet-02,www.python.org,151.101.64.223,GET,/downloads,200,49,3,6
+REQ008,08:36:44,Laptop-04,www.code.org,13.225.61.24,GET,/learn,200,44,3,5
+REQ009,08:37:33,Phone-02,www.spotify.com,35.186.224.25,GET,/,200,60,5,10
+REQ010,08:38:18,Laptop-05,www.bbc.com,151.101.0.81,GET,/news,200,71,4,8
+REQ011,08:39:26,Laptop-02,www.google.com,142.250.190.78,GET,/search?q=network,200,46,4,6
+REQ012,08:40:15,Tablet-03,www.openai.com,104.18.33.45,GET,/,200,53,4,7
+REQ013,08:41:02,Laptop-03,www.nasa.gov,192.0.66.108,GET,/missions,200,79,5,11
+REQ014,08:41:48,Phone-03,www.instagram.com,157.240.22.174,GET,/,200,58,5,9
+REQ015,08:42:36,Laptop-06,www.linkedin.com,108.174.10.10,GET,/feed,200,66,5,8
+REQ016,08:43:29,Laptop-07,www.amazon.com,176.32.103.205,GET,/products,200,74,6,12
+REQ017,08:44:15,Tablet-04,www.reddit.com,151.101.65.140,GET,/r/technology,200,63,5,9
+REQ018,08:45:10,Laptop-08,www.school.edu,192.168.1.10,GET,/library,200,16,2,3
+REQ019,08:46:27,Phone-04,www.wikipedia.org,208.80.154.224,GET,/wiki/DNS,200,61,4,7
+REQ020,08:47:35,Laptop-09,www.google.com,142.250.190.78,GET,/maps,200,43,3,5
