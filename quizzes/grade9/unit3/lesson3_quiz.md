@@ -1,184 +1,214 @@
 # Grade 9 Digital Technology
+
 # Unit 3 – Networks and the Internet
-## Lesson 2 Quiz – How Does the Internet Work?
 
-**Name:** _______________________
+# Lesson 3 Quiz – Network Protocols
 
-**Class:** _______________________
+**Name:** ___________________________
 
-**Date:** _______________________
+**Class:** ___________________________
 
-**Score:** ______ / 40
+**Date:** ___________________________
 
-**Time:** 25 minutes
+**Total Marks:** 20
 
----
-
-# Instructions
-
-- Answer all questions.
-- Read each question carefully.
-- Show your thinking where appropriate.
-- Write neatly.
+**Time:** 20–25 minutes
 
 ---
 
-# Part A – Multiple Choice (10 marks)
+# Part A – Multiple Choice (1 mark each)
 
 Choose the best answer.
 
 ### 1.
 
-What is the main role of a client?
+What is a network protocol?
 
-A. Store websites
+A. A type of network cable
 
-B. Request information
+B. A communication rule that devices follow
 
-C. Translate IP addresses
+C. A computer virus
 
-D. Connect Wi-Fi networks
-
-Answer: ______
+D. A web browser
 
 ---
 
 ### 2.
 
-What is the main role of a server?
+Which protocol is mainly responsible for finding the destination of data?
 
-A. Provide information to clients
+A. TCP
 
-B. Connect computers with cables
+B. HTTP
 
-C. Translate domain names
+C. IP
 
-D. Assign IP addresses
-
-Answer: ______
+D. HTTPS
 
 ---
 
 ### 3.
 
-Which of the following is an example of an IP address?
+Which protocol helps ensure data arrives correctly and in the correct order?
 
-A. www.school.edu
+A. DNS
 
-B. 192.168.1.25
+B. TCP
 
-C. https://google.com
+C. HTTP
 
-D. school.net
-
-Answer: ______
+D. IP
 
 ---
 
 ### 4.
 
-Why do people use domain names?
+Which protocol is commonly used to transfer webpages securely?
 
-A. They are easier to remember.
+A. FTP
 
-B. They make the Internet faster.
+B. HTTP
 
-C. They replace servers.
+C. HTTPS
 
-D. They create webpages.
-
-Answer: ______
+D. SMTP
 
 ---
 
 ### 5.
 
-What is the main job of DNS?
+What does the "S" in HTTPS stand for?
 
-A. Store webpages
+A. Server
 
-B. Translate domain names into IP addresses
+B. Secure
 
-C. Connect computers to Wi-Fi
+C. System
 
-D. Create websites
-
-Answer: ______
+D. Standard
 
 ---
 
-# Part B – Matching (5 marks)
+### 6.
 
-Match each term to its correct definition.
+What is a packet?
 
-| Term | Letter |
-|------|:------:|
-| Client | ____ |
-| Server | ____ |
-| DNS | ____ |
-| IP Address | ____ |
-| Packet | ____ |
+A. A type of router
 
-Definitions
+B. A small piece of data sent across a network
 
-A. Small piece of transmitted data
+C. A web browser
 
-B. Device requesting information
-
-C. Device providing information
-
-D. Translates domain names into IP addresses
-
-E. Unique numerical network address
+D. A DNS server
 
 ---
 
-# Part C – Sequencing (6 marks)
+### 7.
 
-Place the following steps in the correct order.
+What is the purpose of an ACK (Acknowledgement)?
+
+A. To assign an IP address
+
+B. To confirm that a packet has been received
+
+C. To encrypt data
+
+D. To find a domain name
+
+---
+
+### 8.
+
+Which protocol translates a domain name into an IP address?
+
+A. DNS
+
+B. HTTP
+
+C. TCP
+
+D. HTTPS
+
+---
+
+# Part B – Matching (4 marks)
+
+Match each protocol with its main purpose.
+
+| Protocol | Purpose |
+|----------|----------|
+| DNS | A. Secure web communication |
+| TCP | B. Finds the destination |
+| IP | C. Translates domain names into IP addresses |
+| HTTPS | D. Reliable delivery |
+
+Write your answers.
+
+DNS → ______
+
+TCP → ______
+
+IP → ______
+
+HTTPS → ______
+
+---
+
+# Part C – Short Answer (4 marks)
+
+### 1.
+
+Explain the difference between **TCP** and **IP**.
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+### 2.
+
+Why is HTTPS safer than HTTP?
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part D – Sequence (2 marks)
+
+Put these steps in the correct order by writing numbers **1–6**.
 
 | Step | Order |
 |------|:----:|
-| Browser displays webpage | □ |
-| User enters URL | □ |
-| Browser contacts web server | □ |
-| DNS returns IP address | □ |
-| Server sends webpage files | □ |
-| Browser requests IP address from DNS | □ |
+| Browser displays the webpage. | ☐ |
+| DNS finds the IP address. | ☐ |
+| User types a URL. | ☐ |
+| HTTP/HTTPS transfers the webpage. | ☐ |
+| TCP manages reliable delivery. | ☐ |
+| IP identifies the destination. | ☐ |
 
 ---
 
-# Part D – Short Answer (9 marks)
+# Part E – Scenario (2 marks)
 
-### 1. (3 marks)
+Sophia visits an online shopping website and enters her credit card information.
 
-Explain the difference between a client and a server.
+Answer the following questions.
 
-____________________________________________________
+### 1.
 
-____________________________________________________
+Which protocol helps protect her information?
 
-____________________________________________________
-
----
-
-### 2. (3 marks)
-
-Why does every device need an IP address?
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+_____________________________________
 
 ---
 
-### 3. (3 marks)
+### 2.
 
-Why is DNS important?
-
-____________________________________________________
+Why is that protocol important?
 
 ____________________________________________________
 
@@ -186,45 +216,11 @@ ____________________________________________________
 
 ---
 
-# Part E – Scenario (10 marks)
+# Part F – Extended Response (2 marks)
 
-Emma types the following into her browser.
+In your own words, explain **why computers need network protocols**.
 
-```
-www.wikipedia.org
-```
-
-Answer the questions.
-
-### 1. (2 marks)
-
-What system finds the correct IP address?
-
-____________________________________________________
-
----
-
-### 2. (2 marks)
-
-After the IP address is found, which computer receives the request?
-
-____________________________________________________
-
----
-
-### 3. (2 marks)
-
-What does the server send back?
-
-____________________________________________________
-
----
-
-### 4. (4 marks)
-
-Describe the complete journey of the webpage from typing the URL until it appears in Emma's browser.
-
-____________________________________________________
+Include at least **two examples** of protocols in your answer.
 
 ____________________________________________________
 
@@ -236,10 +232,16 @@ ____________________________________________________
 
 ---
 
-# Part F – Reflection (Optional)
+# Self-Check
 
-Which topic from today's lesson would you like to learn more about?
+Before submitting your quiz, make sure you have:
 
-____________________________________________________
+☐ Answered every question.
 
-____________________________________________________
+☐ Written your name.
+
+☐ Checked your spelling.
+
+☐ Reviewed your extended response.
+
+Good luck!
