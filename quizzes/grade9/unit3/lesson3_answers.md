@@ -1,317 +1,276 @@
 # Grade 9 Digital Technology
+
 # Unit 3 – Networks and the Internet
-## Lesson 2 Quiz – Answer Key
+
+# Lesson 3 Quiz – Answer Key
 
 ---
 
-# Quiz Information
+# Total Marks
 
-**Total Marks:** 40
-
-This answer guide provides:
-
-- Correct answers
-- Mark allocation
-- Sample responses
-- Teacher marking notes
-
-Where appropriate, equivalent wording should also receive full credit.
+20 Marks
 
 ---
 
-# Part A – Multiple Choice (10 marks)
+# Part A – Multiple Choice (8 Marks)
 
-**2 marks each**
+| Question | Answer | Mark |
+|----------|--------|------|
+| 1 | B | 1 |
+| 2 | C | 1 |
+| 3 | B | 1 |
+| 4 | C | 1 |
+| 5 | B | 1 |
+| 6 | B | 1 |
+| 7 | B | 1 |
+| 8 | A | 1 |
 
-| Question | Answer |
-|-----------|:------:|
-| 1 | B |
-| 2 | A |
-| 3 | B |
-| 4 | A |
-| 5 | B |
-
-Total: **10 marks**
-
----
-
-# Part B – Matching (5 marks)
-
-**1 mark each**
-
-| Term | Correct Answer |
-|------|:--------------:|
-| Client | B |
-| Server | C |
-| DNS | D |
-| IP Address | E |
-| Packet | A |
-
-Total: **5 marks**
+Subtotal: **8 Marks**
 
 ---
 
-# Part C – Sequencing (6 marks)
+# Part B – Matching (4 Marks)
 
-Correct order:
+| Protocol | Correct Match |
+|----------|---------------|
+| DNS | C |
+| TCP | D |
+| IP | B |
+| HTTPS | A |
 
-1. User enters URL
-2. Browser requests IP address from DNS
-3. DNS returns IP address
-4. Browser contacts web server
-5. Server sends webpage files
-6. Browser displays webpage
+Award:
 
-Marking:
+- 1 mark for each correct answer
+- Maximum: 4 marks
 
-- 6 correct = 6 marks
-- 5 correct = 5 marks
-- 4 correct = 4 marks
-- 3 correct = 3 marks
-- 2 correct = 2 marks
-- 1 correct = 1 mark
+Subtotal: **4 Marks**
 
 ---
 
-# Part D – Short Answer (9 marks)
+# Part C – Short Answer (4 Marks)
 
 ## Question 1
 
-Explain the difference between a client and a server.
+**Explain the difference between TCP and IP.**
 
-**Sample Answer**
+### Model Answer
 
-A client requests information or services from another computer.
+IP identifies the destination and routes data to the correct device.
 
-A server stores or provides information and responds to requests from clients.
+TCP ensures that packets arrive correctly, in the correct order, and requests missing packets again if necessary.
 
 ### Marking Guide
 
-| Criteria | Marks |
-|-----------|------:|
-| Identifies client correctly | 1 |
-| Identifies server correctly | 1 |
-| Clearly explains the difference | 1 |
+**2 Marks**
 
-Maximum: **3 marks**
+- Explains IP correctly (1)
+- Explains TCP correctly (1)
+
+**1 Mark**
+
+- Explains only one protocol correctly.
+
+**0 Marks**
+
+- Incorrect or unrelated response.
 
 ---
 
 ## Question 2
 
-Why does every device need an IP address?
+**Why is HTTPS safer than HTTP?**
 
-**Sample Answer**
+### Model Answer
 
-Every device needs an IP address so that other computers know where to send and receive information.
+HTTPS encrypts data while it travels across the Internet, helping protect passwords, personal information, and online payments from being intercepted.
 
-### Marking Guide
+### Acceptable Answers
 
-| Criteria | Marks |
-|-----------|------:|
-| Mentions unique identification | 1 |
-| Explains communication | 1 |
-| Explains data delivery | 1 |
+Students may mention:
 
-Maximum: **3 marks**
-
----
-
-## Question 3
-
-Why is DNS important?
-
-**Sample Answer**
-
-DNS translates human-readable domain names into IP addresses so computers can locate websites.
+- encryption
+- secure communication
+- protects private information
+- protects passwords
+- protects banking or shopping
 
 ### Marking Guide
 
-| Criteria | Marks |
-|-----------|------:|
-| Mentions domain names | 1 |
-| Mentions IP addresses | 1 |
-| Explains translation purpose | 1 |
+**2 Marks**
 
-Maximum: **3 marks**
+Clearly explains encryption and protection.
 
----
+**1 Mark**
 
-# Part E – Scenario (10 marks)
+Mentions security but gives little explanation.
 
-## Question 1 (2 marks)
+**0 Marks**
 
-**Question**
+Incorrect explanation.
 
-What system finds the correct IP address?
-
-**Answer**
-
-DNS (Domain Name System)
-
-Full Marks: **2**
+Subtotal: **4 Marks**
 
 ---
 
-## Question 2 (2 marks)
+# Part D – Sequence (2 Marks)
 
-**Question**
+Correct order:
 
-After the IP address is found, which computer receives the request?
-
-**Answer**
-
-The web server.
-
-Full Marks: **2**
-
----
-
-## Question 3 (2 marks)
-
-**Question**
-
-What does the server send back?
-
-**Answer**
-
-The webpage files (such as HTML, CSS, JavaScript, images and other resources).
-
-Accept:
-
-- webpage
-- webpage files
-- website data
-
-Full Marks: **2**
-
----
-
-## Question 4 (4 marks)
-
-**Question**
-
-Describe the complete journey of the webpage.
-
-### Sample Answer
-
-1. Emma types the URL.
-2. The browser asks DNS for the IP address.
-3. DNS returns the IP address.
-4. The browser sends a request to the web server.
-5. The server sends the webpage files.
-6. The browser displays the webpage.
+| Step | Order |
+|------|------:|
+| User types a URL. | 1 |
+| DNS finds the IP address. | 2 |
+| IP identifies the destination. | 3 |
+| TCP manages reliable delivery. | 4 |
+| HTTP/HTTPS transfers the webpage. | 5 |
+| Browser displays the webpage. | 6 |
 
 ### Marking Guide
 
-| Criteria | Marks |
-|-----------|------:|
-| URL entered | 1 |
-| DNS lookup | 1 |
-| Browser contacts server | 1 |
-| Browser displays webpage | 1 |
+**2 Marks**
 
-Maximum: **4 marks**
+All six steps correct.
+
+**1 Mark**
+
+One or two errors.
+
+**0 Marks**
+
+Three or more errors.
+
+Subtotal: **2 Marks**
 
 ---
 
-# Total Score
+# Part E – Scenario (2 Marks)
+
+### Question 1
+
+Which protocol protects Sophia's information?
+
+**Answer**
+
+HTTPS
+
+(1 mark)
+
+---
+
+### Question 2
+
+Why is HTTPS important?
+
+### Model Answer
+
+HTTPS encrypts information while it travels across the Internet, making it much more difficult for unauthorised people to read sensitive data.
+
+### Acceptable Responses
+
+Students may mention:
+
+- encryption
+- secure communication
+- protects personal information
+- protects payment details
+- prevents others reading the data
+
+### Marking Guide
+
+Correct protocol (1)
+
+Reason explains security or encryption (1)
+
+Subtotal: **2 Marks**
+
+---
+
+# Part F – Extended Response (2 Marks)
+
+### Question
+
+Explain why computers need network protocols.
+
+Students should include at least two examples.
+
+---
+
+## Sample High-Quality Response
+
+Computers need network protocols because they provide agreed rules for communication. Without these rules, devices would not understand each other and data could be lost or sent incorrectly. For example, IP finds the destination, while TCP ensures data arrives correctly. HTTPS also protects information by encrypting communication.
+
+---
+
+# Rubric
+
+### 2 Marks
+
+- Explains why protocols are needed.
+- Includes two appropriate protocol examples.
+- Uses accurate vocabulary.
+
+### 1 Mark
+
+- Gives a partially correct explanation.
+- Includes only one protocol or limited detail.
+
+### 0 Marks
+
+- Incorrect or unrelated response.
+
+Subtotal: **2 Marks**
+
+---
+
+# Overall Marking Summary
 
 | Section | Marks |
 |---------|------:|
-| Part A | 10 |
-| Part B | 5 |
-| Part C | 6 |
-| Part D | 9 |
-| Part E | 10 |
-| **Total** | **40** |
+| Part A | 8 |
+| Part B | 4 |
+| Part C | 4 |
+| Part D | 2 |
+| Part E | 2 |
+| Part F | 2* |
+
+> **Note:** If using the quiz exactly as written, the raw total is **22 marks** because the Extended Response is worth 2 marks in addition to Parts A–E. To keep the assessment at **20 marks**, choose one of the following approaches:
+>
+> **Option 1 (Recommended):** Count **Part F as a bonus question** (+2 bonus marks).
+>
+> **Option 2:** Reduce Part A from 8 questions to **6 questions** (remove Questions 5 and 6), resulting in:
+>
+> - Part A: 6
+> - Part B: 4
+> - Part C: 4
+> - Part D: 2
+> - Part E: 2
+> - Part F: 2
+>
+> **Total: 20 marks**
 
 ---
 
-# Achievement Guide
+# Common Student Errors
 
-| Score | Achievement Level |
-|-------:|-------------------|
-| 36–40 | Excellent |
-| 31–35 | Very Good |
-| 24–30 | Satisfactory |
-| 16–23 | Developing |
-| 0–15 | Beginning |
+Teachers may observe these misconceptions:
 
----
+- Confusing **TCP** with **IP**
+- Thinking **HTTPS** makes websites faster rather than more secure
+- Believing **DNS** transfers webpages
+- Assuming a single protocol performs every networking task
+- Forgetting that **ACKs** confirm packet delivery
 
-# Common Errors
-
-Teachers should pay particular attention to the following misconceptions.
-
-### Misconception 1
-
-**"Google is the Internet."**
-
-Correction:
-
-Google is a service that operates on the Internet.
+Address these misconceptions during quiz review to reinforce conceptual understanding.
 
 ---
 
-### Misconception 2
+# Mastery Levels
 
-**"DNS stores websites."**
+| Score | Level |
+|------:|--------|
+| 18–20 | Excellent |
+| 15–17 | Proficient |
+| 11–14 | Developing |
+| 0–10 | Beginning |
 
-Correction:
-
-DNS stores records that map domain names to IP addresses.
-
----
-
-### Misconception 3
-
-**"The browser stores every website."**
-
-Correction:
-
-The browser requests webpage files from a web server and displays them.
-
----
-
-### Misconception 4
-
-**"A client and a server are different types of computers."**
-
-Correction:
-
-A client and a server describe **roles**. A computer acts as a client when requesting information and as a server when providing information.
-
----
-
-# Teacher Feedback Comments
-
-### Excellent
-
-Demonstrates a clear understanding of Internet communication, accurately explaining the roles of clients, servers, IP addresses and DNS. Uses networking terminology confidently and applies concepts correctly.
-
----
-
-### Satisfactory
-
-Shows a sound understanding of the main concepts. Minor errors may occur when explaining the sequence of webpage loading or networking terminology.
-
----
-
-### Needs Improvement
-
-Would benefit from additional practice explaining how webpages are located and delivered. Encourage review of the client–server model, IP addresses and DNS before progressing to Lesson 3.
-
----
-
-# Preparation for Lesson 3
-
-Students who score **30/40 or higher** are generally ready to begin **Lesson 3 – Network Protocols**.
-
-Students scoring below this level may benefit from revisiting:
-
-- Client vs Server
-- IP Addresses
-- Domain Names
-- DNS
-- The webpage loading sequence
+Students scoring below **11** should revisit the concepts of TCP vs. IP, HTTP vs. HTTPS, DNS, and packet acknowledgements before progressing to Lesson 4.
