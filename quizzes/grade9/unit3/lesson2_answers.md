@@ -1,269 +1,317 @@
 # Grade 9 Digital Technology
 # Unit 3 – Networks and the Internet
-## Lesson 1 Answer Key
+## Lesson 2 Quiz – Answer Key
 
 ---
 
-# Assessment Information
+# Quiz Information
 
-| Item | Details |
-|------|---------|
-| Total Marks | 30 |
-| Suggested Time | 25–30 minutes |
-| Assessment Type | Formative Assessment |
-| Recommended Pass Mark | 18 / 30 |
+**Total Marks:** 40
+
+This answer guide provides:
+
+- Correct answers
+- Mark allocation
+- Sample responses
+- Teacher marking notes
+
+Where appropriate, equivalent wording should also receive full credit.
 
 ---
 
-# Section A – Multiple Choice (10 marks)
+# Part A – Multiple Choice (10 marks)
+
+**2 marks each**
+
+| Question | Answer |
+|-----------|:------:|
+| 1 | B |
+| 2 | A |
+| 3 | B |
+| 4 | A |
+| 5 | B |
+
+Total: **10 marks**
+
+---
+
+# Part B – Matching (5 marks)
 
 **1 mark each**
 
-| Q | Answer |
-|---|:------:|
-| 1 | B |
-| 2 | B |
-| 3 | B |
-| 4 | C |
-| 5 | B |
-| 6 | A |
-| 7 | C |
-| 8 | C |
-| 9 | D |
-|10 | C |
+| Term | Correct Answer |
+|------|:--------------:|
+| Client | B |
+| Server | C |
+| DNS | D |
+| IP Address | E |
+| Packet | A |
 
-**Total: 10 marks**
+Total: **5 marks**
 
 ---
 
-# Section B – Short Answer (8 marks)
+# Part C – Sequencing (6 marks)
 
-## Question 11 (2 marks)
+Correct order:
 
-### Sample Answer
+1. User enters URL
+2. Browser requests IP address from DNS
+3. DNS returns IP address
+4. Browser contacts web server
+5. Server sends webpage files
+6. Browser displays webpage
 
-A computer network is a group of connected devices that communicate and share resources.
+Marking:
 
-### Marking Guide
-
-- Defines a network as connected devices (1)
-- Mentions communication or resource sharing (1)
-
-Accept any equivalent wording.
-
----
-
-## Question 12 (2 marks)
-
-### Sample Answer
-
-A LAN covers a small area such as a school or home, while a WAN connects networks over large geographical distances, such as the Internet.
-
-### Marking Guide
-
-- Correct description of LAN (1)
-- Correct comparison with WAN (1)
-
-Accept other suitable comparisons (size, ownership, speed, coverage).
+- 6 correct = 6 marks
+- 5 correct = 5 marks
+- 4 correct = 4 marks
+- 3 correct = 3 marks
+- 2 correct = 2 marks
+- 1 correct = 1 mark
 
 ---
 
-## Question 13 (2 marks)
+# Part D – Short Answer (9 marks)
 
-### Sample Answer
+## Question 1
 
-A router connects different networks and directs data to its destination.
+Explain the difference between a client and a server.
 
-### Marking Guide
+**Sample Answer**
 
-- Connects networks (1)
-- Routes or forwards data (1)
+A client requests information or services from another computer.
 
----
-
-## Question 14 (2 marks)
-
-Possible answers include:
-
-- File sharing
-- Printer sharing
-- Internet access
-- Communication
-- Online learning
-- Cloud storage
-- Collaboration
-
-### Marking Guide
-
-One mark for each valid benefit.
-
-Maximum: 2 marks.
-
----
-
-# Section C – Application (6 marks)
-
-## Question 15 (2 marks)
-
-Possible answers
-
-- Router
-- Switch
-- Wireless Access Point
-
-### Marking Guide
-
-Any two correct devices.
-
-1 mark each.
-
----
-
-## Question 16 (4 marks)
-
-### Sample Answer
-
-A switch connects all devices inside the classroom.
-
-A router connects the classroom network to the Internet.
+A server stores or provides information and responds to requests from clients.
 
 ### Marking Guide
 
 | Criteria | Marks |
-|----------|------:|
-| Correct explanation of switch | 2 |
-| Correct explanation of router | 2 |
+|-----------|------:|
+| Identifies client correctly | 1 |
+| Identifies server correctly | 1 |
+| Clearly explains the difference | 1 |
 
-Award partial credit for partially correct explanations.
-
----
-
-# Section D – Higher-Order Thinking (6 marks)
-
-## Question 17
-
-### Expected Table
-
-| Service | Expected Answer |
-|---------|----------------|
-| Shared printer | Yes* |
-| Google Classroom | No |
-| Web browsing | No |
-| Local file sharing | Yes* |
-
-**Teacher Note**
-
-Responses marked with * depend on the school's network design.
-
-If the printer and file server are located inside the LAN, these services may continue even if Internet access is unavailable.
-
-Accept reasonable explanations.
+Maximum: **3 marks**
 
 ---
 
-### Suggested Explanation
+## Question 2
 
-Without a working router, the LAN may continue operating internally.
+Why does every device need an IP address?
 
-However, devices cannot communicate with external networks, so Internet-based services such as Google Classroom and web browsing will stop working.
+**Sample Answer**
+
+Every device needs an IP address so that other computers know where to send and receive information.
 
 ### Marking Guide
 
 | Criteria | Marks |
-|----------|------:|
-| Correct predictions | 2 |
-| Logical explanation | 4 |
+|-----------|------:|
+| Mentions unique identification | 1 |
+| Explains communication | 1 |
+| Explains data delivery | 1 |
 
-Award partial credit where reasoning demonstrates sound understanding.
-
----
-
-# Common Misconceptions
-
-## Internet = Wi-Fi
-
-Incorrect.
-
-Wi-Fi is a wireless communication technology.
-
-The Internet is a global network.
+Maximum: **3 marks**
 
 ---
 
-## Router = Switch
+## Question 3
 
-Incorrect.
+Why is DNS important?
 
-A switch connects devices within one LAN.
+**Sample Answer**
 
-A router connects different networks together.
+DNS translates human-readable domain names into IP addresses so computers can locate websites.
 
----
+### Marking Guide
 
-## Server = Powerful Computer
+| Criteria | Marks |
+|-----------|------:|
+| Mentions domain names | 1 |
+| Mentions IP addresses | 1 |
+| Explains translation purpose | 1 |
 
-Not always.
-
-A server is defined by the services it provides, not simply by its hardware.
-
----
-
-# Performance Levels
-
-| Score | Performance |
-|-------:|-------------|
-| 27–30 | Excellent |
-| 23–26 | Proficient |
-| 18–22 | Developing |
-| 0–17 | Beginning |
+Maximum: **3 marks**
 
 ---
 
-# Extension Questions
+# Part E – Scenario (10 marks)
 
-Students who finish early may discuss:
+## Question 1 (2 marks)
 
-1. Why do large schools use multiple switches instead of one?
+**Question**
 
-2. What might happen if every classroom had its own separate network with no router?
+What system finds the correct IP address?
 
-3. How would learning change if your school had no computer network?
+**Answer**
+
+DNS (Domain Name System)
+
+Full Marks: **2**
 
 ---
 
-# Feedback Comments
+## Question 2 (2 marks)
+
+**Question**
+
+After the IP address is found, which computer receives the request?
+
+**Answer**
+
+The web server.
+
+Full Marks: **2**
+
+---
+
+## Question 3 (2 marks)
+
+**Question**
+
+What does the server send back?
+
+**Answer**
+
+The webpage files (such as HTML, CSS, JavaScript, images and other resources).
+
+Accept:
+
+- webpage
+- webpage files
+- website data
+
+Full Marks: **2**
+
+---
+
+## Question 4 (4 marks)
+
+**Question**
+
+Describe the complete journey of the webpage.
+
+### Sample Answer
+
+1. Emma types the URL.
+2. The browser asks DNS for the IP address.
+3. DNS returns the IP address.
+4. The browser sends a request to the web server.
+5. The server sends the webpage files.
+6. The browser displays the webpage.
+
+### Marking Guide
+
+| Criteria | Marks |
+|-----------|------:|
+| URL entered | 1 |
+| DNS lookup | 1 |
+| Browser contacts server | 1 |
+| Browser displays webpage | 1 |
+
+Maximum: **4 marks**
+
+---
+
+# Total Score
+
+| Section | Marks |
+|---------|------:|
+| Part A | 10 |
+| Part B | 5 |
+| Part C | 6 |
+| Part D | 9 |
+| Part E | 10 |
+| **Total** | **40** |
+
+---
+
+# Achievement Guide
+
+| Score | Achievement Level |
+|-------:|-------------------|
+| 36–40 | Excellent |
+| 31–35 | Very Good |
+| 24–30 | Satisfactory |
+| 16–23 | Developing |
+| 0–15 | Beginning |
+
+---
+
+# Common Errors
+
+Teachers should pay particular attention to the following misconceptions.
+
+### Misconception 1
+
+**"Google is the Internet."**
+
+Correction:
+
+Google is a service that operates on the Internet.
+
+---
+
+### Misconception 2
+
+**"DNS stores websites."**
+
+Correction:
+
+DNS stores records that map domain names to IP addresses.
+
+---
+
+### Misconception 3
+
+**"The browser stores every website."**
+
+Correction:
+
+The browser requests webpage files from a web server and displays them.
+
+---
+
+### Misconception 4
+
+**"A client and a server are different types of computers."**
+
+Correction:
+
+A client and a server describe **roles**. A computer acts as a client when requesting information and as a server when providing information.
+
+---
+
+# Teacher Feedback Comments
 
 ### Excellent
 
-The student demonstrates a clear understanding of computer networks and accurately applies networking concepts to real-world situations.
+Demonstrates a clear understanding of Internet communication, accurately explaining the roles of clients, servers, IP addresses and DNS. Uses networking terminology confidently and applies concepts correctly.
 
 ---
 
 ### Satisfactory
 
-The student understands the basic concepts of networking but should continue developing confidence in distinguishing between networking devices and network types.
+Shows a sound understanding of the main concepts. Minor errors may occur when explaining the sequence of webpage loading or networking terminology.
 
 ---
 
 ### Needs Improvement
 
-The student requires additional support in recognising the roles of networking devices and explaining how computer networks enable communication and resource sharing.
+Would benefit from additional practice explaining how webpages are located and delivered. Encourage review of the client–server model, IP addresses and DNS before progressing to Lesson 3.
 
 ---
 
-# Teacher Reflection
+# Preparation for Lesson 3
 
-After marking the assessment, consider the following:
+Students who score **30/40 or higher** are generally ready to begin **Lesson 3 – Network Protocols**.
 
-- Which concepts caused the most difficulty?
-- Were students able to distinguish between routers and switches?
-- Could students explain the difference between LAN and WAN using their own words?
-- Should more practical demonstrations be included before Lesson 2?
+Students scoring below this level may benefit from revisiting:
 
-Record observations here:
-
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+- Client vs Server
+- IP Addresses
+- Domain Names
+- DNS
+- The webpage loading sequence
