@@ -1,292 +1,593 @@
 # Grade 9 Digital Technology
+# Teacher Guide
 # Unit 3 – Networks and the Internet
-# Teacher Guide – Lesson 1
-## Why Do We Need Computer Networks?
+## Lesson 2 – How Does the Internet Work?
 
 ---
 
 # Lesson Information
 
-| Item | Details |
-|------|---------|
-| Grade | 9 |
-| Unit | 3 |
-| Lesson | 1 |
-| Duration | 80 minutes |
-| Topic | Introduction to Computer Networks |
-| Suggested Class Type | Inquiry + Discussion + Practical Activity |
+**Year Level:** Grade 9
+
+**Recommended Duration:** 70–80 minutes
+
+**Curriculum Strand:** Networks and Internet Technologies
+
+**Prerequisite Knowledge**
+
+Students should already understand:
+
+- what a computer network is
+- the difference between LAN and WAN
+- the purpose of routers and switches
+- that information travels in packets
+
+(Refer to Unit 3 Lesson 1 if necessary.)
 
 ---
 
-# Curriculum Alignment
+# Lesson Overview
+
+This lesson introduces students to one of the most important ideas in networking:
+
+**How information travels across the Internet.**
+
+Students learn that communication on the Internet follows a client–server model.
+
+They investigate:
+
+- clients
+- servers
+- IP addresses
+- domain names
+- DNS
+- webpage loading
+
+Rather than memorising technical definitions, students are encouraged to understand the sequence of events that occurs whenever they open a webpage.
+
+This lesson provides the conceptual foundation for later lessons on protocols, cybersecurity and cloud computing.
+
+---
+
+# Learning Intentions
 
 Students will:
 
-- Understand the purpose of computer networks.
-- Identify common network types.
-- Explain how devices communicate.
-- Recognise networking hardware.
-- Develop simple network diagrams.
-
----
-
-# Prior Knowledge
-
-Students should already know:
-
-- Basic computer hardware
-- Input and output devices
-- Storage devices
-- Basic digital systems
-
----
-
-# Learning Objectives
-
-By the end of the lesson students can:
-
-- Explain what a computer network is.
-- Describe why networks are important.
-- Compare LAN and WAN.
-- Identify routers, switches and wireless access points.
-- Draw a simple school network.
+- explain how clients and servers communicate
+- describe the purpose of IP addresses
+- explain why domain names are used
+- describe the role of DNS
+- explain the process of loading a webpage
 
 ---
 
 # Success Criteria
 
-Students successfully complete today's lesson if they can:
+Students can:
 
-✅ Define a computer network.
+☐ explain the client–server model
 
-✅ Identify at least three network devices.
+☐ identify examples of clients and servers
 
-✅ Explain the difference between LAN and WAN.
+☐ explain why every device requires an IP address
 
-✅ Draw a labelled network diagram.
+☐ describe the purpose of DNS
+
+☐ sequence the steps involved in loading a webpage
 
 ---
 
-# Required Materials
+# Resources
 
-Teacher
+Required
 
-- Teacher computer
-- Projector
+- Student Book (Lesson 2)
+- Projector or interactive display
 - Internet connection
 - Whiteboard
+- Student notebooks
 
-Students
+Recommended
 
-- Laptop
-- Notebook
-- Pencil
+- `client-server.svg`
+- `dns-process.svg`
+- `how-web-page-loads.svg`
+- `url-breakdown.svg`
+- `ip-address.svg`
 
 Optional
 
-- Ethernet cable
-- Home Wi-Fi router
-- Network switch (real hardware if available)
+- Teacher laptop
+- School website
+- Google Classroom
+- Live demonstration of a webpage loading
 
 ---
 
-# Key Vocabulary
+# Lesson Sequence
 
-| Word | Notes |
-|------|------|
-| Network | Connected devices |
-| LAN | Small network |
-| WAN | Large network |
-| Router | Connects networks |
-| Switch | Connects devices inside a LAN |
-| Server | Provides services |
-| Client | Requests services |
+| Stage | Time |
+|---------|------|
+| Starter | 10 min |
+| Direct Instruction | 20 min |
+| Guided Practice | 20 min |
+| Independent Activity | 20 min |
+| Reflection | 10 min |
 
 ---
 
-# Lesson Flow (80 Minutes)
+# Starter (10 minutes)
 
-## 1. Starter (10 min)
+Display the following question.
 
-### Display
+> "What happens after you press Enter when visiting a website?"
 
-> "How many devices are connected to your home Wi-Fi?"
+Allow students one minute to think individually.
 
-Give students two minutes to think individually.
+Students then discuss with a partner.
 
-Then discuss with a partner.
-
-Finally collect answers from the class.
-
-### Teacher Questions
-
-- What devices did you list?
-- Which device connects them together?
-- Can devices communicate without Wi-Fi?
+Finally, invite several students to share their ideas.
 
 ---
 
-## 2. Introduction (10 min)
+## Expected Responses
 
-Introduce the term
+Students may say:
 
-**Computer Network**
+- The Internet finds the website.
+- Google opens the webpage.
+- Wi-Fi downloads it.
+- The browser searches online.
+- The computer contacts another computer.
 
-Avoid giving the textbook definition immediately.
+Do not immediately correct incorrect answers.
 
-Instead ask:
+Record ideas on the board.
 
-> "Why do schools build networks?"
-
-Collect ideas.
-
-Expected responses:
-
-- Internet
-- Printing
-- Sharing files
-- Communication
-
-Only then introduce the formal definition.
+Explain that today's lesson will investigate which ideas are correct.
 
 ---
 
-## 3. Direct Instruction (15 min)
+# Activating Prior Knowledge
 
-Teach
+Ask the class:
 
-- Network
+1. What is a network?
+
+2. What is a router?
+
+3. What is the Internet?
+
+4. What does a website need before it can appear on your screen?
+
+Students should connect today's lesson with concepts learned in Lesson 1.
+
+If necessary, briefly review:
+
 - LAN
 - WAN
+- Routers
+- Data packets
 
-Use the school as the primary example.
-
-Avoid abstract explanations.
-
-Whenever possible point to real devices inside the classroom.
-
-Example:
-
-> "Our classroom printer is connected to the school LAN."
+Limit this review to five minutes.
 
 ---
 
-## 4. Demonstration (10 min)
+# Direct Instruction
 
-Draw the following on the board.
+## Introducing Clients and Servers
 
-```
-Internet
-     │
- Router
-     │
- Switch
- ┌───┼────┐
-PC  Laptop Printer
-```
+Display:
 
-Ask:
+`client-server.svg`
 
-- Which device connects to the Internet?
-- Which device connects computers together?
-- Can every computer print?
+Begin with a familiar example.
 
----
+Teacher:
 
-## 5. Activity (15 min)
+> "When you order food at a restaurant, who asks for the food?"
 
-Students complete
+Students:
 
-**Activity 2**
+"The customer."
 
-Design a classroom network.
+Teacher:
 
-Requirements
+> "Who prepares the food?"
 
-- Teacher computer
-- Student laptops
-- Printer
-- Router
-- Switch
-- Wi-Fi
+Students:
 
-Teacher circulates.
+"The kitchen."
 
-Encourage students to justify their design choices.
+Explain:
+
+The customer behaves like a client.
+
+The kitchen behaves like a server.
+
+The waiter is similar to the network carrying information between them.
+
+This analogy helps students understand the client–server model before introducing technical terminology.
 
 ---
 
-## 6. AI Lab (10 min)
+# Teaching Notes
 
-Students use ChatGPT or another AI assistant.
+Emphasise:
 
-Prompt:
+A server is **not** simply a powerful computer.
 
-> Explain the difference between a LAN and a WAN using a school as an example.
+A server is defined by the service it provides.
 
-Students evaluate the response.
+Any computer can become a server if it provides resources to other devices.
 
-### Discussion
+Avoid statements such as:
 
-Ask:
+> "Servers are always very large."
 
-- Was every explanation correct?
-- Did the AI miss anything?
-- Could you improve the answer?
+Instead say:
 
-Emphasise that AI should support learning, not replace critical thinking.
+> "Many servers are powerful because they serve many users, but their role is more important than their size."
 
 ---
 
-## 7. Reflection (5 min)
+# Guided Discussion
 
-Students complete the Exit Ticket.
+Ask students:
 
-Questions:
+"What devices have you used today?"
 
-1. What is one thing you learned today?
-2. What question do you still have?
-3. Where do you see computer networks outside school?
+List responses.
+
+Possible answers:
+
+- phone
+- laptop
+- tablet
+- Chromebook
+
+Then ask:
+
+"When you watched YouTube this morning, was your phone acting as a client or a server?"
+
+Expected answer:
+
+Client.
+
+Next ask:
+
+"What computer provided the video?"
+
+Expected answer:
+
+YouTube server.
 
 ---
 
 # Common Misconceptions
 
-## Misconception 1
+### Misconception
 
-**The Internet and Wi-Fi are the same thing.**
+"The Internet is one giant computer."
 
-Clarification:
+Correction
 
-Wi-Fi is a method of connecting devices.
-
-The Internet is a global network.
+Explain that the Internet is a network connecting millions of computers.
 
 ---
 
-## Misconception 2
+### Misconception
 
-Students often think every device must connect directly to the Internet.
+"Google is the Internet."
 
-Clarification:
+Correction
 
-Most devices communicate through routers and switches.
+Explain that Google provides services on the Internet.
+
+Students often confuse companies with the infrastructure itself.
 
 ---
 
-## Misconception 3
+### Misconception
 
-Students confuse a router with a switch.
+"My laptop stores every website."
 
-Simple explanation:
+Correction
 
-Switch
+Websites remain on servers.
 
-→ connects devices inside one network.
+The browser only downloads the information needed to display the page.
 
-Router
+---
 
-→ connects different networks.
+# Transition
+
+Conclude this section by asking:
+
+"If computers can communicate with one another, how do they know exactly which computer to contact?"
+
+Allow students to suggest ideas.
+
+Do not introduce the answer yet.
+
+Explain that the next section introduces **IP addresses**, which solve this problem.
+---
+
+# Teaching IP Addresses
+
+## Learning Goal
+
+Students understand that every device connected to a network requires a unique address.
+
+Avoid beginning with technical definitions.
+
+Instead, begin with a familiar situation.
+
+---
+
+## Teacher Demonstration
+
+Hold up an envelope (or display an image of one).
+
+Ask:
+
+> "Could the post office deliver this letter if it had no address?"
+
+Students should answer:
+
+> "No."
+
+Ask:
+
+> "Why not?"
+
+Guide students toward the idea that an address tells the delivery system where the letter should go.
+
+Explain that the Internet has the same problem.
+
+Data cannot be delivered unless every device has an address.
+
+Introduce the term:
+
+**IP Address**
+
+Write on the board:
+
+```
+House Address
+        ↓
+Delivery
+
+IP Address
+        ↓
+Data Delivery
+```
+
+Emphasise that an IP address is simply the network's way of identifying a device.
+
+Avoid overwhelming students with binary numbers or networking standards.
+
+The goal is conceptual understanding.
+
+---
+
+# Introducing IPv4
+
+Display the example:
+
+```
+192.168.1.15
+```
+
+Ask students:
+
+> "How many groups of numbers can you see?"
+
+Expected answer:
+
+Four.
+
+Then ask:
+
+> "Do you think people enjoy memorising numbers like this?"
+
+Students usually answer:
+
+"No."
+
+Use this discussion to transition naturally to domain names.
+
+---
+
+# Teaching IPv6
+
+Students do **not** need to memorise IPv6 addresses.
+
+Instead, explain the reason IPv6 exists.
+
+Suggested explanation:
+
+> "When the Internet was first created, engineers believed there would be enough addresses for everyone. Today we have billions of devices including phones, tablets, watches, televisions and even refrigerators. IPv6 provides many more addresses for the future."
+
+Avoid discussing hexadecimal notation unless students ask.
+
+If students are curious, simply explain that IPv6 uses a different numbering system to create many more unique addresses.
+
+---
+
+# Teaching Domain Names
+
+Display:
+
+```
+142.250.190.78
+```
+
+Ask students to look at the number for five seconds.
+
+Hide the number.
+
+Ask:
+
+> "Who can remember it?"
+
+Very few students will succeed.
+
+Now display:
+
+```
+www.google.com
+```
+
+Hide it after five seconds.
+
+Almost every student will remember it.
+
+Use this simple activity to demonstrate why domain names exist.
+
+Students quickly understand that names are easier for humans while numbers are easier for computers.
+
+---
+
+# Introducing DNS
+
+Display:
+
+`dns-process.svg`
+
+Explain that DNS stands for **Domain Name System**.
+
+Avoid giving only the acronym.
+
+Students remember concepts more effectively when they understand the purpose.
+
+Use the analogy below.
+
+---
+
+## Teacher Analogy
+
+Ask:
+
+> "Do you remember your best friend's phone number?"
+
+Many students will answer "No."
+
+Then ask:
+
+> "How do you call them?"
+
+Expected responses:
+
+- Contacts
+- Phone book
+- Search
+
+Explain:
+
+DNS works in exactly the same way.
+
+People remember names.
+
+Computers use numbers.
+
+DNS connects the two.
+
+---
+
+# Suggested Teacher Questions
+
+Use open-ended questions whenever possible.
+
+Instead of asking:
+
+> "Is DNS important?"
+
+Ask:
+
+> "What problems would people face if DNS disappeared tomorrow?"
+
+Possible student responses:
+
+- We would have to remember numbers.
+- Websites would be difficult to find.
+- Browsing would become slower and more confusing.
+
+These responses demonstrate conceptual understanding rather than memorisation.
+
+---
+
+# Mini Demonstration
+
+Open a web browser.
+
+Type:
+
+```
+www.wikipedia.org
+```
+
+Ask students:
+
+"What happened before the page appeared?"
+
+Guide discussion toward the hidden steps.
+
+Students often assume the browser goes directly to the webpage.
+
+Explain that several systems work together:
+
+1. Browser
+2. DNS
+3. Web server
+4. Response
+5. Browser display
+
+Point out that these steps happen automatically within fractions of a second.
+
+---
+
+# Formative Assessment Checkpoint
+
+Before moving on, ask students to complete the following statements.
+
+1.
+
+A client is a computer that ___________________________
+
+Expected response:
+
+requests information.
+
+---
+
+2.
+
+A server is a computer that ___________________________
+
+Expected response:
+
+provides information or services.
+
+---
+
+3.
+
+An IP address is ___________________________
+
+Expected response:
+
+a unique address used to identify a device on a network.
+
+---
+
+4.
+
+DNS is responsible for ___________________________
+
+Expected response:
+
+translating domain names into IP addresses.
 
 ---
 
@@ -294,92 +595,443 @@ Router
 
 ## Support
 
-Provide students with a partially completed network diagram.
+Provide students with a vocabulary card containing:
 
-Highlight the key vocabulary before independent work.
+- Client
+- Server
+- IP Address
+- Domain Name
+- DNS
 
-Allow pair discussions before whole-class sharing.
+Include both definitions and simple diagrams.
+
+Allow students to work with a partner during sequencing activities.
 
 ---
 
 ## Extension
 
-Challenge students to design the network for:
+Ask higher-achieving students:
 
-- a hospital
-- an airport
-- a library
+> "Could two devices on the same network use exactly the same IP address?"
 
-Ask them to justify the devices they include.
+Encourage discussion.
 
----
+Guide students toward the idea that duplicate addresses would cause communication problems because the network would not know which device should receive the data.
 
-# Formative Assessment
-
-Observe whether students can:
-
-- use the vocabulary correctly
-- explain LAN vs WAN
-- identify networking devices
-- complete the network diagram
-- justify their design
+No detailed discussion of IP conflicts is required at this stage.
 
 ---
 
-# Homework
+# Teacher Tips
 
-Draw the network in your home.
+Students often confuse these pairs of terms.
 
-Label:
+| Students Confuse | Clarification |
+|------------------|---------------|
+| Internet and Google | Google is a service on the Internet. |
+| Website and Server | A server stores and delivers websites. |
+| Domain Name and URL | A domain name is one part of a URL. |
+| Wi-Fi and Internet | Wi-Fi connects a device to a local network; Internet access depends on additional network infrastructure. |
 
+Return to these distinctions whenever they arise during discussion.
+
+---
+
+# Transition to the Final Section
+
+Ask the class:
+
+> "Now we know how a browser finds a server. What happens after the browser has found the correct server?"
+
+Invite a few predictions.
+
+Explain that the next section follows the complete journey of a webpage—from the moment a URL is entered until the webpage appears on the screen.
+---
+
+# Teaching "How a Web Page Loads"
+
+## Learning Goal
+
+Students understand that loading a webpage is a sequence of coordinated actions rather than a single event.
+
+Students should recognise that several systems cooperate:
+
+- Browser
+- DNS
 - Internet
-- Router
-- Wi-Fi
-- Devices
+- Web Server
+- Data Packets
 
-Write one sentence explaining the purpose of each device.
-
----
-
-# Cross-Curricular Links
-
-- Mathematics — Logical reasoning and diagrams
-- Science — Communication systems
-- Business Studies — Digital collaboration
-- English — Technical vocabulary
+The emphasis is on the overall process, not memorising technical terminology.
 
 ---
 
-# Teaching Tips
+## Teaching Sequence
 
-- Walk around the classroom and point out real networking equipment whenever possible.
-- Encourage students to explain ideas using their own words before introducing technical terminology.
-- Keep examples relevant to students' daily lives (school Wi-Fi, streaming, messaging apps, online games).
-- Avoid long lectures. Aim for short explanations followed by discussion or practical activities.
+Display:
+
+`how-web-page-loads.svg`
+
+Guide students through the process one step at a time.
+
+### Step 1
+
+The user types a URL.
+
+Ask:
+
+> "What is the first thing your browser knows?"
+
+Expected response:
+
+The website name.
+
+---
+
+### Step 2
+
+DNS finds the IP address.
+
+Ask:
+
+> "Why can't the browser use only the website name?"
+
+Expected response:
+
+Computers communicate using IP addresses.
+
+---
+
+### Step 3
+
+The browser sends a request.
+
+Explain that requests are simply messages asking for information.
+
+Avoid introducing HTTP methods such as GET and POST at this stage.
+
+---
+
+### Step 4
+
+The server prepares the webpage.
+
+Explain that the server collects the required files before sending them back.
+
+---
+
+### Step 5
+
+The browser receives the files and builds the webpage.
+
+Emphasise that the browser is responsible for displaying the page—not the server.
+
+---
+
+# Revisiting Packets
+
+Display:
+
+`packet-transmission.svg`
+
+Remind students that this concept was introduced in Lesson 1.
+
+Review the following points.
+
+- Large files are divided into packets.
+- Packets may travel along different routes.
+- Missing packets can be resent.
+- The receiving computer rebuilds the original file.
+
+Do not spend more than five minutes reviewing this concept.
+
+The goal is reinforcement rather than reteaching.
+
+---
+
+# Facilitating Activity 3
+
+Students arrange the webpage loading process into the correct order.
+
+## Correct Order
+
+1. User enters a URL.
+2. Browser asks DNS for the IP address.
+3. DNS returns the IP address.
+4. Browser contacts the web server.
+5. Server sends webpage files.
+6. Browser displays the webpage.
+
+---
+
+## Discussion Questions
+
+Ask:
+
+> "Which step would fail if DNS stopped working?"
+
+Expected response:
+
+The browser would not know the server's IP address.
+
+---
+
+Ask:
+
+> "Would the server still exist?"
+
+Expected response:
+
+Yes.
+
+Explain that DNS helps computers locate servers. It does not create or store them.
+
+---
+
+# Facilitating Activity 4
+
+Students identify the client, server and whether DNS is involved.
+
+## Suggested Answers
+
+| Situation | Client | Server | DNS Needed? |
+|-----------|--------|--------|:-----------:|
+| Watching an online video | Student device | Video server | Yes |
+| Reading a news website | Student device | News server | Yes |
+| School LMS | Student device | LMS server | Yes |
+| Cloud storage | Student device | Cloud server | Yes |
+
+If students suggest that DNS is not always required because an IP address could be entered directly, acknowledge this as an excellent extension idea while explaining that, in normal everyday use, DNS is involved.
+
+---
+
+# Extension Discussion
+
+Ask students:
+
+> "Why do you think websites use names instead of long numbers?"
+
+Encourage answers related to usability and human memory.
+
+Then ask:
+
+> "Why do computers still need numbers?"
+
+Guide students toward the idea that numerical addressing allows accurate communication between devices.
 
 ---
 
 # Exit Ticket Answer Guide
 
-| Question | Expected Response |
-|----------|-------------------|
-| What is a computer network? | A group of connected devices that communicate and share resources. |
-| Example of a LAN | School, home, office |
-| Example of a WAN | Internet |
-| Device that connects networks | Router |
-| Why are networks useful? | Sharing files, printers, Internet access, communication |
+### Question 1
+
+What is an IP address?
+
+Expected answer:
+
+A unique numerical address that identifies a device on a network.
 
 ---
 
-# Looking Ahead
+### Question 2
 
-Lesson 2 explores how data travels across the Internet.
+Why do we use domain names?
 
-Students will learn:
+Expected answer:
 
-- IP addresses
-- Domain names
+They are easier for people to remember than numerical IP addresses.
+
+---
+
+### Question 3
+
+What is the role of DNS?
+
+Expected answer:
+
+DNS translates domain names into IP addresses.
+
+---
+
+### Question 4
+
+Explain the difference between a client and a server.
+
+Expected answer:
+
+A client requests information, while a server provides information or services.
+
+---
+
+### Question 5
+
+Describe how a webpage loads.
+
+Students should include most of these steps:
+
+- Enter URL
+- DNS lookup
+- Browser contacts server
+- Server sends files
+- Browser displays webpage
+
+Minor wording differences are acceptable if the sequence is correct.
+
+---
+
+# Assessment Rubric
+
+| Criteria | Beginning | Developing | Proficient | Advanced |
+|----------|-----------|------------|------------|----------|
+| Client–Server Model | Identifies few roles | Explains basic roles | Correctly explains communication | Applies concept to unfamiliar situations |
+| IP Address | Limited understanding | Knows basic purpose | Explains why devices need addresses | Connects addressing to networking concepts |
+| DNS | Limited understanding | Recognises its purpose | Correctly explains name-to-IP translation | Explains the complete lookup process |
+| Webpage Loading | Lists isolated ideas | Describes some steps | Explains the correct sequence | Explains the process confidently using correct terminology |
+
+---
+
+# Homework
+
+Students complete one of the following tasks.
+
+### Option A
+
+Create a flowchart showing how a webpage loads.
+
+Include:
+
+- URL
 - DNS
-- Web servers
-- Data packets
-- Internet routing
+- Browser
+- Server
+- Webpage
+
+---
+
+### Option B
+
+Interview a family member.
+
+Ask:
+
+> "What do you think happens when you open a website?"
+
+Compare their explanation with what you learned in class.
+
+---
+
+### Option C (Extension)
+
+Research one of the following:
+
+- DNS
+- Cloud Computing
+- Data Centres
+- Content Delivery Networks (CDNs)
+
+Prepare a short one-page summary including:
+
+- Definition
+- Purpose
+- One real-world example
+
+---
+
+# Cross-Curricular Connections
+
+### English
+
+Students explain technical concepts using clear written language.
+
+---
+
+### Mathematics
+
+Students recognise that computers use numerical addressing systems.
+
+---
+
+### Media Studies
+
+Students investigate how online media is delivered through networks.
+
+---
+
+### Digital Citizenship
+
+Students begin understanding the infrastructure that supports everyday online activities.
+
+---
+
+# Preparing Students for Lesson 3
+
+Conclude the lesson by asking:
+
+> "Finding the correct computer is only part of the problem."
+
+Then ask:
+
+> "How can billions of computers communicate in exactly the same way?"
+
+Allow students to speculate.
+
+Explain that the next lesson introduces **network protocols**, the shared rules that allow devices to communicate reliably.
+
+---
+
+# Teacher Reflection
+
+After teaching, reflect on the following questions.
+
+### Student Understanding
+
+- Could students distinguish between clients and servers?
+- Did students understand why DNS is necessary?
+- Could students explain the webpage loading process in the correct order?
+
+---
+
+### Student Engagement
+
+- Which activity generated the most discussion?
+- Which examples were easiest for students to understand?
+- Which misconceptions appeared most frequently?
+
+---
+
+### Future Improvements
+
+Consider:
+
+- spending more time on DNS if students found it difficult.
+- using additional real-world demonstrations.
+- revisiting packet transmission before Lesson 3 if required.
+
+Record notes below.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# End of Lesson
+
+Students should now understand:
+
+✓ Client–Server Communication
+
+✓ IP Addresses
+
+✓ Domain Names
+
+✓ DNS
+
+✓ Webpage Loading
+
+These concepts provide the foundation for **Lesson 3 – Network Protocols**, where students will explore how computers follow shared rules to exchange information accurately and efficiently.
