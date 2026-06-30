@@ -1,265 +1,158 @@
 # Grade 9 Digital Technology
 # Unit 3 – Networks and the Internet
-## Lesson 1 Quiz
+## Lesson 2 Quiz – How Does the Internet Work?
 
-**Name:** ______________________
+**Name:** _______________________
 
-**Class:** ______________________
+**Class:** _______________________
 
-**Date:** ______________________
+**Date:** _______________________
 
-**Time:** 25–30 minutes
+**Score:** ______ / 40
 
-**Total Marks:** 30
+**Time:** 25 minutes
 
 ---
 
-# Section A – Multiple Choice (10 marks)
+# Instructions
+
+- Answer all questions.
+- Read each question carefully.
+- Show your thinking where appropriate.
+- Write neatly.
+
+---
+
+# Part A – Multiple Choice (10 marks)
 
 Choose the best answer.
 
 ### 1.
 
-What is a computer network?
+What is the main role of a client?
 
-A. A collection of computer games
+A. Store websites
 
-B. A group of connected devices that share information
+B. Request information
 
-C. A type of operating system
+C. Translate IP addresses
 
-D. A storage device
+D. Connect Wi-Fi networks
 
-**Answer:** ______
+Answer: ______
 
 ---
 
 ### 2.
 
-Which device connects different networks?
+What is the main role of a server?
 
-A. Switch
+A. Provide information to clients
 
-B. Router
+B. Connect computers with cables
 
-C. Printer
+C. Translate domain names
 
-D. Server
+D. Assign IP addresses
 
-**Answer:** ______
+Answer: ______
 
 ---
 
 ### 3.
 
-Which of the following is an example of a LAN?
+Which of the following is an example of an IP address?
 
-A. The Internet
+A. www.school.edu
 
-B. A school network
+B. 192.168.1.25
 
-C. A global banking network
+C. https://google.com
 
-D. A satellite network
+D. school.net
 
-**Answer:** ______
+Answer: ______
 
 ---
 
 ### 4.
 
-What is the world's largest WAN?
+Why do people use domain names?
 
-A. School network
+A. They are easier to remember.
 
-B. Home Wi-Fi
+B. They make the Internet faster.
 
-C. Internet
+C. They replace servers.
 
-D. Bluetooth
+D. They create webpages.
 
-**Answer:** ______
+Answer: ______
 
 ---
 
 ### 5.
 
-Which device connects computers inside a LAN?
+What is the main job of DNS?
 
-A. Router
+A. Store webpages
 
-B. Switch
+B. Translate domain names into IP addresses
 
-C. Server
+C. Connect computers to Wi-Fi
 
-D. Modem
+D. Create websites
 
-**Answer:** ______
-
----
-
-### 6.
-
-Which device usually acts as a client?
-
-A. Student laptop
-
-B. Print server
-
-C. File server
-
-D. Database server
-
-**Answer:** ______
+Answer: ______
 
 ---
 
-### 7.
+# Part B – Matching (5 marks)
 
-Why are packets used?
+Match each term to its correct definition.
 
-A. To increase file size
+| Term | Letter |
+|------|:------:|
+| Client | ____ |
+| Server | ____ |
+| DNS | ____ |
+| IP Address | ____ |
+| Packet | ____ |
 
-B. To organise computer folders
+Definitions
 
-C. To send data efficiently
+A. Small piece of transmitted data
 
-D. To replace routers
+B. Device requesting information
 
-**Answer:** ______
+C. Device providing information
 
----
+D. Translates domain names into IP addresses
 
-### 8.
-
-Which statement is TRUE?
-
-A. Every LAN is larger than a WAN.
-
-B. Routers connect devices inside a LAN only.
-
-C. Switches connect devices inside a LAN.
-
-D. Servers request information from clients.
-
-**Answer:** ______
+E. Unique numerical network address
 
 ---
 
-### 9.
+# Part C – Sequencing (6 marks)
 
-Which activity does NOT require a network?
+Place the following steps in the correct order.
 
-A. Sending an email
-
-B. Printing to a shared printer
-
-C. Saving to Google Drive
-
-D. Using a calculator without Internet
-
-**Answer:** ______
-
----
-
-### 10.
-
-Which device provides services to clients?
-
-A. Laptop
-
-B. Switch
-
-C. Server
-
-D. Router
-
-**Answer:** ______
+| Step | Order |
+|------|:----:|
+| Browser displays webpage | □ |
+| User enters URL | □ |
+| Browser contacts web server | □ |
+| DNS returns IP address | □ |
+| Server sends webpage files | □ |
+| Browser requests IP address from DNS | □ |
 
 ---
 
-# Section B – Short Answer (8 marks)
+# Part D – Short Answer (9 marks)
 
-### 11.
+### 1. (3 marks)
 
-Define a computer network.
-
-____________________________________________________
-
-____________________________________________________
-
-(2 marks)
-
----
-
-### 12.
-
-Explain ONE difference between a LAN and a WAN.
-
-____________________________________________________
-
-____________________________________________________
-
-(2 marks)
-
----
-
-### 13.
-
-Describe the purpose of a router.
-
-____________________________________________________
-
-____________________________________________________
-
-(2 marks)
-
----
-
-### 14.
-
-Give TWO benefits of using computer networks in schools.
-
-1.
-
-_____________________________________
-
-2.
-
-_____________________________________
-
-(2 marks)
-
----
-
-# Section C – Application (6 marks)
-
-A new classroom contains:
-
-- 25 student laptops
-- 1 teacher computer
-- 1 printer
-- Internet access
-
-### 15.
-
-List TWO networking devices required.
-
-1.
-
-________________________
-
-2.
-
-________________________
-
-(2 marks)
-
----
-
-### 16.
-
-Explain why each device is needed.
+Explain the difference between a client and a server.
 
 ____________________________________________________
 
@@ -267,54 +160,85 @@ ____________________________________________________
 
 ____________________________________________________
 
-(4 marks)
+---
+
+### 2. (3 marks)
+
+Why does every device need an IP address?
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
 
 ---
 
-# Section D – Higher-Order Thinking (6 marks)
+### 3. (3 marks)
 
-### 17.
-
-A school's router suddenly stops working.
-
-For each service below, predict whether it will continue working.
-
-| Service | Yes | No |
-|---------|:---:|:--:|
-| Shared printer | □ | □ |
-| Google Classroom | □ | □ |
-| Web browsing | □ | □ |
-| Local file sharing | □ | □ |
-
-(2 marks)
-
-Explain your reasoning.
+Why is DNS important?
 
 ____________________________________________________
 
 ____________________________________________________
 
 ____________________________________________________
-
-(4 marks)
 
 ---
 
-# Reflection (Not Graded)
+# Part E – Scenario (10 marks)
 
-Today I feel confident that I can:
+Emma types the following into her browser.
 
-□ Explain a network.
+```
+www.wikipedia.org
+```
 
-□ Explain LAN and WAN.
+Answer the questions.
 
-□ Identify routers.
+### 1. (2 marks)
 
-□ Identify switches.
+What system finds the correct IP address?
 
-□ Draw a simple network.
+____________________________________________________
 
-One question I still have is:
+---
+
+### 2. (2 marks)
+
+After the IP address is found, which computer receives the request?
+
+____________________________________________________
+
+---
+
+### 3. (2 marks)
+
+What does the server send back?
+
+____________________________________________________
+
+---
+
+### 4. (4 marks)
+
+Describe the complete journey of the webpage from typing the URL until it appears in Emma's browser.
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+# Part F – Reflection (Optional)
+
+Which topic from today's lesson would you like to learn more about?
 
 ____________________________________________________
 
