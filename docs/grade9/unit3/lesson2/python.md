@@ -1,287 +1,341 @@
+# Grade 9 Digital Technology
 # Python Lab
 # Unit 3 – Networks and the Internet
-## Lesson 1 – Introduction to Computer Networks
-
----
-
-# Lab Overview
-
-In this lab, you will use Python to represent a simple computer network.
-
-You will learn how programming can help us organise, analyse, and simulate network information.
-
-No previous programming experience is required.
+## Lesson 2 – Simulating the Internet with Python
 
 ---
 
 # Learning Objectives
 
-By the end of this lab, you will be able to:
+By the end of this activity, you will be able to:
 
-- Create Python variables.
-- Store network devices in a list.
-- Count the number of devices.
-- Use loops to display information.
-- Modify a simple network model.
-
----
-
-# Preparation
-
-Before starting:
-
-- Open Google Colab or VS Code.
-- Create a new Python notebook.
-- Save it as **lesson1_network_lab.ipynb**.
+- understand how DNS works
+- simulate a simple web request
+- use Python dictionaries to store network information
+- write functions to retrieve data
+- explain how computers locate websites
 
 ---
 
-# Activity 1 – Your First Network
+# Introduction
 
-Type the following program.
+When you type a website such as:
+
+```
+www.wikipedia.org
+```
+
+your computer cannot use that name directly.
+
+Instead, it asks a **DNS server** for the website's IP address.
+
+In this activity, you will build a simple DNS simulator using Python.
+
+---
+
+# Activity 1 – Your First DNS Database
+
+A Python dictionary is perfect for storing website names and IP addresses.
 
 ```python
-network = [
-    "Teacher Computer",
-    "Student Laptop",
-    "Printer",
-    "Router",
-    "Switch"
-]
+dns = {
+    "www.google.com": "142.250.190.78",
+    "www.wikipedia.org": "208.80.154.224",
+    "www.openai.com": "104.18.33.45",
+    "school.edu": "192.168.1.10"
+}
 
-print(network)
+print(dns)
 ```
 
 ### Questions
 
-1. How many devices are listed?
+1. Which website has the IP address **208.80.154.224**?
 
-_________________________________________________
+________________________________________________
 
-2. Which device connects different networks?
+2. Which website uses **192.168.1.10**?
 
-_________________________________________________
-
----
-
-# Activity 2 – Printing Each Device
-
-Instead of printing the whole list at once, print one device at a time.
-
-```python
-network = [
-    "Teacher Computer",
-    "Student Laptop",
-    "Printer",
-    "Router",
-    "Switch"
-]
-
-for device in network:
-    print(device)
-```
-
-### Challenge
-
-Add these devices.
-
-- Tablet
-- Smartphone
-- Smart TV
-
-Run the program again.
-
-How many devices are displayed now?
-
-___________________________
+________________________________________________
 
 ---
 
-# Activity 3 – Counting Devices
+# Activity 2 – Looking Up an IP Address
 
-Python can count automatically.
-
-```python
-network = [
-    "Teacher Computer",
-    "Student Laptop",
-    "Printer",
-    "Router",
-    "Switch"
-]
-
-print(len(network))
-```
-
-### Task
-
-Add five more devices.
-
-What is the new total?
-
-______________
-
----
-
-# Activity 4 – Is a Device Connected?
-
-Python can check whether an item exists.
+Python allows us to search a dictionary.
 
 ```python
-network = [
-    "Teacher Computer",
-    "Student Laptop",
-    "Printer",
-    "Router",
-    "Switch"
-]
+dns = {
+    "www.google.com": "142.250.190.78",
+    "www.wikipedia.org": "208.80.154.224",
+    "www.openai.com": "104.18.33.45"
+}
 
-device = input("Enter a device name: ")
+website = input("Enter a website: ")
 
-if device in network:
-    print("Connected")
+if website in dns:
+    print("IP Address:", dns[website])
 else:
-    print("Not found")
+    print("Website not found.")
 ```
 
-### Try
+### Try These
 
-Check:
+```
+www.google.com
+```
 
-- Printer
-- Router
-- Tablet
+```
+www.openai.com
+```
 
-What happens?
+```
+www.school.edu
+```
 
-_________________________________________________
+What happens if the website is not in the dictionary?
+
+________________________________________________
+
+________________________________________________
 
 ---
 
-# Activity 5 – Building Your Own Network
+# Activity 3 – Add a New Website
 
-Create a list containing at least ten devices.
+Modify the dictionary.
 
-Example
+Add your school's website.
+
+Example:
 
 ```python
-my_network = [
-]
+dns["www.myschool.edu"] = "203.12.45.18"
 ```
 
-Include
+Print the dictionary again.
 
-- computers
-- phones
-- tablets
-- printer
-- router
-- switch
+How many websites are stored?
 
-Print every device.
+_____________
 
 ---
 
-# Extension Activity
+# Activity 4 – Simulating a Browser
 
-Display each device with a number.
-
-Expected output
-
-```
-1 Teacher Computer
-2 Student Laptop
-3 Printer
-4 Router
-5 Switch
-```
-
-Hint
-
-Use
+Create a function.
 
 ```python
-enumerate()
+dns = {
+    "www.google.com": "142.250.190.78",
+    "www.wikipedia.org": "208.80.154.224"
+}
+
+def visit(site):
+    if site in dns:
+        print("Looking up DNS...")
+        print("IP Address:", dns[site])
+        print("Connecting to server...")
+        print("Downloading webpage...")
+        print("Page loaded!")
+    else:
+        print("Website not found.")
+
+visit("www.google.com")
 ```
 
 ---
 
-# Mini Project – Design a School Network
+## Output
 
-Your school will purchase new equipment.
+```
+Looking up DNS...
 
-Create a Python list containing every device.
+IP Address: 142.250.190.78
 
-Example
+Connecting to server...
+
+Downloading webpage...
+
+Page loaded!
+```
+
+Discuss.
+
+Which part represents DNS?
+
+________________________________________________
+
+Which part represents the server?
+
+________________________________________________
+
+---
+
+# Activity 5 – Building a Mini Internet
+
+Create a larger dictionary.
 
 ```python
-school_network = [
-]
+dns = {
+    "www.google.com":"142.250.190.78",
+    "www.wikipedia.org":"208.80.154.224",
+    "www.bbc.com":"151.101.0.81",
+    "www.youtube.com":"142.250.191.78",
+    "www.openai.com":"104.18.33.45"
+}
 ```
 
-Requirements
+Ask the user to enter a website.
 
-Include at least
+Display:
 
-- 30 laptops
-- teacher computer
-- printer
-- router
-- switch
-- Wi-Fi access point
-
-You do **not** need to type 30 laptop names.
-
-Instead, create a list that represents the different device types.
-
-Then answer:
-
-- Which device is the most important?
-- Which device connects to the Internet?
-- Which device allows wireless access?
+- website name
+- IP address
+- "Connection successful"
 
 ---
 
-# Reflection
+# Challenge Activity
 
-Complete the following.
+Instead of only displaying the IP address,
 
-Today I learned...
+also display a webpage title.
 
-____________________________________________________
+Example:
 
-____________________________________________________
+```python
+websites = {
+    "www.google.com": {
+        "ip":"142.250.190.78",
+        "title":"Google Search"
+    },
 
-The easiest activity was...
+    "www.wikipedia.org": {
+        "ip":"208.80.154.224",
+        "title":"Wikipedia"
+    }
+}
+```
 
-____________________________________________________
+Output
 
-The most difficult activity was...
+```
+Website
 
-____________________________________________________
+www.wikipedia.org
 
-One thing I still want to learn is...
+IP Address
 
-____________________________________________________
+208.80.154.224
+
+Title
+
+Wikipedia
+```
 
 ---
 
 # Extension Challenge
 
-Research one networking device that was **not** discussed in today's lesson.
+Create a fake web browser menu.
 
-Examples include:
+```
+======================
 
-- Firewall
-- Modem
-- Network Attached Storage (NAS)
-- Load Balancer
+Mini Browser
 
-Create a short presentation including:
+======================
 
-- Name
-- Picture
-- Purpose
-- Where it is used
+1. Visit Website
 
-Be prepared to share your findings with the class.
+2. Show DNS Records
+
+3. Exit
+```
+
+Use a **while loop** so the program continues until the user chooses Exit.
+
+---
+
+# Reflection
+
+Answer the questions.
+
+### 1.
+
+How is a Python dictionary similar to DNS?
+
+________________________________________________
+
+________________________________________________
+
+---
+
+### 2.
+
+Why are dictionaries useful for storing network information?
+
+________________________________________________
+
+________________________________________________
+
+---
+
+### 3.
+
+Which Python concept was most useful today?
+
+☐ Variables
+
+☐ Dictionaries
+
+☐ Functions
+
+☐ if statements
+
+☐ Loops
+
+---
+
+# Further Challenge
+
+Research the Python library:
+
+```
+socket
+```
+
+Find out how Python can discover the real IP address of a website.
+
+**Do not write code yet.**
+
+Instead, answer:
+
+- What does the `socket` library do?
+- Why might programmers use it?
+- How is it different from our simulated DNS dictionary?
+
+---
+
+# Success Criteria
+
+I can...
+
+☐ explain how DNS works.
+
+☐ use a dictionary to store website information.
+
+☐ retrieve values using keys.
+
+☐ write a function.
+
+☐ explain how this program models the Internet.
+
+---
+
+# Going Further
+
+In Lesson 3, you will learn how computers follow communication rules called **network protocols**.
+
+You will use Python again to simulate how devices exchange messages using these protocols.
