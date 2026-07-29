@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<style>
+text{font-family:Arial,sans-serif}
+.title{font-size:34px;font-weight:bold}
+.head{font-size:22px;font-weight:bold}
+.body{font-size:18px}
+.cloud{fill:#eef6ff;stroke:#2563eb;stroke-width:3}
+.edge{fill:#ecfdf5;stroke:#16a34a;stroke-width:3}
+.device{fill:#ffffff;stroke:#64748b;stroke-width:2}
+.line{stroke:#64748b;stroke-width:3}
+</style>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+<text x="800" y="55" text-anchor="middle" class="title">Edge Computing</text>
+
+<!-- Devices -->
+<rect x="120" y="300" width="220" height="110" class="device"/>
+<text x="230" y="360" text-anchor="middle" class="head">IoT Devices</text>
+
+<!-- Edge -->
+<rect x="600" y="260" width="320" height="190" class="edge"/>
+<text x="760" y="315" text-anchor="middle" class="head">Edge Server</text>
+<text x="760" y="355" text-anchor="middle" class="body">Local Processing</text>
+<text x="760" y="390" text-anchor="middle" class="body">Fast Response</text>
+
+<!-- Cloud -->
+<ellipse cx="1360" cy="180" rx="120" ry="50" class="cloud"/>
+<ellipse cx="1295" cy="205" rx="55" ry="35" class="cloud"/>
+<ellipse cx="1425" cy="205" rx="55" ry="35" class="cloud"/>
+<rect x="1240" y="180" width="240" height="60" class="cloud"/>
+<text x="1360" y="210" text-anchor="middle" class="head">Cloud</text>
+
+<line x1="340" y1="355" x2="600" y2="355" class="line"/>
+<line x1="920" y1="320" x2="1240" y2="220" class="line"/>
+
+<rect x="100" y="610" width="1400" height="190" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+<text x="140" y="655" class="head">Why Edge Computing?</text>
+<text x="140" y="700" class="body">• Data is processed close to the source instead of travelling to distant servers.</text>
+<text x="140" y="735" class="body">• Reduces latency and network traffic.</text>
+<text x="140" y="770" class="body">• Ideal for autonomous vehicles, industrial robots and smart factories.</text>
+
+</svg>

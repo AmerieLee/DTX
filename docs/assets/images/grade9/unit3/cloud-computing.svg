@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<style>
+text{font-family:Arial,sans-serif}
+.title{font-size:34px;font-weight:bold;fill:#111827}
+.heading{font-size:22px;font-weight:bold}
+.body{font-size:18px}
+.cloud{fill:#eef6ff;stroke:#2563eb;stroke-width:3}
+.server{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2}
+.device{fill:#ecfdf5;stroke:#16a34a;stroke-width:2}
+.line{stroke:#64748b;stroke-width:3}
+</style>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+<text x="800" y="55" text-anchor="middle" class="title">Cloud Computing</text>
+
+<!-- Cloud -->
+<ellipse cx="800" cy="180" rx="150" ry="55" class="cloud"/>
+<ellipse cx="710" cy="205" rx="75" ry="45" class="cloud"/>
+<ellipse cx="890" cy="205" rx="75" ry="45" class="cloud"/>
+<rect x="635" y="180" width="330" height="70" class="cloud"/>
+<text x="800" y="215" text-anchor="middle" class="heading">Cloud Services</text>
+
+<!-- Servers -->
+<rect x="680" y="300" width="240" height="120" class="server"/>
+<text x="800" y="345" text-anchor="middle" class="heading">Remote Servers</text>
+<text x="800" y="375" text-anchor="middle" class="body">Storage • Apps • Backup</text>
+
+<line x1="800" y1="250" x2="800" y2="300" class="line"/>
+
+<!-- Devices -->
+<rect x="180" y="560" width="180" height="100" class="device"/>
+<text x="270" y="615" text-anchor="middle" class="heading">Laptop</text>
+
+<rect x="500" y="560" width="180" height="100" class="device"/>
+<text x="590" y="615" text-anchor="middle" class="heading">Tablet</text>
+
+<rect x="820" y="560" width="180" height="100" class="device"/>
+<text x="910" y="615" text-anchor="middle" class="heading">Phone</text>
+
+<rect x="1140" y="560" width="180" height="100" class="device"/>
+<text x="1230" y="615" text-anchor="middle" class="heading">Desktop</text>
+
+<line x1="800" y1="420" x2="270" y2="560" class="line"/>
+<line x1="800" y1="420" x2="590" y2="560" class="line"/>
+<line x1="800" y1="420" x2="910" y2="560" class="line"/>
+<line x1="800" y1="420" x2="1230" y2="560" class="line"/>
+
+<!-- Benefits -->
+<rect x="120" y="735" width="1360" height="110" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+<text x="160" y="775" class="heading">Benefits of Cloud Computing</text>
+<text x="160" y="810" class="body">• Access files anywhere   • Automatic backup   • Easy collaboration   • Scalable resources</text>
+
+</svg>
