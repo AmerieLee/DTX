@@ -26,7 +26,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Grade 9:
-      - Overview: grade9/index.md
-      - Unit 1:
-          - Overview: grade9/unit1/index.md
-          - Lesson 1: grade9/unit1/lesson1.md
+      - Unit 3:
+          - Lesson 1: grade9/unit3/lesson1/index.md  # 각 폴더 안의 메인 md 파일 경로로 지정하세요
+          - Lesson 2: grade9/unit3/lesson2/index.md
+          - Lesson 3: grade9/unit3/lesson3/index.md
+          - Lesson 4: grade9/unit3/lesson4/index.md
+          - Lesson 5: grade9/unit3/lesson5/index.md
