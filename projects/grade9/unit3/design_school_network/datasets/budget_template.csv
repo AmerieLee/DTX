@@ -1,0 +1,6 @@
+Item,Quantity,Unit Cost,Total
+Router,,,=B2*C2
+Switch,,,
+Wireless AP,,,
+Server,,,
+Printer,,,

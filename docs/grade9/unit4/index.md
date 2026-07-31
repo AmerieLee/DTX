@@ -1,5 +1,3 @@
-# Unit 4
+# Unit 4 – Website Development
 
-## Cybersecurity & Digital Citizenship
-
-*Content coming soon.*
+See full unit overview.
