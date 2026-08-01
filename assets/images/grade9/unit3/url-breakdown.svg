@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700">
+
+  <defs>
+
+    <style>
+      .title{
+        font:bold 34px Arial, Helvetica, sans-serif;
+        fill:#1f2937;
+      }
+
+      .subtitle{
+        font:18px Arial, Helvetica, sans-serif;
+        fill:#4b5563;
+      }
+
+      .url{
+        font:bold 30px "Courier New", monospace;
+        fill:#111827;
+      }
+
+      .label{
+        font:bold 20px Arial, Helvetica, sans-serif;
+        fill:#111827;
+      }
+
+      .text{
+        font:17px Arial, Helvetica, sans-serif;
+        fill:#374151;
+      }
+
+      .small{
+        font:15px Arial, Helvetica, sans-serif;
+        fill:#6b7280;
+      }
+
+      .protocol{
+        fill:#DBEAFE;
+        stroke:#2563EB;
+        stroke-width:2;
+        rx:10;
+      }
+
+      .domain{
+        fill:#DCFCE7;
+        stroke:#16A34A;
+        stroke-width:2;
+        rx:10;
+      }
+
+      .path{
+        fill:#FEF3C7;
+        stroke:#D97706;
+        stroke-width:2;
+        rx:10;
+      }
+
+      .query{
+        fill:#FCE7F3;
+        stroke:#DB2777;
+        stroke-width:2;
+        rx:10;
+      }
+
+      .note{
+        fill:#F9FAFB;
+        stroke:#9CA3AF;
+        stroke-width:2;
+        rx:14;
+      }
+
+      .arrow{
+        stroke:#6B7280;
+        stroke-width:2;
+        marker-end:url(#arrowHead);
+      }
+
+    </style>
+
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#6B7280"></path>
+    </marker>
+
+  </defs>
+
+  <!-- Title -->
+
+  <text x="700" y="55" text-anchor="middle" class="title">
+    Understanding a URL
+  </text>
+
+  <text x="700" y="90" text-anchor="middle" class="subtitle">
+    A URL tells your browser where to find a resource on the Internet.
+  </text>
+
+  <!-- URL -->
+
+  <text x="120" y="180" class="url">
+https://www.example.com/folder/page.html?search=network
+  </text>
+
+  <!-- Highlight Boxes -->
+
+  <rect x="115" y="125" width="105" height="70" class="protocol"></rect>
+
+  <rect x="225" y="125" width="305" height="70" class="domain"></rect>
+
+  <rect x="535" y="125" width="285" height="70" class="path"></rect>
+
+  <rect x="825" y="125" width="470" height="70" class="query"></rect>
+
+  <!-- Labels -->
+
+  <line x1="170" y1="195" x2="170" y2="260" class="arrow"></line>
+  <text x="170" y="290" text-anchor="middle" class="label">
+Protocol
+  </text>
+
+  <text x="170" y="320" text-anchor="middle" class="text">
+HTTPS
+  </text>
+
+  <text x="170" y="345" text-anchor="middle" class="small">
+Secure communication
+  </text>
+
+  <!-- Domain -->
+
+  <line x1="375" y1="195" x2="375" y2="260" class="arrow"></line>
+
+  <text x="375" y="290" text-anchor="middle" class="label">
+Domain Name
+  </text>
+
+  <text x="375" y="320" text-anchor="middle" class="text">
+Human-readable address
+  </text>
+
+  <text x="375" y="345" text-anchor="middle" class="small">
+Converted by DNS
+  </text>
+
+  <!-- Path -->
+
+  <line x1="675" y1="195" x2="675" y2="260" class="arrow"></line>
+
+  <text x="675" y="290" text-anchor="middle" class="label">
+Path
+  </text>
+
+  <text x="675" y="320" text-anchor="middle" class="text">
+Specific page or folder
+  </text>
+
+  <text x="675" y="345" text-anchor="middle" class="small">
+Location on the server
+  </text>
+
+  <!-- Query -->
+
+  <line x1="1060" y1="195" x2="1060" y2="260" class="arrow"></line>
+
+  <text x="1060" y="290" text-anchor="middle" class="label">
+Query
+  </text>
+
+  <text x="1060" y="320" text-anchor="middle" class="text">
+Extra information
+  </text>
+
+  <text x="1060" y="345" text-anchor="middle" class="small">
+Sent to the server
+  </text>
+
+  <!-- Bottom Summary -->
+
+  <rect x="120" y="430" width="1160" height="180" class="note"></rect>
+
+  <text x="700" y="475" text-anchor="middle" class="label">
+URL Structure
+  </text>
+
+  <text x="700" y="515" text-anchor="middle" class="text">
+Protocol → Domain Name → Path → Query
+  </text>
+
+  <text x="700" y="555" text-anchor="middle" class="text">
+Only the Domain Name is translated into an IP Address by DNS.
+  </text>
+
+  <text x="700" y="590" text-anchor="middle" class="small">
+The browser uses the complete URL to request the correct resource from the web server.
+  </text>
+
+</svg>

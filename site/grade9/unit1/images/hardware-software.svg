@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
+<rect x="10" y="40" width="120" height="40" fill="none" stroke="black"/>
+<text x="20" y="65">Hardware</text>
+<line x1="130" y1="60" x2="250" y2="60" stroke="black"/>
+<rect x="250" y="40" width="120" height="40" fill="none" stroke="black"/>
+<text x="260" y="65">Software</text>
+<line x1="370" y1="60" x2="490" y2="60" stroke="black"/>
+<rect x="490" y="40" width="90" height="40" fill="none" stroke="black"/>
+<text x="500" y="65">System</text>
+</svg>

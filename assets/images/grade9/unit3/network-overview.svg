@@ -1,0 +1,180 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+
+<style>
+    .title{
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:28px;
+        font-weight:bold;
+        fill:#1f2937;
+    }
+
+    .subtitle{
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:16px;
+        fill:#4b5563;
+    }
+
+    .label{
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:16px;
+        font-weight:bold;
+        text-anchor:middle;
+        fill:#111827;
+    }
+
+    .small{
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:13px;
+        text-anchor:middle;
+        fill:#374151;
+    }
+
+    .device{
+        fill:#eef6ff;
+        stroke:#2563eb;
+        stroke-width:2;
+        rx:12;
+        ry:12;
+    }
+
+    .server{
+        fill:#ecfdf5;
+        stroke:#059669;
+        stroke-width:2;
+        rx:12;
+        ry:12;
+    }
+
+    .internet{
+        fill:#fff7ed;
+        stroke:#ea580c;
+        stroke-width:2;
+    }
+
+    .line{
+        stroke:#4b5563;
+        stroke-width:3;
+    }
+
+    .arrow{
+        stroke:#2563eb;
+        stroke-width:2.5;
+        fill:none;
+        marker-end:url(#arrow);
+    }
+</style>
+
+<defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#2563eb"></polygon>
+    </marker>
+</defs>
+
+<!-- Title -->
+
+<text x="450" y="45" class="title" text-anchor="middle">
+Computer Network Overview
+</text>
+
+<text x="450" y="72" class="subtitle" text-anchor="middle">
+Devices communicate by sharing data through a network.
+</text>
+
+<!-- Internet -->
+
+<ellipse cx="450" cy="120" rx="90" ry="40" class="internet"></ellipse>
+
+<text x="450" y="125" class="label">
+Internet
+</text>
+
+<!-- Router -->
+
+<rect x="390" y="190" width="120" height="55" class="device"></rect>
+
+<text x="450" y="222" class="label">
+Router
+</text>
+
+<!-- Switch -->
+
+<rect x="390" y="300" width="120" height="55" class="device"></rect>
+
+<text x="450" y="332" class="label">
+Switch
+</text>
+
+<!-- Server -->
+
+<rect x="670" y="300" width="150" height="60" class="server"></rect>
+
+<text x="745" y="332" class="label">
+Server
+</text>
+
+<text x="745" y="350" class="small">
+Files / Printing
+</text>
+
+<!-- Laptop -->
+
+<rect x="80" y="420" width="140" height="60" class="device"></rect>
+
+<text x="150" y="455" class="label">
+Laptop
+</text>
+
+<!-- Desktop -->
+
+<rect x="290" y="420" width="140" height="60" class="device"></rect>
+
+<text x="360" y="455" class="label">
+Desktop
+</text>
+
+<!-- Printer -->
+
+<rect x="500" y="420" width="140" height="60" class="device"></rect>
+
+<text x="570" y="455" class="label">
+Printer
+</text>
+
+<!-- Tablet -->
+
+<rect x="710" y="420" width="140" height="60" class="device"></rect>
+
+<text x="780" y="455" class="label">
+Tablet
+</text>
+
+<!-- Connections -->
+
+<line x1="450" y1="160" x2="450" y2="190" class="line"></line>
+
+<line x1="450" y1="245" x2="450" y2="300" class="line"></line>
+
+<line x1="510" y1="328" x2="670" y2="328" class="line"></line>
+
+<line x1="450" y1="355" x2="150" y2="420" class="line"></line>
+
+<line x1="450" y1="355" x2="360" y2="420" class="line"></line>
+
+<line x1="450" y1="355" x2="570" y2="420" class="line"></line>
+
+<line x1="450" y1="355" x2="780" y2="420" class="line"></line>
+
+<!-- Data Flow -->
+
+<path d="M450 165 L450 185" class="arrow"></path>
+
+<path d="M450 250 L450 295" class="arrow"></path>
+
+<!-- Caption -->
+
+<text x="450" y="505" class="subtitle" text-anchor="middle">
+Example of a simple school computer network
+</text>
+
+</svg>
