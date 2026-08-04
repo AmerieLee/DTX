@@ -2,20 +2,37 @@ site_name: DTX
 site_description: Digital Technology Interactive Textbook
 theme:
   name: material
-  language: en
+  language: ko  # 한국어 지원 설정
   palette:
     - scheme: default
       primary: blue
       accent: indigo
+    - scheme: slate  # 야간 모드 토글
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: blue
+      accent: indigo
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.highlight
-    - content.code.copy
-    - content.tabs.link
+    - navigation.tabs        # 대메뉴 상단 탭 배치
+    - navigation.sections    # 대단원 시각적 섹션 분리
+    - navigation.expand      # 메뉴 자동 접힘 기능
+    - navigation.top         # 위로가기 버튼
+    - navigation.tracking    # 스크롤 위치 추적
+    - search.highlight       # 검색어 하이라이트
+    - search.share           # 검색 결과 공유
+    - content.code.copy      # 코드 복사 버튼
+    - content.tabs.link      # 탭 연동
+
 extra_css:
   - stylesheets/extra.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -23,10 +40,44 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed
+
 nav:
   - Home: index.md
   - Grade 9:
+      - Unit 1 (테스트):
+          - Lessons:
+              - Lesson 1 Overview: grade9/unit1/lesson1.md
+              - Lesson 2 Topic: grade9/unit1/lesson2.md
+              - Lesson 3 Topic: grade9/unit1/lesson3.md
+              - Lesson 4 Topic: grade9/unit1/lesson4.md
+              - Lesson 5 Topic: grade9/unit1/lesson5.md
+          - Activities & Projects:
+              - Project: grade9/unit1/project.md
+              - Assessment: grade9/unit1/assessment.md
+          - Resources:
+              - Glossary: grade9/unit1/glossary.md
+              - Vocabulary: grade9/unit1/vocabulary.md
+      - Unit 2 (테스트2):
+          - Overview: grade9/unit2/index.md
+          - Lessons:
+              - Lesson 1:
+                  - Overview: grade9/unit2/lesson1.md  # 또는 lesson1 폴더 내 메인 파일 경로
+                  # 💡 아래에 lesson1 폴더 안에 있는 실제 파일명들을 적어주시면 됩니다 (예시)
+                  # - Topic A: grade9/unit2/lesson1/topic_a.md
+                  # - Topic B: grade9/unit2/lesson1/topic_b.md
+              - Lesson 2: grade9/unit2/lesson2.md
+              - Lesson 3: grade9/unit2/lesson3.md
+              - Lesson 4: grade9/unit2/lesson4.md
+              - Lesson 5: grade9/unit2/lesson5.md
+          - Hands-on Labs:
+              - AI Lab: grade9/unit2/ai_lab.md
+              - Python Lab: grade9/unit2/python_lab.md
+          - Wrap-up & Resources:
+              - Unit Summary: grade9/unit2/unit_summary.md
+              - Assessment: grade9/unit2/assessment.md
+              - Glossary: grade9/unit2/glossary.md
       - Unit 3 (Digital Tech):
-          - Lesson 1 Overview: grade9/unit3/lesson1/index.md
-          - AI Introduction: grade9/unit3/lesson1/ai.md
-          - Python Programming: grade9/unit3/lesson1/python.md
+          - Lessons:
+              - Lesson 1 Overview: grade9/unit3/lesson1/index.md
+              - AI Introduction: grade9/unit3/lesson1/ai.md
+              - Python Programming: grade9/unit3/lesson1/python.md
