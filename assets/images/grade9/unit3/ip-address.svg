@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+
+  <defs>
+
+    <style>
+      .title{
+        font:bold 34px Arial, Helvetica, sans-serif;
+        fill:#1f2937;
+      }
+
+      .subtitle{
+        font:18px Arial, Helvetica, sans-serif;
+        fill:#4b5563;
+      }
+
+      .heading{
+        font:bold 24px Arial, Helvetica, sans-serif;
+        fill:#111827;
+      }
+
+      .text{
+        font:18px Arial, Helvetica, sans-serif;
+        fill:#374151;
+      }
+
+      .small{
+        font:16px Arial, Helvetica, sans-serif;
+        fill:#6b7280;
+      }
+
+      .boxBlue{
+        fill:#DBEAFE;
+        stroke:#2563EB;
+        stroke-width:3;
+        rx:16;
+        ry:16;
+      }
+
+      .boxGreen{
+        fill:#DCFCE7;
+        stroke:#16A34A;
+        stroke-width:3;
+        rx:16;
+        ry:16;
+      }
+
+      .boxGray{
+        fill:#F9FAFB;
+        stroke:#9CA3AF;
+        stroke-width:2;
+        rx:14;
+        ry:14;
+      }
+
+      .arrow{
+        stroke:#2563EB;
+        stroke-width:3;
+        fill:none;
+        marker-end:url(#arrow);
+      }
+    </style>
+
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#2563EB"></path>
+    </marker>
+
+  </defs>
+
+  <!-- Title -->
+
+  <text x="600" y="50" text-anchor="middle" class="title">
+    IP Address vs Domain Name
+  </text>
+
+  <text x="600" y="82" text-anchor="middle" class="subtitle">
+    Computers use IP addresses. People prefer domain names.
+  </text>
+
+  <!-- Left Box -->
+
+  <rect x="90" y="150" width="420" height="340" class="boxBlue"></rect>
+
+  <text x="300" y="190" text-anchor="middle" class="heading">
+    Domain Name
+  </text>
+
+  <text x="300" y="245" text-anchor="middle" class="text">
+    www.example.com
+  </text>
+
+  <text x="300" y="285" text-anchor="middle" class="text">
+    Easy for people to remember
+  </text>
+
+  <text x="300" y="330" text-anchor="middle" class="text">
+    Human-readable
+  </text>
+
+  <text x="300" y="375" text-anchor="middle" class="text">
+    Used in web browsers
+  </text>
+
+  <!-- Arrow -->
+
+  <line x1="510" y1="320" x2="690" y2="320" class="arrow"></line>
+
+  <text x="600" y="295" text-anchor="middle" class="heading">
+    DNS
+  </text>
+
+  <text x="600" y="345" text-anchor="middle" class="small">
+    translates names
+  </text>
+
+  <!-- Right Box -->
+
+  <rect x="690" y="150" width="420" height="340" class="boxGreen"></rect>
+
+  <text x="900" y="190" text-anchor="middle" class="heading">
+    IP Address
+  </text>
+
+  <text x="900" y="245" text-anchor="middle" class="text">
+    203.0.113.25
+  </text>
+
+  <text x="900" y="285" text-anchor="middle" class="text">
+    Used by computers
+  </text>
+
+  <text x="900" y="330" text-anchor="middle" class="text">
+    Numerical address
+  </text>
+
+  <text x="900" y="375" text-anchor="middle" class="text">
+    Identifies a device
+  </text>
+
+  <!-- Bottom Summary -->
+
+  <rect x="150" y="540" width="900" height="70" class="boxGray"></rect>
+
+  <text x="600" y="585" text-anchor="middle" class="heading">
+    Domain Name → DNS → IP Address → Web Server
+  </text>
+
+</svg>
